@@ -83,20 +83,20 @@ async function checkGenshin() {
 
   var pool = (json.data.avatar_card_pool_list || [])[0];
   if (pool) {
-    console.log('\nCharacter pool timestamps:');
-    console.log('  start_timestamp:', pool.start_timestamp, ' =>', unixToUtc8Str(parseInt(pool.start_timestamp)));
-    console.log('  end_timestamp:  ', pool.end_timestamp,   ' =>', unixToUtc8Str(parseInt(pool.end_timestamp)));
-    console.log('  start_time (raw):', pool.start_time);
-    console.log('  end_time (raw):  ', pool.end_time);
+    console.log('\nCharacter pool (excluding arrays):');
+    var poolMeta = {};
+    for (var k in pool) { if (!Array.isArray(pool[k])) poolMeta[k] = pool[k]; }
+    console.log(JSON.stringify(poolMeta, null, 2));
+    if (pool.start_timestamp) console.log('  start UTC+8:', unixToUtc8Str(parseInt(pool.start_timestamp)));
+    if (pool.end_timestamp)   console.log('  end UTC+8:  ', unixToUtc8Str(parseInt(pool.end_timestamp)));
     printFirst('first avatar', (pool.avatars || [])[0]);
   }
 
   var wpool = (json.data.weapon_card_pool_list || [])[0];
   if (wpool) {
     console.log('\nWeapon pool timestamps:');
-    console.log('  start_timestamp:', wpool.start_timestamp, ' =>', unixToUtc8Str(parseInt(wpool.start_timestamp)));
-    console.log('  end_timestamp:  ', wpool.end_timestamp,   ' =>', unixToUtc8Str(parseInt(wpool.end_timestamp)));
-    printFirst('first weapon', (wpool.weapon || [])[0]);
+    if (wpool.start_timestamp) console.log('  start UTC+8:', unixToUtc8Str(parseInt(wpool.start_timestamp)));
+    if (wpool.end_timestamp)   console.log('  end UTC+8:  ', unixToUtc8Str(parseInt(wpool.end_timestamp)));
   }
 }
 
@@ -108,20 +108,24 @@ async function checkHSR() {
 
   var pool = (json.data.avatar_card_pool_list || [])[0];
   if (pool) {
-    console.log('\nCharacter pool timestamps:');
-    console.log('  start_timestamp:', pool.start_timestamp, ' =>', unixToUtc8Str(parseInt(pool.start_timestamp)));
-    console.log('  end_timestamp:  ', pool.end_timestamp,   ' =>', unixToUtc8Str(parseInt(pool.end_timestamp)));
-    console.log('  start_time (raw):', pool.start_time);
-    console.log('  end_time (raw):  ', pool.end_time);
+    console.log('\nCharacter pool (excluding arrays):');
+    var poolMeta = {};
+    for (var k in pool) { if (!Array.isArray(pool[k])) poolMeta[k] = pool[k]; }
+    console.log(JSON.stringify(poolMeta, null, 2));
+    // Try common timestamp field names
+    var startField = pool.start_timestamp || pool.begin_timestamp || pool.start_time || pool.begin_time;
+    var endField   = pool.end_timestamp || pool.finish_timestamp || pool.end_time || pool.finish_time;
+    if (typeof startField === 'number') console.log('  start UTC+8:', unixToUtc8Str(startField));
+    if (typeof endField   === 'number') console.log('  end UTC+8:  ', unixToUtc8Str(endField));
     printFirst('first avatar', (pool.avatar_list || [])[0]);
   }
 
   var wpool = (json.data.equip_card_pool_list || [])[0];
   if (wpool) {
-    console.log('\nWeapon pool timestamps:');
-    console.log('  start_timestamp:', wpool.start_timestamp, ' =>', unixToUtc8Str(parseInt(wpool.start_timestamp)));
-    console.log('  end_timestamp:  ', wpool.end_timestamp,   ' =>', unixToUtc8Str(parseInt(wpool.end_timestamp)));
-    printFirst('first weapon', (wpool.equip_list || [])[0]);
+    console.log('\nWeapon pool (excluding arrays):');
+    var wpoolMeta = {};
+    for (var k in wpool) { if (!Array.isArray(wpool[k])) wpoolMeta[k] = wpool[k]; }
+    console.log(JSON.stringify(wpoolMeta, null, 2));
   }
 }
 
