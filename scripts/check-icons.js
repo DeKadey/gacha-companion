@@ -44,12 +44,12 @@ function httpsPost(path, body, extraHeaders) {
   });
 }
 
-function httpsGet(path) {
+function httpsGet(path, salt) {
   return new Promise(function(resolve, reject) {
     var req = https.request({
       hostname: 'sg-public-api.hoyolab.com', path, method: 'GET', timeout: 20000,
       headers: {
-        'Cookie': COOKIE, 'DS': generateDS(DS_SALT_HSR),
+        'Cookie': COOKIE, 'DS': generateDS(salt || DS_SALT_HSR),
         'x-rpc-app_version': '1.5.0', 'x-rpc-client_type': '5', 'x-rpc-language': 'en-us',
         'Referer': 'https://act.hoyolab.com/',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
@@ -65,8 +65,14 @@ function httpsGet(path) {
 }
 
 function printFirst(label, obj) {
-  console.log('\n--- ' + label + ' (ALL fields) ---');
+  console.log('\n--- ' + label + ' ---');
   console.log(JSON.stringify(obj, null, 2));
+}
+
+function unixToUtc8Str(unix) {
+  var d = new Date((unix + 8 * 3600) * 1000);
+  var p = function(n) { return String(n).padStart(2, '0'); };
+  return d.getUTCFullYear() + '-' + p(d.getUTCMonth()+1) + '-' + p(d.getUTCDate()) + ' ' + p(d.getUTCHours()) + ':' + p(d.getUTCMinutes()) + ':' + p(d.getUTCSeconds());
 }
 
 async function checkGenshin() {
@@ -76,11 +82,22 @@ async function checkGenshin() {
   if (json.retcode !== 0) { console.error('API error', json.retcode, json.message); return; }
 
   var pool = (json.data.avatar_card_pool_list || [])[0];
-  if (pool) printFirst('character pool keys', Object.keys(pool));
-  if (pool) printFirst('first avatar', (pool.avatars || [])[0]);
+  if (pool) {
+    console.log('\nCharacter pool timestamps:');
+    console.log('  start_timestamp:', pool.start_timestamp, ' =>', unixToUtc8Str(parseInt(pool.start_timestamp)));
+    console.log('  end_timestamp:  ', pool.end_timestamp,   ' =>', unixToUtc8Str(parseInt(pool.end_timestamp)));
+    console.log('  start_time (raw):', pool.start_time);
+    console.log('  end_time (raw):  ', pool.end_time);
+    printFirst('first avatar', (pool.avatars || [])[0]);
+  }
 
   var wpool = (json.data.weapon_card_pool_list || [])[0];
-  if (wpool) printFirst('first weapon', (wpool.weapon || [])[0]);
+  if (wpool) {
+    console.log('\nWeapon pool timestamps:');
+    console.log('  start_timestamp:', wpool.start_timestamp, ' =>', unixToUtc8Str(parseInt(wpool.start_timestamp)));
+    console.log('  end_timestamp:  ', wpool.end_timestamp,   ' =>', unixToUtc8Str(parseInt(wpool.end_timestamp)));
+    printFirst('first weapon', (wpool.weapon || [])[0]);
+  }
 }
 
 async function checkHSR() {
@@ -90,11 +107,22 @@ async function checkHSR() {
   if (json.retcode !== 0) { console.error('API error', json.retcode, json.message); return; }
 
   var pool = (json.data.avatar_card_pool_list || [])[0];
-  if (pool) printFirst('character pool keys', Object.keys(pool));
-  if (pool) printFirst('first avatar', (pool.avatar_list || [])[0]);
+  if (pool) {
+    console.log('\nCharacter pool timestamps:');
+    console.log('  start_timestamp:', pool.start_timestamp, ' =>', unixToUtc8Str(parseInt(pool.start_timestamp)));
+    console.log('  end_timestamp:  ', pool.end_timestamp,   ' =>', unixToUtc8Str(parseInt(pool.end_timestamp)));
+    console.log('  start_time (raw):', pool.start_time);
+    console.log('  end_time (raw):  ', pool.end_time);
+    printFirst('first avatar', (pool.avatar_list || [])[0]);
+  }
 
   var wpool = (json.data.equip_card_pool_list || [])[0];
-  if (wpool) printFirst('first weapon', (wpool.equip_list || [])[0]);
+  if (wpool) {
+    console.log('\nWeapon pool timestamps:');
+    console.log('  start_timestamp:', wpool.start_timestamp, ' =>', unixToUtc8Str(parseInt(wpool.start_timestamp)));
+    console.log('  end_timestamp:  ', wpool.end_timestamp,   ' =>', unixToUtc8Str(parseInt(wpool.end_timestamp)));
+    printFirst('first weapon', (wpool.equip_list || [])[0]);
+  }
 }
 
 async function checkZZZ() {
@@ -104,12 +132,18 @@ async function checkZZZ() {
   if (json.retcode !== 0) { console.error('API error', json.retcode, json.message); return; }
 
   console.log('\nTop-level data keys:', Object.keys(json.data));
-  // Print first item from each array field we find
   for (var key in json.data) {
     var val = json.data[key];
     if (Array.isArray(val) && val.length > 0) {
       var item = val[0];
-      if (typeof item === 'object') printFirst('data.' + key + '[0]', item);
+      if (typeof item === 'object') {
+        if (item.start_ts) {
+          console.log('\n' + key + '[0] timestamps:');
+          console.log('  start_ts:', item.start_ts, ' =>', unixToUtc8Str(parseInt(item.start_ts)));
+          console.log('  end_ts:  ', item.end_ts,   ' =>', unixToUtc8Str(parseInt(item.end_ts)));
+        }
+        printFirst('data.' + key + '[0]', item);
+      }
     }
   }
 }
