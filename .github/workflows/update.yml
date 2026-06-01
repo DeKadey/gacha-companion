@@ -23,6 +23,12 @@ jobs:
           HOYOLAB_COOKIE: ${{ secrets.HOYOLAB_COOKIE }}
           HSR_UID:        ${{ secrets.HSR_UID }}
           HSR_SERVER:     ${{ secrets.HSR_SERVER }}
+      - name: Update ZZZ banner data
+        run: node scripts/update-zzz.js
+        env:
+          HOYOLAB_COOKIE: ${{ secrets.HOYOLAB_COOKIE }}
+          ZZZ_UID:        ${{ secrets.ZZZ_UID }}
+          ZZZ_SERVER:     ${{ secrets.ZZZ_SERVER }}
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
