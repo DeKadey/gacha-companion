@@ -1,7 +1,7 @@
 name: Update Game Data
 on:
   schedule:
-    - cron: '13 3 * * *'
+    - cron: '0 4 * * *'
   workflow_dispatch:
 
 jobs:
