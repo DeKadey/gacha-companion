@@ -1,0 +1,21 @@
+name: Check Icon Fields
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Check icon fields
+        run: node scripts/check-icons.js
+        env:
+          HOYOLAB_COOKIE: ${{ secrets.HOYOLAB_COOKIE }}
+          GENSHIN_UID:    ${{ secrets.GENSHIN_UID }}
+          GENSHIN_SERVER: ${{ secrets.GENSHIN_SERVER }}
+          HSR_UID:        ${{ secrets.HSR_UID }}
+          HSR_SERVER:     ${{ secrets.HSR_SERVER }}
