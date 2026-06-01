@@ -10,8 +10,9 @@ const COOKIE = process.env.HOYOLAB_COOKIE;
 const UID    = process.env.GENSHIN_UID;
 const SERVER = process.env.GENSHIN_SERVER;
 
-const API_URL = 'https://sg-public-api.hoyolab.com/event/game_record/genshin/api/act_calendar';
-const DS_SALT = 'xV8v4Qu54lUKrEYFZkJhB8cuOh9Asafs';
+const API_HOST = 'sg-public-api.hoyolab.com';
+const API_PATH = '/event/game_record/genshin/api/act_calendar';
+const DS_SALT  = 'xV8v4Qu54lUKrEYFZkJhB8cuOh9Asafs';
 
 const PAIMON_BANNERS_URL = 'https://raw.githubusercontent.com/MadeBaruna/paimon-moe/main/src/data/banners.js';
 const PAIMON_DUAL_URL    = 'https://raw.githubusercontent.com/MadeBaruna/paimon-moe/main/src/data/bannersDual.js';
@@ -23,13 +24,23 @@ function generateDS() {
   return t + ',' + r + ',' + hash;
 }
 
-function httpsGetJson(url, headers) {
+function httpsPost(host, path, body, headers) {
   return new Promise(function(resolve, reject) {
-    https.get(url, { headers: headers || {}, timeout: 20000 }, function(res) {
+    var bodyStr = JSON.stringify(body);
+    var opts = {
+      hostname: host, path: path, method: 'POST',
+      headers: Object.assign({ 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(bodyStr) }, headers),
+      timeout: 20000,
+    };
+    var req = https.request(opts, function(res) {
       var chunks = [];
       res.on('data', function(c) { chunks.push(c); });
-      res.on('end', function() { try { resolve(JSON.parse(Buffer.concat(chunks).toString())); } catch(e) { reject(e); } });
-    }).on('error', reject);
+      res.on('end', function() { try { resolve(JSON.parse(Buffer.concat(chunks).toString())); } catch(e) { reject(new Error('JSON parse failed: ' + Buffer.concat(chunks).toString().slice(0, 200))); } });
+    });
+    req.on('error', reject);
+    req.on('timeout', function() { req.destroy(); reject(new Error('Timed out')); });
+    req.write(bodyStr);
+    req.end();
   });
 }
 
@@ -57,8 +68,7 @@ function logStructure(key, val, depth) {
     console.log(indent + key + ': array[' + val.length + ']');
     if (val.length > 0) {
       console.log(indent + '  [0] keys: ' + Object.keys(val[0]).join(', '));
-      var sample = JSON.stringify(val[0]).slice(0, 500);
-      console.log(indent + '  [0] sample: ' + sample);
+      console.log(indent + '  [0] sample: ' + JSON.stringify(val[0]).slice(0, 600));
     }
   } else if (val && typeof val === 'object') {
     console.log(indent + key + ': {' + Object.keys(val).join(', ') + '}');
@@ -69,7 +79,7 @@ function logStructure(key, val, depth) {
 }
 
 async function fallbackPaimonMoe() {
-  console.log('Running paimon.moe fallback to keep data current...');
+  console.log('Running paimon.moe fallback...');
   var bt = await httpsGetText(PAIMON_BANNERS_URL);
   var dt = await httpsGetText(PAIMON_DUAL_URL);
   var banners     = parseJsExport(bt);
@@ -88,10 +98,10 @@ async function main() {
     return;
   }
 
-  console.log('Fetching Genshin act_calendar (UID ' + UID + ', server ' + SERVER + ')...');
+  console.log('Fetching Genshin act_calendar (UID ' + UID + ', server ' + SERVER + ') via POST...');
   var json;
   try {
-    json = await httpsGetJson(API_URL + '?server=' + SERVER + '&role_id=' + UID, {
+    json = await httpsPost(API_HOST, API_PATH, { server: SERVER, role_id: UID }, {
       'Cookie':            COOKIE,
       'DS':                generateDS(),
       'x-rpc-app_version': '1.5.0',
@@ -118,7 +128,6 @@ async function main() {
   for (var k in json.data) logStructure(k, json.data[k], 1);
   console.log('=== END STRUCTURE ===');
 
-  // Keep paimon.moe data current until real parser is written
   await fallbackPaimonMoe();
 }
 
