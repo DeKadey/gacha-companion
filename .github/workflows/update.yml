@@ -13,6 +13,10 @@ jobs:
       - uses: actions/checkout@v5
       - name: Update Genshin banner data
         run: node scripts/update-genshin.js
+        env:
+          HOYOLAB_COOKIE: ${{ secrets.HOYOLAB_COOKIE }}
+          GENSHIN_UID:    ${{ secrets.GENSHIN_UID }}
+          GENSHIN_SERVER: ${{ secrets.GENSHIN_SERVER }}
       - name: Update HSR banner data
         run: node scripts/update-hsr.js
         env:
