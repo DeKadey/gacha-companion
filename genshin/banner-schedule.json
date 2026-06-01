@@ -1,0 +1,3419 @@
+[
+  {
+    "type": "character",
+    "version": "Secretum Secretorum 2",
+    "start": "2021-11-24 06:00:00",
+    "end": "2021-12-14 17:59:59",
+    "name": "Albedo",
+    "featured": [
+      "albedo",
+      "eula"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Secretum Secretorum 2",
+    "start": "2021-11-24 06:00:00",
+    "end": "2021-12-14 17:59:59",
+    "name": "Eula",
+    "featured": [
+      "albedo",
+      "eula"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "The Transcendent One Returns 1",
+    "start": "2022-01-05 06:00:00",
+    "end": "2022-01-25 17:59:59",
+    "name": "Shenhe",
+    "featured": [
+      "shenhe",
+      "xiao"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "The Transcendent One Returns 1",
+    "start": "2022-01-05 06:00:00",
+    "end": "2022-01-25 17:59:59",
+    "name": "Xiao",
+    "featured": [
+      "shenhe",
+      "xiao"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Gentry of Hermitage 3",
+    "start": "2022-01-25 18:00:00",
+    "end": "2022-02-15 14:59:59",
+    "name": "Zhongli",
+    "featured": [
+      "zhongli",
+      "ganyu"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Gentry of Hermitage 3",
+    "start": "2022-01-25 18:00:00",
+    "end": "2022-02-15 14:59:59",
+    "name": "Ganyu",
+    "featured": [
+      "zhongli",
+      "ganyu"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Reign of Serenity 2",
+    "start": "2022-03-08 18:00:00",
+    "end": "2022-03-29 14:59:59",
+    "name": "Raiden",
+    "featured": [
+      "raiden_shogun",
+      "sangonomiya_kokomi"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Reign of Serenity 2",
+    "start": "2022-03-08 18:00:00",
+    "end": "2022-03-29 14:59:59",
+    "name": "Kokomi",
+    "featured": [
+      "raiden_shogun",
+      "sangonomiya_kokomi"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Azure Excursion 1",
+    "start": "2022-03-30 06:00:00",
+    "end": "2022-04-19 17:59:59",
+    "name": "Ayato",
+    "featured": [
+      "kamisato_ayato",
+      "venti"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Azure Excursion 1",
+    "start": "2022-03-30 06:00:00",
+    "end": "2022-04-19 17:59:59",
+    "name": "Venti",
+    "featured": [
+      "kamisato_ayato",
+      "venti"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Discerner of Enigmas 1",
+    "start": "2022-05-31 09:00:00",
+    "end": "2022-06-21 17:59:59",
+    "name": "Yelan",
+    "featured": [
+      "yelan",
+      "xiao"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Discerner of Enigmas 1",
+    "start": "2022-05-31 09:00:00",
+    "end": "2022-06-21 17:59:59",
+    "name": "Xiao",
+    "featured": [
+      "yelan",
+      "xiao"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Leaves in the Wind 2",
+    "start": "2022-07-13 06:00:00",
+    "end": "2022-08-02 17:59:59",
+    "name": "Kazuha",
+    "featured": [
+      "kaedehara_kazuha",
+      "klee"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Leaves in the Wind 2",
+    "start": "2022-07-13 06:00:00",
+    "end": "2022-08-02 17:59:59",
+    "name": "Klee",
+    "featured": [
+      "kaedehara_kazuha",
+      "klee"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Viridescent Vigil 1",
+    "start": "2022-08-24 06:00:00",
+    "end": "2022-09-09 17:59:59",
+    "name": "Tighnari",
+    "featured": [
+      "tighnari",
+      "zhongli"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Viridescent Vigil 1",
+    "start": "2022-08-24 06:00:00",
+    "end": "2022-09-09 17:59:59",
+    "name": "Zhongli",
+    "featured": [
+      "tighnari",
+      "zhongli"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Adrift in the Harbor 3",
+    "start": "2022-09-09 18:00:00",
+    "end": "2022-09-27 14:59:59",
+    "name": "Ganyu",
+    "featured": [
+      "ganyu",
+      "sangonomiya_kokomi"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Adrift in the Harbor 3",
+    "start": "2022-09-09 18:00:00",
+    "end": "2022-09-27 14:59:59",
+    "name": "Kokomi",
+    "featured": [
+      "ganyu",
+      "sangonomiya_kokomi"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Twilight Arbiter 1",
+    "start": "2022-09-28 06:00:00",
+    "end": "2022-10-14 17:59:59",
+    "name": "Cyno",
+    "featured": [
+      "cyno",
+      "venti"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Twilight Arbiter 1",
+    "start": "2022-09-28 06:00:00",
+    "end": "2022-10-14 17:59:59",
+    "name": "Venti",
+    "featured": [
+      "cyno",
+      "venti"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Twirling Lotus 1",
+    "start": "2022-10-14 18:00:00",
+    "end": "2022-11-01 14:59:59",
+    "name": "Nilou",
+    "featured": [
+      "nilou",
+      "albedo"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Twirling Lotus 1",
+    "start": "2022-10-14 18:00:00",
+    "end": "2022-11-01 14:59:59",
+    "name": "Nilou",
+    "featured": [
+      "nilou",
+      "albedo"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "The Moongrass' Enlightenment 1",
+    "start": "2022-11-02 06:00:00",
+    "end": "2022-11-18 17:59:59",
+    "name": "Nahida",
+    "featured": [
+      "nahida",
+      "yoimiya"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "The Moongrass' Enlightenment 1",
+    "start": "2022-11-02 06:00:00",
+    "end": "2022-11-18 17:59:59",
+    "name": "Yoimiya",
+    "featured": [
+      "nahida",
+      "yoimiya"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Everbloom Violet 2",
+    "start": "2022-11-18 18:00:00",
+    "end": "2022-12-06 14:59:59",
+    "name": "Yae Miko",
+    "featured": [
+      "yae_miko",
+      "tartaglia"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Everbloom Violet 2",
+    "start": "2022-11-18 18:00:00",
+    "end": "2022-12-06 14:59:59",
+    "name": "Tartaglia",
+    "featured": [
+      "yae_miko",
+      "tartaglia"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "From Ashes Reborn 1",
+    "start": "2022-12-07 06:00:00",
+    "end": "2022-12-27 17:59:59",
+    "name": "Wanderer",
+    "featured": [
+      "wanderer",
+      "arataki_itto"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "From Ashes Reborn 1",
+    "start": "2022-12-07 06:00:00",
+    "end": "2022-12-27 17:59:59",
+    "name": "Itto",
+    "featured": [
+      "wanderer",
+      "arataki_itto"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Reign of Serenity 3",
+    "start": "2022-12-27 18:00:00",
+    "end": "2023-01-17 14:59:59",
+    "name": "Raiden",
+    "featured": [
+      "raiden_shogun",
+      "kamisato_ayato"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Reign of Serenity 3",
+    "start": "2022-12-27 18:00:00",
+    "end": "2023-01-17 14:59:59",
+    "name": "Ayato",
+    "featured": [
+      "raiden_shogun",
+      "kamisato_ayato"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Caution in Confidence 1",
+    "start": "2023-01-18 06:00:00",
+    "end": "2023-02-07 17:59:59",
+    "name": "Alhaitham",
+    "featured": [
+      "alhaitham",
+      "xiao"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Caution in Confidence 1",
+    "start": "2023-01-18 06:00:00",
+    "end": "2023-02-07 17:59:59",
+    "name": "Xiao",
+    "featured": [
+      "alhaitham",
+      "xiao"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Moment of Bloom 3",
+    "start": "2023-02-07 18:00:00",
+    "end": "2023-02-28 14:59:59",
+    "name": "Hu Tao",
+    "featured": [
+      "hu_tao",
+      "yelan"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Moment of Bloom 3",
+    "start": "2023-02-07 18:00:00",
+    "end": "2023-02-28 14:59:59",
+    "name": "Yelan",
+    "featured": [
+      "hu_tao",
+      "yelan"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Auric Blaze 1",
+    "start": "2023-03-01 06:00:00",
+    "end": "2023-03-21 17:59:59",
+    "name": "Dehya",
+    "featured": [
+      "dehya",
+      "cyno"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Auric Blaze 1",
+    "start": "2023-03-01 06:00:00",
+    "end": "2023-03-21 17:59:59",
+    "name": "Cyno",
+    "featured": [
+      "dehya",
+      "cyno"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "The Transcendent One Returns 2",
+    "start": "2023-03-21 18:00:00",
+    "end": "2023-04-11 14:59:59",
+    "name": "Shenhe",
+    "featured": [
+      "shenhe",
+      "kamisato_ayaka"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "The Transcendent One Returns 2",
+    "start": "2023-03-21 18:00:00",
+    "end": "2023-04-11 14:59:59",
+    "name": "Shenhe",
+    "featured": [
+      "shenhe",
+      "kamisato_ayaka"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "The Moongrass' Enlightenment 2",
+    "start": "2023-04-12 06:00:00",
+    "end": "2023-05-02 17:59:59",
+    "name": "Nahida",
+    "featured": [
+      "nahida",
+      "nilou"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "The Moongrass' Enlightenment 2",
+    "start": "2023-04-12 06:00:00",
+    "end": "2023-05-02 17:59:59",
+    "name": "Nilou",
+    "featured": [
+      "nahida",
+      "nilou"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Immaculate Pulse 1",
+    "start": "2023-05-02 18:00:00",
+    "end": "2023-05-23 14:59:59",
+    "name": "Baizhu",
+    "featured": [
+      "baizhu",
+      "ganyu"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Immaculate Pulse 1",
+    "start": "2023-05-02 18:00:00",
+    "end": "2023-05-23 14:59:59",
+    "name": "Ganyu",
+    "featured": [
+      "baizhu",
+      "ganyu"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Tapestry of Golden Flames 4",
+    "start": "2023-05-24 06:00:00",
+    "end": "2023-06-13 17:59:59",
+    "name": "Yoimiya",
+    "featured": [
+      "yoimiya",
+      "yae_miko"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Tapestry of Golden Flames 4",
+    "start": "2023-05-24 06:00:00",
+    "end": "2023-06-13 17:59:59",
+    "name": "Yae Miko",
+    "featured": [
+      "yoimiya",
+      "yae_miko"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Caution in Confidence 2",
+    "start": "2023-06-13 18:00:00",
+    "end": "2023-07-04 14:59:59",
+    "name": "Alhaitham",
+    "featured": [
+      "alhaitham",
+      "kaedehara_kazuha"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Caution in Confidence 2",
+    "start": "2023-06-13 18:00:00",
+    "end": "2023-07-04 14:59:59",
+    "name": "Kazuha",
+    "featured": [
+      "alhaitham",
+      "kaedehara_kazuha"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Born of Ocean Swell 3",
+    "start": "2023-07-05 06:00:00",
+    "end": "2023-07-25 17:59:59",
+    "name": "Eula",
+    "featured": [
+      "eula",
+      "klee"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Born of Ocean Swell 3",
+    "start": "2023-07-05 06:00:00",
+    "end": "2023-07-25 17:59:59",
+    "name": "Klee",
+    "featured": [
+      "eula",
+      "klee"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Drifting Luminescence 4",
+    "start": "2023-07-25 18:00:00",
+    "end": "2023-08-15 17:59:59",
+    "name": "Kokomi",
+    "featured": [
+      "sangonomiya_kokomi",
+      "wanderer"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Drifting Luminescence 4",
+    "start": "2023-07-25 18:00:00",
+    "end": "2023-08-15 17:59:59",
+    "name": "Wanderer",
+    "featured": [
+      "sangonomiya_kokomi",
+      "wanderer"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Conjuring Chiaroscuro 1",
+    "start": "2023-08-16 06:00:00",
+    "end": "2023-09-05 17:59:59",
+    "name": "Lyney",
+    "featured": [
+      "lyney",
+      "yelan"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Conjuring Chiaroscuro 1",
+    "start": "2023-08-16 06:00:00",
+    "end": "2023-09-05 17:59:59",
+    "name": "Yelan",
+    "featured": [
+      "lyney",
+      "yelan"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Gentry of Hermitage 5",
+    "start": "2023-09-05 18:00:00",
+    "end": "2023-09-26 14:59:59",
+    "name": "Zhongli",
+    "featured": [
+      "tartaglia",
+      "zhongli"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Gentry of Hermitage 5",
+    "start": "2023-09-05 18:00:00",
+    "end": "2023-09-26 14:59:59",
+    "name": "Tartaglia",
+    "featured": [
+      "tartaglia",
+      "zhongli"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Decree of the Deeps 1",
+    "start": "2023-09-27 06:00:00",
+    "end": "2023-10-17 17:59:59",
+    "name": "Neuvillette",
+    "featured": [
+      "neuvillette",
+      "hu_tao"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Decree of the Deeps 1",
+    "start": "2023-09-27 06:00:00",
+    "end": "2023-10-17 17:59:59",
+    "name": "Hu Tao",
+    "featured": [
+      "neuvillette",
+      "hu_tao"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Tempestuous Destiny 1",
+    "start": "2023-10-17 18:00:00",
+    "end": "2023-11-07 14:59:59",
+    "name": "Wriothesley",
+    "featured": [
+      "wriothesley",
+      "venti"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Tempestuous Destiny 1",
+    "start": "2023-10-17 18:00:00",
+    "end": "2023-11-07 14:59:59",
+    "name": "Venti",
+    "featured": [
+      "wriothesley",
+      "venti"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Chanson of Many Waters 1",
+    "start": "2023-11-08 06:00:00",
+    "end": "2023-11-28 17:59:59",
+    "name": "Furina",
+    "featured": [
+      "furina",
+      "baizhu"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Chanson of Many Waters 1",
+    "start": "2023-11-08 06:00:00",
+    "end": "2023-11-28 17:59:59",
+    "name": "Baizhu",
+    "featured": [
+      "furina",
+      "baizhu"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Twilight Arbiter 3",
+    "start": "2023-11-28 18:00:00",
+    "end": "2023-12-19 14:59:59",
+    "name": "Cyno",
+    "featured": [
+      "cyno",
+      "kamisato_ayato"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Twilight Arbiter 3",
+    "start": "2023-11-28 18:00:00",
+    "end": "2023-12-19 14:59:59",
+    "name": "Ayato",
+    "featured": [
+      "cyno",
+      "kamisato_ayato"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "In the Name of the Rosula 1",
+    "start": "2023-12-20 06:00:00",
+    "end": "2024-01-09 17:59:59",
+    "name": "Navia",
+    "featured": [
+      "navia",
+      "kamisato_ayaka"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "In the Name of the Rosula 1",
+    "start": "2023-12-20 06:00:00",
+    "end": "2024-01-09 17:59:59",
+    "name": "Ayaka",
+    "featured": [
+      "navia",
+      "kamisato_ayaka"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Reign of Serenity 4",
+    "start": "2024-01-09 18:00:00",
+    "end": "2024-01-30 14:59:00",
+    "name": "Raiden",
+    "featured": [
+      "raiden_shogun",
+      "yoimiya"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Reign of Serenity 4",
+    "start": "2024-01-09 18:00:00",
+    "end": "2024-01-30 14:59:00",
+    "name": "Yoimiya",
+    "featured": [
+      "raiden_shogun",
+      "yoimiya"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "The Crane Soars Skyward 1",
+    "start": "2024-01-31 06:00:00",
+    "end": "2024-02-20 17:59:00",
+    "name": "Xianyun",
+    "featured": [
+      "xianyun",
+      "nahida"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "The Crane Soars Skyward 1",
+    "start": "2024-01-31 06:00:00",
+    "end": "2024-02-20 17:59:00",
+    "name": "Nahida",
+    "featured": [
+      "xianyun",
+      "nahida"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Invitation to Mundane Life 5",
+    "start": "2024-02-20 18:00:00",
+    "end": "2024-03-12 14:59:00",
+    "name": "Xiao",
+    "featured": [
+      "xiao",
+      "yae_miko"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Invitation to Mundane Life 5",
+    "start": "2024-02-20 18:00:00",
+    "end": "2024-03-12 14:59:00",
+    "name": "Yae",
+    "featured": [
+      "xiao",
+      "yae_miko"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Of Silken Clouds Woven 1",
+    "start": "2024-03-13 06:00:00",
+    "end": "2024-04-02 17:59:00",
+    "name": "Chiori",
+    "featured": [
+      "chiori",
+      "arataki_itto"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Of Silken Clouds Woven 1",
+    "start": "2024-03-13 06:00:00",
+    "end": "2024-04-02 17:59:00",
+    "name": "Itto",
+    "featured": [
+      "chiori",
+      "arataki_itto"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Decree of the Deeps 2",
+    "start": "2024-04-02 18:00:00",
+    "end": "2024-04-23 14:59:00",
+    "name": "Neuvillette",
+    "featured": [
+      "neuvillette",
+      "kaedehara_kazuha"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Decree of the Deeps 2",
+    "start": "2024-04-02 18:00:00",
+    "end": "2024-04-23 14:59:00",
+    "name": "Kazuha",
+    "featured": [
+      "neuvillette",
+      "kaedehara_kazuha"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "The Hearth's Ashen Shadow 1",
+    "start": "2024-04-24 06:00:00",
+    "end": "2024-05-14 17:59:00",
+    "name": "Arlecchino",
+    "featured": [
+      "arlecchino",
+      "lyney"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "The Hearth's Ashen Shadow 1",
+    "start": "2024-04-24 06:00:00",
+    "end": "2024-05-14 17:59:00",
+    "name": "Lyney",
+    "featured": [
+      "arlecchino",
+      "lyney"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "From Ashes Reborn 3",
+    "start": "2024-05-14 18:00:00",
+    "end": "2024-06-04 14:59:00",
+    "name": "Wanderer",
+    "featured": [
+      "wanderer",
+      "baizhu"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "From Ashes Reborn 3",
+    "start": "2024-05-14 18:00:00",
+    "end": "2024-06-04 14:59:00",
+    "name": "Baizhu",
+    "featured": [
+      "wanderer",
+      "baizhu"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Illuminating Lightning 1",
+    "start": "2024-06-05 06:00:00",
+    "end": "2024-06-25 17:59:00",
+    "name": "Clorinde",
+    "featured": [
+      "clorinde",
+      "alhaitham"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Illuminating Lightning 1",
+    "start": "2024-06-05 06:00:00",
+    "end": "2024-06-25 17:59:00",
+    "name": "Alhaitham",
+    "featured": [
+      "clorinde",
+      "alhaitham"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Romaritime Meluserenity 1",
+    "start": "2024-06-25 18:00:00",
+    "end": "2024-07-16 14:59:00",
+    "name": "Sigewinne",
+    "featured": [
+      "sigewinne",
+      "furina"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Romaritime Meluserenity 1",
+    "start": "2024-06-25 18:00:00",
+    "end": "2024-07-16 14:59:00",
+    "name": "Furina",
+    "featured": [
+      "sigewinne",
+      "furina"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "In the Name of the Rosula 2",
+    "start": "2024-07-17 06:00:00",
+    "end": "2024-08-06 17:59:00",
+    "name": "Navia",
+    "featured": [
+      "navia",
+      "nilou"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "In the Name of the Rosula 2",
+    "start": "2024-07-17 06:00:00",
+    "end": "2024-08-06 17:59:00",
+    "name": "Nilou",
+    "featured": [
+      "navia",
+      "nilou"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Ambrosial Essence 1",
+    "start": "2024-08-06 18:00:00",
+    "end": "2024-08-27 14:59:00",
+    "name": "Emilie",
+    "featured": [
+      "emilie",
+      "yelan"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Ambrosial Essence 1",
+    "start": "2024-08-06 18:00:00",
+    "end": "2024-08-27 14:59:00",
+    "name": "Yelan",
+    "featured": [
+      "emilie",
+      "yelan"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Sharktacular Surfari 1",
+    "start": "2024-08-28 06:00:00",
+    "end": "2024-09-17 17:59:00",
+    "name": "Mualani",
+    "featured": [
+      "mualani",
+      "kaedehara_kazuha"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Sharktacular Surfari 1",
+    "start": "2024-08-28 06:00:00",
+    "end": "2024-09-17 17:59:00",
+    "name": "Kazuha",
+    "featured": [
+      "mualani",
+      "kaedehara_kazuha"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Seeker of Flame-Wrought Secrets 1",
+    "start": "2024-09-17 18:00:00",
+    "end": "2024-10-08 14:59:00",
+    "name": "Kinich",
+    "featured": [
+      "kinich",
+      "raiden_shogun"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Seeker of Flame-Wrought Secrets 1",
+    "start": "2024-09-17 18:00:00",
+    "end": "2024-10-08 14:59:00",
+    "name": "Raiden",
+    "featured": [
+      "kinich",
+      "raiden_shogun"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Forgefire's Blessing 1",
+    "start": "2024-10-09 06:00:00",
+    "end": "2024-10-29 17:59:00",
+    "name": "Xilonen",
+    "featured": [
+      "xilonen",
+      "chiori"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Forgefire's Blessing 1",
+    "start": "2024-10-09 06:00:00",
+    "end": "2024-10-29 17:59:00",
+    "name": "Chiori",
+    "featured": [
+      "xilonen",
+      "chiori"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "The Moongrass' Enlightenment 4",
+    "start": "2024-10-29 18:00:00",
+    "end": "2024-11-19 14:59:00",
+    "name": "Nahida",
+    "featured": [
+      "nahida",
+      "hu_tao"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "The Moongrass' Enlightenment 4",
+    "start": "2024-10-29 18:00:00",
+    "end": "2024-11-19 14:59:00",
+    "name": "Hu Tao",
+    "featured": [
+      "nahida",
+      "hu_tao"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Piercing Shot's Crimson Wake 1",
+    "start": "2024-11-20 06:00:00",
+    "end": "2024-12-10 17:59:00",
+    "name": "Chasca",
+    "featured": [
+      "chasca",
+      "lyney"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Piercing Shot's Crimson Wake 1",
+    "start": "2024-11-20 06:00:00",
+    "end": "2024-12-10 17:59:00",
+    "name": "Lyney",
+    "featured": [
+      "chasca",
+      "lyney"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Decree of the Deeps 3",
+    "start": "2024-12-10 18:00:00",
+    "end": "2024-12-31 14:59:00",
+    "name": "Neuvillette",
+    "featured": [
+      "neuvillette",
+      "zhongli"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Decree of the Deeps 3",
+    "start": "2024-12-10 18:00:00",
+    "end": "2024-12-31 14:59:00",
+    "name": "Zhongli",
+    "featured": [
+      "neuvillette",
+      "zhongli"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Ancient Flame Ablaze 1",
+    "start": "2025-01-01 06:00:00",
+    "end": "2025-01-21 17:59:00",
+    "name": "Mavuika",
+    "featured": [
+      "mavuika",
+      "citlali"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Ancient Flame Ablaze 1",
+    "start": "2025-01-01 06:00:00",
+    "end": "2025-01-21 17:59:00",
+    "name": "Citlali",
+    "featured": [
+      "mavuika",
+      "citlali"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "The Hearth's Ashen Shadow 2",
+    "start": "2025-01-21 18:00:00",
+    "end": "2025-02-11 14:59:00",
+    "name": "Arlecchino",
+    "featured": [
+      "arlecchino",
+      "clorinde"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "The Hearth's Ashen Shadow 2",
+    "start": "2025-01-21 18:00:00",
+    "end": "2025-02-11 14:59:00",
+    "name": "Clorinde",
+    "featured": [
+      "arlecchino",
+      "clorinde"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Dawn's Drifting Reverie 1",
+    "start": "2025-02-12 06:00:00",
+    "end": "2025-03-04 17:59:00",
+    "name": "Mizuki",
+    "featured": [
+      "yumemizuki_mizuki",
+      "sigewinne"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Dawn's Drifting Reverie 1",
+    "start": "2025-02-12 06:00:00",
+    "end": "2025-03-04 17:59:00",
+    "name": "Sigewinne",
+    "featured": [
+      "yumemizuki_mizuki",
+      "sigewinne"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Tempestuous Destiny 2",
+    "start": "2025-03-04 18:00:00",
+    "end": "2025-03-25 14:59:00",
+    "name": "Wriothesley",
+    "featured": [
+      "wriothesley",
+      "furina"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Tempestuous Destiny 2",
+    "start": "2025-03-04 18:00:00",
+    "end": "2025-03-25 14:59:00",
+    "name": "Furina",
+    "featured": [
+      "wriothesley",
+      "furina"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Cornucopia of Contention 1",
+    "start": "2025-03-26 06:00:00",
+    "end": "2025-04-15 17:59:00",
+    "name": "Varesa",
+    "featured": [
+      "varesa",
+      "xianyun"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Cornucopia of Contention 1",
+    "start": "2025-03-26 06:00:00",
+    "end": "2025-04-15 17:59:00",
+    "name": "Xianyun",
+    "featured": [
+      "varesa",
+      "xianyun"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Forgefire's Blessing 2",
+    "start": "2025-04-15 18:00:00",
+    "end": "2025-05-06 14:59:00",
+    "name": "Xilonen",
+    "featured": [
+      "xilonen",
+      "venti"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Forgefire's Blessing 2",
+    "start": "2025-04-15 18:00:00",
+    "end": "2025-05-06 14:59:00",
+    "name": "Xilonen",
+    "featured": [
+      "xilonen",
+      "venti"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "La Chanson Cerise 1",
+    "start": "2025-05-07 06:00:00",
+    "end": "2025-05-27 17:59:00",
+    "name": "Escoffier",
+    "featured": [
+      "escoffier",
+      "navia"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "La Chanson Cerise 1",
+    "start": "2025-05-07 06:00:00",
+    "end": "2025-05-27 17:59:00",
+    "name": "Navia",
+    "featured": [
+      "escoffier",
+      "navia"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Seeker of Flame-Wrought Secrets 2",
+    "start": "2025-05-27 18:00:00",
+    "end": "2025-06-17 14:59:00",
+    "name": "Kinich",
+    "featured": [
+      "kinich",
+      "raiden_shogun"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Seeker of Flame-Wrought Secrets 2",
+    "start": "2025-05-27 18:00:00",
+    "end": "2025-06-17 14:59:00",
+    "name": "Raiden",
+    "featured": [
+      "kinich",
+      "raiden_shogun"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Void Star's Advent 1",
+    "start": "2025-06-18 06:00:00",
+    "end": "2025-07-08 17:59:00",
+    "name": "Skirk",
+    "featured": [
+      "skirk",
+      "shenhe"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Void Star's Advent 1",
+    "start": "2025-06-18 06:00:00",
+    "end": "2025-07-08 17:59:00",
+    "name": "Shenhe",
+    "featured": [
+      "skirk",
+      "shenhe"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Ancient Flame Ablaze 2",
+    "start": "2025-07-08 18:00:00",
+    "end": "2025-07-29 14:59:00",
+    "name": "Mavuika",
+    "featured": [
+      "mavuika",
+      "emilie"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Ancient Flame Ablaze 2",
+    "start": "2025-07-08 18:00:00",
+    "end": "2025-07-29 14:59:00",
+    "name": "Emilie",
+    "featured": [
+      "mavuika",
+      "emilie"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Astral Actuation 1",
+    "start": "2025-07-30 06:00:00",
+    "end": "2025-08-19 17:59:00",
+    "name": "Ineffa",
+    "featured": [
+      "ineffa",
+      "citlali"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Astral Actuation 1",
+    "start": "2025-07-30 06:00:00",
+    "end": "2025-08-19 17:59:00",
+    "name": "Citlali",
+    "featured": [
+      "ineffa",
+      "citlali"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Sharktacular Surfari 2",
+    "start": "2025-08-19 18:00:00",
+    "end": "2025-09-09 14:59:00",
+    "name": "Mualani",
+    "featured": [
+      "mualani",
+      "chasca"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Sharktacular Surfari 2",
+    "start": "2025-08-19 18:00:00",
+    "end": "2025-09-09 14:59:00",
+    "name": "Chasca",
+    "featured": [
+      "mualani",
+      "chasca"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Moonsong of the Groves 1",
+    "start": "2025-09-10 06:00:00",
+    "end": "2025-09-30 17:59:00",
+    "name": "Lauma",
+    "featured": [
+      "lauma",
+      "nahida"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Moonsong of the Groves 1",
+    "start": "2025-09-10 06:00:00",
+    "end": "2025-09-30 17:59:00",
+    "name": "Nahida",
+    "featured": [
+      "lauma",
+      "nahida"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "The Lone Light Knocks at Night 1",
+    "start": "2025-09-30 18:00:00",
+    "end": "2025-10-21 17:59:00",
+    "name": "Flins",
+    "featured": [
+      "flins",
+      "yelan"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "The Lone Light Knocks at Night 1",
+    "start": "2025-09-30 18:00:00",
+    "end": "2025-10-21 17:59:00",
+    "name": "Yelan",
+    "featured": [
+      "flins",
+      "yelan"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Temptation of the Crimson Sands 1",
+    "start": "2025-10-22 06:00:00",
+    "end": "2025-11-11 17:59:00",
+    "name": "Nefer",
+    "featured": [
+      "nefer",
+      "furina"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Temptation of the Crimson Sands 1",
+    "start": "2025-10-22 06:00:00",
+    "end": "2025-11-11 17:59:00",
+    "name": "Furina",
+    "featured": [
+      "nefer",
+      "furina"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "The Hearth's Ashen Shadow 3",
+    "start": "2025-11-11 18:00:00",
+    "end": "2025-12-02 14:59:00",
+    "name": "Arlecchino",
+    "featured": [
+      "arlecchino",
+      "zhongli"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "The Hearth's Ashen Shadow 3",
+    "start": "2025-11-11 18:00:00",
+    "end": "2025-12-02 14:59:00",
+    "name": "Zhongli",
+    "featured": [
+      "arlecchino",
+      "zhongli"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Rubedo, of White Stone Born 1",
+    "start": "2025-12-03 06:00:00",
+    "end": "2025-12-23 17:59:00",
+    "name": "Durin",
+    "featured": [
+      "durin",
+      "venti"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Rubedo, of White Stone Born 1",
+    "start": "2025-12-03 06:00:00",
+    "end": "2025-12-23 17:59:00",
+    "name": "Venti",
+    "featured": [
+      "durin",
+      "venti"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Cornucopia of Contention 2",
+    "start": "2025-12-23 18:00:00",
+    "end": "2026-01-13 14:59:00",
+    "name": "Varesa",
+    "featured": [
+      "varesa",
+      "xilonen"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Cornucopia of Contention 2",
+    "start": "2025-12-23 18:00:00",
+    "end": "2026-01-13 14:59:00",
+    "name": "Xilonen",
+    "featured": [
+      "varesa",
+      "xilonen"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Somnias a Luna 1",
+    "start": "2026-01-14 06:00:00",
+    "end": "2026-02-03 17:59:00",
+    "name": "Columbina",
+    "featured": [
+      "columbina",
+      "ineffa"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Somnias a Luna 1",
+    "start": "2026-01-14 06:00:00",
+    "end": "2026-02-03 17:59:00",
+    "name": "Ineffa",
+    "featured": [
+      "columbina",
+      "ineffa"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Harmonious Abundance 1",
+    "start": "2026-02-03 18:00:00",
+    "end": "2026-02-24 14:59:00",
+    "name": "Zibai",
+    "featured": [
+      "zibai",
+      "neuvillette"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Harmonious Abundance 1",
+    "start": "2026-02-03 18:00:00",
+    "end": "2026-02-24 14:59:00",
+    "name": "Neuvillette",
+    "featured": [
+      "zibai",
+      "neuvillette"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "The Northerly Wind's Song of Triumph 1",
+    "start": "2026-02-25 06:00:00",
+    "end": "2026-03-17 17:59:00",
+    "name": "Varka",
+    "featured": [
+      "varka",
+      "flins"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "The Northerly Wind's Song of Triumph 1",
+    "start": "2026-02-25 06:00:00",
+    "end": "2026-03-17 17:59:00",
+    "name": "Flins",
+    "featured": [
+      "varka",
+      "flins"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Void Star's Advent 2",
+    "start": "2026-03-17 18:00:00",
+    "end": "2026-04-07 14:59:00",
+    "name": "Skirk",
+    "featured": [
+      "skirk",
+      "escoffier"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Void Star's Advent 2",
+    "start": "2026-03-17 18:00:00",
+    "end": "2026-04-07 14:59:00",
+    "name": "Escoffier",
+    "featured": [
+      "skirk",
+      "escoffier"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Ya-hoho! Compendium 1",
+    "start": "2026-04-08 06:00:00",
+    "end": "2026-04-28 17:59:00",
+    "name": "Linnea",
+    "featured": [
+      "linnea",
+      "chasca"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Ya-hoho! Compendium 1",
+    "start": "2026-04-08 06:00:00",
+    "end": "2026-04-28 17:59:00",
+    "name": "Chasca",
+    "featured": [
+      "linnea",
+      "chasca"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Moonsong of the Groves 2",
+    "start": "2026-04-28 18:00:00",
+    "end": "2026-05-19 14:59:00",
+    "name": "Lauma",
+    "featured": [
+      "lauma",
+      "nefer"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Moonsong of the Groves 2",
+    "start": "2026-04-28 18:00:00",
+    "end": "2026-05-19 14:59:00",
+    "name": "Nefer",
+    "featured": [
+      "lauma",
+      "nefer"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": "Angel's Reverie 1",
+    "start": "2026-05-20 06:00:00",
+    "end": "2026-06-09 17:59:00",
+    "name": "Nicole",
+    "featured": [
+      "nicole",
+      "durin"
+    ],
+    "featuredIds": [
+      10000131
+    ]
+  },
+  {
+    "type": "character",
+    "version": "Angel's Reverie 1",
+    "start": "2026-05-20 06:00:00",
+    "end": "2026-06-09 17:59:00",
+    "name": "Durin",
+    "featured": [
+      "nicole",
+      "durin"
+    ],
+    "featuredIds": [
+      10000123
+    ]
+  },
+  {
+    "type": "character",
+    "version": null,
+    "start": "2020-09-28 00:00:00",
+    "end": "2020-10-18 18:00:00",
+    "name": "Venti",
+    "featured": [
+      "venti"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": null,
+    "start": "2020-10-20 18:00:00",
+    "end": "2020-11-10 16:00:00",
+    "name": "Klee",
+    "featured": [
+      "klee"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": null,
+    "start": "2020-11-11 06:00:00",
+    "end": "2020-12-01 16:00:00",
+    "name": "Tartaglia",
+    "featured": [
+      "tartaglia"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": null,
+    "start": "2020-12-01 18:00:00",
+    "end": "2020-12-22 15:00:00",
+    "name": "Zhongli",
+    "featured": [
+      "zhongli"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": null,
+    "start": "2020-12-23 06:00:00",
+    "end": "2021-01-12 16:00:00",
+    "name": "Albedo",
+    "featured": [
+      "albedo"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": null,
+    "start": "2021-01-12 18:00:00",
+    "end": "2021-02-02 15:00:00",
+    "name": "Ganyu",
+    "featured": [
+      "ganyu"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": null,
+    "start": "2021-02-03 06:00:00",
+    "end": "2021-02-17 16:00:00",
+    "name": "Xiao",
+    "featured": [
+      "xiao"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": null,
+    "start": "2021-02-17 18:00:00",
+    "end": "2021-03-02 16:00:00",
+    "name": "Keqing",
+    "featured": [
+      "keqing"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": null,
+    "start": "2021-03-02 18:00:00",
+    "end": "2021-03-16 15:00:00",
+    "name": "Hu Tao",
+    "featured": [
+      "hu_tao"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": null,
+    "start": "2021-03-17 06:00:00",
+    "end": "2021-04-06 16:00:00",
+    "name": "Venti",
+    "featured": [
+      "venti"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": null,
+    "start": "2021-04-06 18:00:00",
+    "end": "2021-04-27 15:00:00",
+    "name": "Tartaglia",
+    "featured": [
+      "tartaglia"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": null,
+    "start": "2021-04-28 06:00:00",
+    "end": "2021-05-18 17:59:59",
+    "name": "Zhongli",
+    "featured": [
+      "zhongli"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": null,
+    "start": "2021-05-18 18:00:00",
+    "end": "2021-06-08 15:00:00",
+    "name": "Eula",
+    "featured": [
+      "eula"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": null,
+    "start": "2021-06-09 06:00:00",
+    "end": "2021-06-29 17:59:59",
+    "name": "Klee",
+    "featured": [
+      "klee"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": null,
+    "start": "2021-06-29 18:00:00",
+    "end": "2021-07-20 14:59:59",
+    "name": "Kazuha",
+    "featured": [
+      "kaedehara_kazuha"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": null,
+    "start": "2021-07-21 06:00:00",
+    "end": "2021-08-10 17:59:59",
+    "name": "Ayaka",
+    "featured": [
+      "kamisato_ayaka"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": null,
+    "start": "2021-08-10 18:00:00",
+    "end": "2021-08-31 14:59:59",
+    "name": "Yoimiya",
+    "featured": [
+      "yoimiya"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": null,
+    "start": "2021-09-01 06:00:00",
+    "end": "2021-09-21 17:59:59",
+    "name": "Raiden",
+    "featured": [
+      "raiden_shogun"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": null,
+    "start": "2021-09-21 18:00:00",
+    "end": "2021-10-12 14:59:59",
+    "name": "Kokomi",
+    "featured": [
+      "sangonomiya_kokomi"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": null,
+    "start": "2021-10-13 06:00:00",
+    "end": "2021-11-02 17:59:59",
+    "name": "Tartaglia",
+    "featured": [
+      "tartaglia"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": null,
+    "start": "2021-11-02 18:00:00",
+    "end": "2021-11-23 14:59:59",
+    "name": "Hu Tao",
+    "featured": [
+      "hu_tao"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": null,
+    "start": "2021-12-14 18:00:00",
+    "end": "2022-01-04 17:59:59",
+    "name": "Itto",
+    "featured": [
+      "arataki_itto"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": null,
+    "start": "2022-02-16 06:00:00",
+    "end": "2022-03-08 17:59:59",
+    "name": "Yae",
+    "featured": [
+      "yae_miko"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": null,
+    "start": "2022-04-19 18:00:00",
+    "end": "2022-05-31 05:59:59",
+    "name": "Ayaka",
+    "featured": [
+      "kamisato_ayaka"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": null,
+    "start": "2022-06-21 18:00:00",
+    "end": "2022-07-12 14:59:59",
+    "name": "Itto",
+    "featured": [
+      "arataki_itto"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "character",
+    "version": null,
+    "start": "2022-08-02 18:00:00",
+    "end": "2022-08-23 14:59:59",
+    "name": "Yoimiya",
+    "featured": [
+      "yoimiya"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2020-09-28 00:00:00",
+    "end": "2020-10-18 18:00:00",
+    "name": "Amos",
+    "featured": [
+      "aquila_favonia",
+      "amos_bow"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2020-10-20 18:00:00",
+    "end": "2020-11-10 16:00:00",
+    "name": "Lost Prayer",
+    "featured": [
+      "lost_prayer_to_the_sacred_winds",
+      "wolfs_gravestone"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2020-11-11 06:00:00",
+    "end": "2020-12-01 16:00:00",
+    "name": "Skyward",
+    "featured": [
+      "skyward_harp",
+      "memory_of_dust"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2020-12-01 18:00:00",
+    "end": "2020-12-22 15:00:00",
+    "name": "Vortex",
+    "featured": [
+      "vortex_vanquisher",
+      "the_unforged"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2020-12-23 06:00:00",
+    "end": "2021-01-12 16:00:00",
+    "name": "Summit",
+    "featured": [
+      "summit_shaper",
+      "skyward_atlas"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2021-01-12 18:00:00",
+    "end": "2021-02-02 15:00:00",
+    "name": "Amos",
+    "featured": [
+      "amos_bow",
+      "skyward_pride"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2021-02-03 06:00:00",
+    "end": "2021-02-23 16:00:00",
+    "name": "Primordial",
+    "featured": [
+      "primordial_jade_winged-spear",
+      "primordial_jade_cutter"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2021-02-23 18:00:00",
+    "end": "2021-03-16 15:00:00",
+    "name": "Homa",
+    "featured": [
+      "wolfs_gravestone",
+      "staff_of_homa"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2021-03-17 06:00:00",
+    "end": "2021-04-06 16:00:00",
+    "name": "Elegy",
+    "featured": [
+      "elegy_for_the_end",
+      "skyward_blade"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2021-04-06 18:00:00",
+    "end": "2021-04-27 15:00:00",
+    "name": "Skyward",
+    "featured": [
+      "skyward_harp",
+      "lost_prayer_to_the_sacred_winds"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2021-04-28 06:00:00",
+    "end": "2021-05-18 17:59:59",
+    "name": "Summit",
+    "featured": [
+      "summit_shaper",
+      "memory_of_dust"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2021-05-18 18:00:00",
+    "end": "2021-06-08 15:00:00",
+    "name": "Pines",
+    "featured": [
+      "song_of_broken_pines",
+      "aquila_favonia"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2021-06-09 06:00:00",
+    "end": "2021-06-29 17:59:59",
+    "name": "Lost Prayer",
+    "featured": [
+      "lost_prayer_to_the_sacred_winds",
+      "skyward_pride"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2021-06-29 18:00:00",
+    "end": "2021-07-20 14:59:59",
+    "name": "Freedom-Sworn",
+    "featured": [
+      "freedom-sworn",
+      "skyward_atlas"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2021-07-21 06:00:00",
+    "end": "2021-08-10 17:59:59",
+    "name": "Mistsplitter",
+    "featured": [
+      "mistsplitter_reforged",
+      "skyward_spine"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2021-08-10 18:00:00",
+    "end": "2021-08-31 14:59:59",
+    "name": "Thundering Pulse",
+    "featured": [
+      "thundering_pulse",
+      "skyward_blade"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2021-09-01 06:00:00",
+    "end": "2021-09-21 17:59:59",
+    "name": "Engulfing",
+    "featured": [
+      "engulfing_lightning",
+      "the_unforged"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2021-09-21 18:00:00",
+    "end": "2021-10-12 14:59:59",
+    "name": "Moonglow",
+    "featured": [
+      "primordial_jade_cutter",
+      "everlasting_moonglow"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2021-10-13 06:00:00",
+    "end": "2021-11-02 17:59:59",
+    "name": "Polar Star",
+    "featured": [
+      "polar_star",
+      "memory_of_dust"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2021-11-02 18:00:00",
+    "end": "2021-11-23 14:59:59",
+    "name": "Homa",
+    "featured": [
+      "staff_of_homa",
+      "elegy_for_the_end"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2021-11-24 06:00:00",
+    "end": "2021-12-14 17:59:59",
+    "name": "Freedom",
+    "featured": [
+      "freedom-sworn",
+      "song_of_broken_pines"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2021-12-14 18:00:00",
+    "end": "2022-01-04 17:59:59",
+    "name": "Redhorn",
+    "featured": [
+      "redhorn_stonethresher",
+      "skyward_harp"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2022-01-05 06:00:00",
+    "end": "2022-01-25 17:59:59",
+    "name": "Queller",
+    "featured": [
+      "calamity_queller",
+      "primordial_jade_winged-spear"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2022-01-25 18:00:00",
+    "end": "2022-02-15 14:59:59",
+    "name": "Amos",
+    "featured": [
+      "amos_bow",
+      "vortex_vanquisher"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2022-02-16 06:00:00",
+    "end": "2022-03-08 17:59:59",
+    "name": "Verity",
+    "featured": [
+      "kaguras_verity",
+      "primordial_jade_cutter"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2022-03-08 18:00:00",
+    "end": "2022-03-29 14:59:59",
+    "name": "Engulfing",
+    "featured": [
+      "engulfing_lightning",
+      "everlasting_moonglow"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2022-03-30 06:00:00",
+    "end": "2022-04-19 17:59:59",
+    "name": "Haran",
+    "featured": [
+      "haran_geppaku_futsu",
+      "elegy_for_the_end"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2022-04-19 18:00:00",
+    "end": "2022-05-31 05:59:59",
+    "name": "Mistsplitter",
+    "featured": [
+      "mistsplitter_reforged",
+      "the_unforged"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2022-05-31 09:00:00",
+    "end": "2022-06-21 17:59:59",
+    "name": "Aqua",
+    "featured": [
+      "aqua_simulacra",
+      "primordial_jade_winged-spear"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2022-06-21 18:00:00",
+    "end": "2022-07-12 14:59:59",
+    "name": "Redhorn",
+    "featured": [
+      "redhorn_stonethresher",
+      "memory_of_dust"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2022-07-13 06:00:00",
+    "end": "2022-08-02 17:59:59",
+    "name": "Freedom-Sworn",
+    "featured": [
+      "freedom-sworn",
+      "lost_prayer_to_the_sacred_winds"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2022-08-02 18:00:00",
+    "end": "2022-08-23 14:59:59",
+    "name": "Thundering",
+    "featured": [
+      "thundering_pulse",
+      "summit_shaper"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2022-08-24 06:00:00",
+    "end": "2022-09-09 17:59:59",
+    "name": "Hunters",
+    "featured": [
+      "hunters_path",
+      "vortex_vanquisher"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2022-09-09 18:00:00",
+    "end": "2022-09-27 14:59:59",
+    "name": "Amos",
+    "featured": [
+      "amos_bow",
+      "everlasting_moonglow"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2022-09-28 06:00:00",
+    "end": "2022-10-14 17:59:59",
+    "name": "Scarlet",
+    "featured": [
+      "staff_of_the_scarlet_sands",
+      "elegy_for_the_end"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2022-10-14 18:00:00",
+    "end": "2022-11-01 14:59:59",
+    "name": "Nisut",
+    "featured": [
+      "key_of_khaj-nisut",
+      "primordial_jade_cutter"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2022-11-02 06:00:00",
+    "end": "2022-11-18 17:59:59",
+    "name": "Dreams",
+    "featured": [
+      "a_thousand_floating_dreams",
+      "thundering_pulse"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2022-11-18 18:00:00",
+    "end": "2022-12-06 14:59:59",
+    "name": "Kagura",
+    "featured": [
+      "kaguras_verity",
+      "polar_star"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2022-12-07 06:00:00",
+    "end": "2022-12-27 17:59:59",
+    "name": "Tulaytullah",
+    "featured": [
+      "tulaytullahs_remembrance",
+      "redhorn_stonethresher"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2022-12-27 18:00:00",
+    "end": "2023-01-17 14:59:59",
+    "name": "Egulfing",
+    "featured": [
+      "engulfing_lightning",
+      "haran_geppaku_futsu"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2023-01-18 06:00:00",
+    "end": "2023-02-07 17:59:59",
+    "name": "Incision",
+    "featured": [
+      "light_of_foliar_incision",
+      "primordial_jade_winged-spear"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2023-02-07 18:00:00",
+    "end": "2023-02-28 14:59:59",
+    "name": "Homa",
+    "featured": [
+      "staff_of_homa",
+      "aqua_simulacra"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2023-03-01 06:00:00",
+    "end": "2023-03-21 17:59:59",
+    "name": "Incision",
+    "featured": [
+      "beacon_of_the_reed_sea",
+      "staff_of_the_scarlet_sands"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2023-03-21 18:00:00",
+    "end": "2023-04-11 14:59:59",
+    "name": "Incision",
+    "featured": [
+      "calamity_queller",
+      "mistsplitter_reforged"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2023-04-12 06:00:00",
+    "end": "2023-05-02 17:59:59",
+    "name": "Dreams",
+    "featured": [
+      "key_of_khaj-nisut",
+      "a_thousand_floating_dreams"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2023-05-02 18:00:00",
+    "end": "2023-05-23 14:59:59",
+    "name": "jadefalls_splendor",
+    "featured": [
+      "jadefalls_splendor",
+      "amos_bow"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2023-05-24 06:00:00",
+    "end": "2023-06-13 17:59:59",
+    "name": "Thundering",
+    "featured": [
+      "thundering_pulse",
+      "kaguras_verity"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2023-06-13 18:00:00",
+    "end": "2023-07-04 14:59:59",
+    "name": "Freedom",
+    "featured": [
+      "freedom-sworn",
+      "light_of_foliar_incision"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2023-07-05 06:00:00",
+    "end": "2023-07-25 17:59:59",
+    "name": "Freedom",
+    "featured": [
+      "song_of_broken_pines",
+      "lost_prayer_to_the_sacred_winds"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2023-07-25 18:00:00",
+    "end": "2023-08-15 17:59:59",
+    "name": "Moonglow",
+    "featured": [
+      "everlasting_moonglow",
+      "tulaytullahs_remembrance"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2023-08-16 06:00:00",
+    "end": "2023-09-05 17:59:59",
+    "name": "Great Magic",
+    "featured": [
+      "the_first_great_magic",
+      "aqua_simulacra"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2023-09-05 18:00:00",
+    "end": "2023-09-26 14:59:59",
+    "name": "Polar",
+    "featured": [
+      "polar_star",
+      "vortex_vanquisher"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2023-09-27 06:00:00",
+    "end": "2023-10-17 17:59:59",
+    "name": "Polar",
+    "featured": [
+      "tome_of_the_eternal_flow",
+      "staff_of_homa"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2023-10-17 18:00:00",
+    "end": "2023-11-07 14:59:59",
+    "name": "Polar",
+    "featured": [
+      "cashflow_supervision",
+      "elegy_for_the_end"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2023-11-08 06:00:00",
+    "end": "2023-11-28 17:59:59",
+    "name": "Tranquil",
+    "featured": [
+      "splendor_of_tranquil_waters",
+      "jadefalls_splendor"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2023-11-28 18:00:00",
+    "end": "2023-12-19 14:59:59",
+    "name": "Scarlet",
+    "featured": [
+      "staff_of_the_scarlet_sands",
+      "haran_geppaku_futsu"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2023-12-20 06:00:00",
+    "end": "2024-01-09 17:59:59",
+    "name": "Verdict",
+    "featured": [
+      "verdict",
+      "mistsplitter_reforged"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2024-01-09 18:00:00",
+    "end": "2024-01-30 14:59:00",
+    "name": "Engulfing",
+    "featured": [
+      "engulfing_lightning",
+      "thundering_pulse"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2024-01-31 06:00:00",
+    "end": "2024-02-20 17:59:00",
+    "name": "Crane",
+    "featured": [
+      "cranes_echoing_call",
+      "a_thousand_floating_dreams"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2024-02-20 18:00:00",
+    "end": "2024-03-12 14:59:00",
+    "name": "Primordial",
+    "featured": [
+      "primordial_jade_winged-spear",
+      "kaguras_verity"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2024-03-13 06:00:00",
+    "end": "2024-04-02 17:59:00",
+    "name": "Misugiri",
+    "featured": [
+      "uraku_misugiri",
+      "redhorn_stonethresher"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2024-04-02 18:00:00",
+    "end": "2024-04-23 14:59:00",
+    "name": "Eternal",
+    "featured": [
+      "tome_of_the_eternal_flow",
+      "freedom-sworn"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2024-04-24 06:00:00",
+    "end": "2024-05-14 17:59:00",
+    "name": "Crimson",
+    "featured": [
+      "crimson_moons_semblance",
+      "the_first_great_magic"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2024-05-14 18:00:00",
+    "end": "2024-06-04 14:59:00",
+    "name": "Tulaytullah",
+    "featured": [
+      "tulaytullahs_remembrance",
+      "jadefalls_splendor"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2024-06-05 06:00:00",
+    "end": "2024-06-25 17:59:00",
+    "name": "Absolution",
+    "featured": [
+      "absolution",
+      "light_of_foliar_incision"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2024-06-25 18:00:00",
+    "end": "2024-07-16 14:59:00",
+    "name": "Silvershower",
+    "featured": [
+      "silvershower_heartstrings",
+      "splendor_of_tranquil_waters"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2024-07-17 06:00:00",
+    "end": "2024-08-06 17:59:00",
+    "name": "Verdict",
+    "featured": [
+      "verdict",
+      "key_of_khaj-nisut"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2024-08-06 18:00:00",
+    "end": "2024-08-27 14:59:00",
+    "name": "Lumidouce",
+    "featured": [
+      "lumidouce_elegy",
+      "aqua_simulacra"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2024-08-28 06:00:00",
+    "end": "2024-09-17 17:59:00",
+    "name": "Surf's Up",
+    "featured": [
+      "surfs_up",
+      "freedom-sworn"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2024-09-17 18:00:00",
+    "end": "2024-10-08 14:59:00",
+    "name": "Mountain King",
+    "featured": [
+      "fang_of_the_mountain_king",
+      "engulfing_lightning"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2024-10-09 06:00:00",
+    "end": "2024-10-29 17:59:00",
+    "name": "Peak",
+    "featured": [
+      "peak_patrol_song",
+      "uraku_misugiri"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2024-10-29 18:00:00",
+    "end": "2024-11-19 14:59:00",
+    "name": "Dreams",
+    "featured": [
+      "a_thousand_floating_dreams",
+      "staff_of_homa"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2024-11-20 06:00:00",
+    "end": "2024-12-10 17:59:00",
+    "name": "Astral",
+    "featured": [
+      "astral_vultures_crimson_plumage",
+      "the_first_great_magic"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2024-12-10 18:00:00",
+    "end": "2024-12-31 14:59:00",
+    "name": "Tome",
+    "featured": [
+      "tome_of_the_eternal_flow",
+      "vortex_vanquisher"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2025-01-01 06:00:00",
+    "end": "2025-01-21 17:59:00",
+    "name": "Blazing",
+    "featured": [
+      "a_thousand_blazing_suns",
+      "starcallers_watch"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2025-01-21 18:00:00",
+    "end": "2025-02-11 14:59:00",
+    "name": "Blazing",
+    "featured": [
+      "crimson_moons_semblance",
+      "absolution"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2025-02-12 06:00:00",
+    "end": "2025-03-04 17:59:00",
+    "name": "Blazing",
+    "featured": [
+      "sunny_morning_sleep-in",
+      "silvershower_heartstrings"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2025-03-04 18:00:00",
+    "end": "2025-03-25 14:59:00",
+    "name": "Splendor",
+    "featured": [
+      "splendor_of_tranquil_waters",
+      "cashflow_supervision"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2025-03-26 06:00:00",
+    "end": "2025-04-15 17:59:00",
+    "name": "Vivid",
+    "featured": [
+      "vivid_notions",
+      "cranes_echoing_call"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2025-04-15 18:00:00",
+    "end": "2025-05-06 14:59:00",
+    "name": "Vivid",
+    "featured": [
+      "peak_patrol_song",
+      "elegy_for_the_end"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2025-05-07 06:00:00",
+    "end": "2025-05-27 17:59:00",
+    "name": "Scents",
+    "featured": [
+      "symphonist_of_scents",
+      "verdict"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2025-05-27 18:00:00",
+    "end": "2025-06-17 14:59:00",
+    "name": "Mountain King",
+    "featured": [
+      "fang_of_the_mountain_king",
+      "engulfing_lightning"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2025-06-18 06:00:00",
+    "end": "2025-07-08 17:59:00",
+    "name": "Azurelight",
+    "featured": [
+      "azurelight",
+      "calamity_queller"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2025-07-08 18:00:00",
+    "end": "2025-07-29 14:59:00",
+    "name": "Blazing",
+    "featured": [
+      "a_thousand_blazing_suns",
+      "calamity_queller"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2025-07-30 06:00:00",
+    "end": "2025-08-19 17:59:00",
+    "name": "Halo",
+    "featured": [
+      "fractured_halo",
+      "starcallers_watch"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2025-08-19 18:00:00",
+    "end": "2025-09-09 14:59:00",
+    "name": "Surf's Up",
+    "featured": [
+      "surfs_up",
+      "astral_vultures_crimson_plumage"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2025-09-10 06:00:00",
+    "end": "2025-09-30 17:59:00",
+    "name": "Nightweaver's",
+    "featured": [
+      "nightweavers_looking_glass",
+      "a_thousand_floating_dreams"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2025-09-30 18:00:00",
+    "end": "2025-10-21 17:59:00",
+    "name": "Nightweaver's",
+    "featured": [
+      "bloodsoaked_ruins",
+      "aqua_simulacra"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2025-10-22 06:00:00",
+    "end": "2025-11-11 17:59:00",
+    "name": "Truth",
+    "featured": [
+      "reliquary_of_truth",
+      "splendor_of_tranquil_waters"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2025-11-11 18:00:00",
+    "end": "2025-12-02 14:59:00",
+    "name": "Crimson",
+    "featured": [
+      "crimson_moons_semblance",
+      "vortex_vanquisher"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2025-12-03 06:00:00",
+    "end": "2025-12-23 17:59:00",
+    "name": "Athame",
+    "featured": [
+      "athame_artis",
+      "the_daybreak_chronicles"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2025-12-23 18:00:00",
+    "end": "2026-01-13 14:59:00",
+    "name": "Vivid",
+    "featured": [
+      "vivid_notions",
+      "peak_patrol_song"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2026-01-14 06:00:00",
+    "end": "2026-02-03 17:59:00",
+    "name": "Nocturne",
+    "featured": [
+      "nocturnes_curtain_call",
+      "fractured_halo"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2026-02-03 18:00:00",
+    "end": "2026-02-24 14:59:00",
+    "name": "Nocturne",
+    "featured": [
+      "lightbearing_moonshard",
+      "tome_of_the_eternal_flow"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2026-02-25 06:00:00",
+    "end": "2026-03-17 17:59:00",
+    "name": "Mighty Wolf",
+    "featured": [
+      "gest_of_the_mighty_wolf",
+      "bloodsoaked_ruins"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2026-03-17 18:00:00",
+    "end": "2026-04-07 14:59:00",
+    "name": "Azurelight",
+    "featured": [
+      "azurelight",
+      "symphonist_of_scents"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2026-04-08 06:00:00",
+    "end": "2026-04-28 17:59:00",
+    "name": "Frostbound",
+    "featured": [
+      "golden_frostbound_oath",
+      "astral_vultures_crimson_plumage"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2026-04-28 18:00:00",
+    "end": "2026-05-19 14:59:00",
+    "name": "Nightweaver",
+    "featured": [
+      "nightweavers_looking_glass",
+      "reliquary_of_truth"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "weapon",
+    "version": null,
+    "start": "2026-05-20 06:00:00",
+    "end": "2026-06-09 17:59:00",
+    "name": "Angelos",
+    "featured": [
+      "angelos_heptades",
+      "athame_artis"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "chronicled",
+    "version": null,
+    "start": "2024-03-13 06:00:00",
+    "end": "2024-04-02 17:59:00",
+    "name": "Mondstadt",
+    "featured": [
+      "eula",
+      "mona",
+      "albedo",
+      "klee",
+      "diluc",
+      "jean",
+      "skyward_blade",
+      "aquila_favonia",
+      "beacon_of_the_reed_sea",
+      "song_of_broken_pines",
+      "wolfs_gravestone",
+      "skyward_pride",
+      "skyward_spine",
+      "lost_prayer_to_the_sacred_winds",
+      "skyward_atlas",
+      "hunters_path",
+      "skyward_harp"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "chronicled",
+    "version": null,
+    "start": "2025-01-21 18:00:00",
+    "end": "2025-02-11 14:59:00",
+    "name": "Liyue",
+    "featured": [
+      "baizhu",
+      "shenhe",
+      "keqing",
+      "ganyu",
+      "qiqi",
+      "tartaglia",
+      "xiao",
+      "primordial_jade_cutter",
+      "summit_shaper",
+      "the_unforged",
+      "calamity_queller",
+      "primordial_jade_winged_spear",
+      "jadefalls_splendor",
+      "memory_of_dust",
+      "polar_star",
+      "amos_bow"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "chronicled",
+    "version": null,
+    "start": "2025-05-27 18:00:00",
+    "end": "2025-06-17 14:59:00",
+    "name": "Inazuma",
+    "featured": [
+      "kamisato_ayaka",
+      "kamisato_ayato",
+      "yoimiya",
+      "chiori",
+      "yae_miko",
+      "arataki_itto",
+      "sangonomiya_kokomi",
+      "kaedehara_kazuha",
+      "uraku_misugiri",
+      "haran_geppaku_futsu",
+      "mistsplitter_reforged",
+      "freedom-sworn",
+      "redhorn_stonethresher",
+      "kaguras_verity",
+      "everlasting_moonglow",
+      "thundering_pulse"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "chronicled",
+    "version": null,
+    "start": "2025-09-10 06:00:00",
+    "end": "2025-09-30 17:59:00",
+    "name": "Sumeru",
+    "featured": [
+      "dehya",
+      "alhaitham",
+      "wanderer",
+      "cyno",
+      "nilou",
+      "tighnari",
+      "light_of_foliar_incision",
+      "key_of_khaj-nisut",
+      "beacon_of_the_reed_sea",
+      "staff_of_the_scarlet_sands",
+      "tulaytullahs_remembrance",
+      "hunters_path"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "chronicled",
+    "version": null,
+    "start": "2026-02-25 06:00:00",
+    "end": "2026-03-17 17:59:00",
+    "name": "Mondstadt",
+    "featured": [
+      "eula",
+      "mona",
+      "albedo",
+      "klee",
+      "diluc",
+      "jean",
+      "skyward_blade",
+      "aquila_favonia",
+      "song_of_broken_pines",
+      "wolfs_gravestone",
+      "skyward_pride",
+      "skyward_spine",
+      "lost_prayer_to_the_sacred_winds",
+      "skyward_atlas",
+      "elegy_for_the_end",
+      "skyward_harp"
+    ],
+    "featuredIds": []
+  },
+  {
+    "type": "chronicled",
+    "version": null,
+    "start": "2026-04-28 18:00:00",
+    "end": "2026-05-19 14:59:00",
+    "name": "Fontaine",
+    "featured": [
+      "emilie",
+      "clorinde",
+      "sigewinne",
+      "navia",
+      "lyney",
+      "absolution",
+      "verdict",
+      "lumidouce_elegy",
+      "silvershower_heartstrings",
+      "the_first_great_magic"
+    ],
+    "featuredIds": []
+  },
+  {
+    "_apiId": 172,
+    "type": "weapon",
+    "version": "6.6",
+    "start": "2026-05-20 07:00:00",
+    "end": "2026-06-10 00:59:00",
+    "name": "Angelos' Heptades",
+    "featured": [
+      "Angelos' Heptades",
+      "Athame Artis"
+    ],
+    "featuredIds": [
+      14523,
+      11518
+    ]
+  }
+]
