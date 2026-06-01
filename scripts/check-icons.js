@@ -12,12 +12,13 @@ const HSR_SERVER     = process.env.HSR_SERVER;
 const ZZZ_UID        = process.env.ZZZ_UID;
 const ZZZ_SERVER     = process.env.ZZZ_SERVER;
 
-const DS_SALT = 'xV8v4Qu54lUKrEYFZkJhB8cuOh9Asafs';
+const DS_SALT_GENSHIN = 'xV8v4Qu54lUKrEYFZkJhB8cuOh9Asafs';
+const DS_SALT_HSR     = '6s25p5ox5y14umn1p61aqyyvbvvl3lrt';
 
-function generateDS() {
+function generateDS(salt) {
   var t = Math.floor(Date.now() / 1000);
   var r = Math.floor(Math.random() * 900000) + 100000;
-  return t + ',' + r + ',' + crypto.createHash('md5').update('salt=' + DS_SALT + '&t=' + t + '&r=' + r).digest('hex');
+  return t + ',' + r + ',' + crypto.createHash('md5').update('salt=' + salt + '&t=' + t + '&r=' + r).digest('hex');
 }
 
 function httpsPost(path, body, extraHeaders) {
@@ -27,7 +28,7 @@ function httpsPost(path, body, extraHeaders) {
       hostname: 'sg-public-api.hoyolab.com', path, method: 'POST', timeout: 20000,
       headers: Object.assign({
         'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(bodyStr),
-        'Cookie': COOKIE, 'DS': generateDS(),
+        'Cookie': COOKIE, 'DS': generateDS(DS_SALT_GENSHIN),
         'x-rpc-app_version': '1.5.0', 'x-rpc-client_type': '5', 'x-rpc-language': 'en-us',
         'Referer': 'https://act.hoyolab.com/',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
@@ -48,7 +49,7 @@ function httpsGet(path) {
     var req = https.request({
       hostname: 'sg-public-api.hoyolab.com', path, method: 'GET', timeout: 20000,
       headers: {
-        'Cookie': COOKIE, 'DS': generateDS(),
+        'Cookie': COOKIE, 'DS': generateDS(DS_SALT_HSR),
         'x-rpc-app_version': '1.5.0', 'x-rpc-client_type': '5', 'x-rpc-language': 'en-us',
         'Referer': 'https://act.hoyolab.com/',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
@@ -85,7 +86,7 @@ async function checkGenshin() {
 async function checkHSR() {
   console.log('\n======= HSR =======');
   if (!HSR_UID || !HSR_SERVER) { console.log('Skipped: missing HSR_UID or HSR_SERVER'); return; }
-  var json = await httpsGet('/event/game_record/hkrpg/api/get_act_calender?uid=' + HSR_UID + '&region=' + HSR_SERVER);
+  var json = await httpsGet('/event/game_record/hkrpg/api/get_act_calender?server=' + HSR_SERVER + '&role_id=' + HSR_UID);
   if (json.retcode !== 0) { console.error('API error', json.retcode, json.message); return; }
 
   var pool = (json.data.avatar_card_pool_list || [])[0];
