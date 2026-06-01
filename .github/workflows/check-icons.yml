@@ -19,3 +19,5 @@ jobs:
           GENSHIN_SERVER: ${{ secrets.GENSHIN_SERVER }}
           HSR_UID:        ${{ secrets.HSR_UID }}
           HSR_SERVER:     ${{ secrets.HSR_SERVER }}
+          ZZZ_UID:        ${{ secrets.ZZZ_UID }}
+          ZZZ_SERVER:     ${{ secrets.ZZZ_SERVER }}
