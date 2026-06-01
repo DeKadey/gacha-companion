@@ -1,59 +1,131 @@
-const https = require('https');
-const fs    = require('fs');
+#!/usr/bin/env node
+// Fetches HSR banner schedule directly from HoYoLAB.
+// Required env vars: HOYOLAB_COOKIE, HSR_UID, HSR_SERVER
 
-function httpsGet(url) {
-  return new Promise((resolve, reject) => {
-    const req = https.get(url, { timeout: 20000 }, (res) => {
-      if (res.statusCode !== 200) { res.resume(); reject(new Error(`HTTP ${res.statusCode}`)); return; }
-      const c = [];
-      res.on('data', d => c.push(d));
-      res.on('end', () => resolve(Buffer.concat(c).toString('utf-8')));
-    });
-    req.on('error', reject);
-    req.on('timeout', () => { req.destroy(); reject(new Error('Timed out')); });
-  });
+const https  = require('https');
+const crypto = require('crypto');
+const fs     = require('fs');
+const path   = require('path');
+
+const COOKIE = process.env.HOYOLAB_COOKIE;
+const UID    = process.env.HSR_UID;
+const SERVER = process.env.HSR_SERVER;
+
+const API_URL       = 'https://sg-public-api.hoyolab.com/event/game_record/hkrpg/api/get_act_calender';
+const DS_SALT       = '6s25p5ox5y14umn1p61aqyyvbvvl3lrt';
+const SCHEDULE_PATH = path.join(__dirname, '..', 'hsr', 'banner-schedule.json');
+const NAME_MAP_PATH = path.join(__dirname, '..', 'hsr', 'name-id-map.json');
+
+function generateDS() {
+  const t = Math.floor(Date.now() / 1000);
+  const r = Math.floor(Math.random() * 900000) + 100000;
+  const hash = crypto.createHash('md5').update(`salt=${DS_SALT}&t=${t}&r=${r}`).digest('hex');
+  return `${t},${r},${hash}`;
 }
-
-function slugKey(s) { return (s ?? '').toLowerCase().replace(/[^a-z0-9]/g, ''); }
 
 function unixToUtc8Str(unix) {
   const d = new Date((unix + 8 * 3600) * 1000);
   const p = n => String(n).padStart(2, '0');
-  return `${d.getUTCFullYear()}-${p(d.getUTCMonth()+1)}-${p(d.getUTCDate())} ${p(d.getUTCHours())}:${p(d.getUTCMinutes())}:${p(d.getUTCSeconds())}`;
+  return `${d.getUTCFullYear()}-${p(d.getUTCMonth()+1)}-${p(d.getUTCDate())} ` +
+         `${p(d.getUTCHours())}:${p(d.getUTCMinutes())}:${p(d.getUTCSeconds())}`;
+}
+
+function slugKey(s) {
+  return (s ?? '').toLowerCase().replace(/[^a-z0-9]/g, '');
+}
+
+function httpsGetJson(url, headers) {
+  return new Promise((resolve, reject) => {
+    https.get(url, { headers }, res => {
+      const chunks = [];
+      res.on('data', c => chunks.push(c));
+      res.on('end', () => {
+        try { resolve(JSON.parse(Buffer.concat(chunks).toString())); }
+        catch (e) { reject(e); }
+      });
+    }).on('error', reject);
+  });
 }
 
 async function main() {
-  console.log('Fetching HSR banner data from api.ennead.cc...');
-  fs.mkdirSync('hsr', { recursive: true });
-  const nmPath  = 'hsr/name-id-map.json';
-  const schPath = 'hsr/banner-schedule.json';
-  const storedMap      = fs.existsSync(nmPath)  ? JSON.parse(fs.readFileSync(nmPath,  'utf-8')) : {};
-  const storedSchedule = fs.existsSync(schPath) ? JSON.parse(fs.readFileSync(schPath, 'utf-8')) : [];
+  if (!COOKIE || !UID || !SERVER)
+    throw new Error('Missing HOYOLAB_COOKIE, HSR_UID, or HSR_SERVER');
 
-  const raw     = await httpsGet('https://api.ennead.cc/mihoyo/starrail/calendar');
-  const json    = JSON.parse(raw);
-  const entries = Array.isArray(json) ? json : Object.values(json).filter(v => v && typeof v === 'object' && v.id);
+  console.log(`Fetching HSR calendar (UID ${UID}, server ${SERVER})...`);
 
-  const fetchedMap = {};
-  const fetched    = [];
-  for (const b of entries) {
-    const start = b.start_time ? unixToUtc8Str(b.start_time) : null;
-    const end   = b.end_time   ? unixToUtc8Str(b.end_time)   : null;
-    for (const c of (b.characters  ?? [])) { if (c.id && c.name) fetchedMap[slugKey(c.name)] = { id: c.id, type: 'character' }; }
-    for (const l of (b.light_cones ?? [])) { if (l.id && l.name) fetchedMap[slugKey(l.name)] = { id: l.id, type: 'weapon' };    }
-    for (const c of (b.characters  ?? []).filter(x => x.rarity === 5)) {
-      fetched.push({ _apiId: b.id, name: c.name, type: 'character', version: b.version ?? '', start, end, featured: c.name, featuredId: c.id, featuredType: 'character' });
-    }
-    for (const l of (b.light_cones ?? []).filter(x => x.rarity === 5)) {
-      fetched.push({ _apiId: b.id, name: l.name, type: 'weapon', version: b.version ?? '', start, end, featured: l.name, featuredId: l.id, featuredType: 'weapon' });
-    }
+  const json = await httpsGetJson(`${API_URL}?server=${SERVER}&role_id=${UID}`, {
+    'Cookie':            COOKIE,
+    'DS':                generateDS(),
+    'x-rpc-app_version': '1.5.0',
+    'x-rpc-client_type': '5',
+    'x-rpc-language':    'en-us',
+    'Referer':           'https://act.hoyolab.com/',
+    'User-Agent':        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+  });
+
+  if (json.retcode !== 0)
+    throw new Error(`HoYoLAB API error ${json.retcode}: ${json.message}`);
+
+  const { avatar_card_pool_list, equip_card_pool_list, cur_game_version } = json.data;
+  console.log(`Game version: ${cur_game_version}`);
+
+  const nameIdMap = {};
+  const fetched   = [];
+
+  // ── Character banners ──────────────────────────────────────────────────────
+  for (const pool of avatar_card_pool_list) {
+    const start = unixToUtc8Str(parseInt(pool.time_info.start_ts));
+    const end   = unixToUtc8Str(parseInt(pool.time_info.end_ts));
+
+    for (const c of pool.avatar_list)
+      if (c.item_id && c.item_name)
+        nameIdMap[slugKey(c.item_name)] = { id: parseInt(c.item_id), type: 'character' };
+
+    for (const c of pool.avatar_list.filter(c => c.rarity === '5'))
+      fetched.push({
+        _apiId: pool.id, name: c.item_name, type: 'character',
+        version: pool.version, start, end,
+        featured: c.item_name, featuredId: parseInt(c.item_id), featuredType: 'character',
+        isForward: c.is_forward,
+      });
   }
-  const merged   = { ...storedMap, ...fetchedMap };
-  const existing = new Set(storedSchedule.map(b => `${b.featuredId}|${b.start}`));
-  const combined = [...storedSchedule, ...fetched.filter(b => !existing.has(`${b.featuredId}|${b.start}`))];
-  fs.writeFileSync(nmPath,  JSON.stringify(merged,   null, 2));
-  fs.writeFileSync(schPath, JSON.stringify(combined, null, 2));
-  console.log(`HSR updated: ${Object.keys(merged).length} entries, ${combined.length} banner schedule entries.`);
+
+  // ── LC banners ─────────────────────────────────────────────────────────────
+  for (const pool of equip_card_pool_list) {
+    const start = unixToUtc8Str(parseInt(pool.time_info.start_ts));
+    const end   = unixToUtc8Str(parseInt(pool.time_info.end_ts));
+
+    for (const lc of pool.equip_list)
+      if (lc.item_id && lc.item_name)
+        nameIdMap[slugKey(lc.item_name)] = { id: parseInt(lc.item_id), type: 'weapon' };
+
+    for (const lc of pool.equip_list.filter(l => l.rarity === '5'))
+      fetched.push({
+        _apiId: pool.id, name: lc.item_name, type: 'weapon',
+        version: pool.version, start, end,
+        featured: lc.item_name, featuredId: parseInt(lc.item_id), featuredType: 'weapon',
+        isForward: lc.is_forward,
+      });
+  }
+
+  // ── Merge with existing (preserve history) ─────────────────────────────────
+  const existing = fs.existsSync(SCHEDULE_PATH)
+    ? JSON.parse(fs.readFileSync(SCHEDULE_PATH, 'utf-8')) : [];
+  const seen = new Set(existing.map(b => `${b.featuredId}|${(b.start ?? '').slice(0, 10)}`));
+  const newEntries = fetched.filter(b => !seen.has(`${b.featuredId}|${(b.start ?? '').slice(0, 10)}`));
+  const merged = [...existing, ...newEntries];
+
+  const existingNameMap = fs.existsSync(NAME_MAP_PATH)
+    ? JSON.parse(fs.readFileSync(NAME_MAP_PATH, 'utf-8')) : {};
+  const mergedNameMap = { ...existingNameMap, ...nameIdMap };
+
+  fs.mkdirSync(path.dirname(SCHEDULE_PATH), { recursive: true });
+  fs.writeFileSync(SCHEDULE_PATH, JSON.stringify(merged, null, 2));
+  fs.writeFileSync(NAME_MAP_PATH,  JSON.stringify(mergedNameMap, null, 2));
+
+  console.log(`Done. ${newEntries.length} new entries added (${merged.length} total).`);
+  if (newEntries.length > 0)
+    console.log('New:', newEntries.map(b => `${b.name} v${b.version}`).join(', '));
 }
 
-main().catch(err => { console.error('update-hsr failed:', err.message); process.exit(1); });
+main().catch(e => { console.error(e.message); process.exit(1); });
