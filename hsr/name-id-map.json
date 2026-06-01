@@ -1,6 +1,6 @@
 {
   "march7th": {
-    "id": 1224,
+    "id": 1001,
     "type": "character"
   },
   "danheng": {
@@ -969,6 +969,14 @@
   },
   "elationbrimmingwithblessings": {
     "id": 24006,
+    "type": "weapon"
+  },
+  "mortenaxblade": {
+    "id": 1507,
+    "type": "character"
+  },
+  "reforgedinhellfire": {
+    "id": 23059,
     "type": "weapon"
   }
 }
