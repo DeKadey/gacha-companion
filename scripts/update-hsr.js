@@ -77,7 +77,7 @@ async function main() {
       if (c.item_id && c.icon_url) iconMap[parseInt(c.item_id)] = c.icon_url;
   for (var pool of equip_card_pool_list)
     for (var lc of pool.equip_list)
-      if (lc.item_id && lc.icon_url) iconMap[parseInt(lc.item_id)] = lc.icon_url;
+      if (lc.item_id && lc.item_url) iconMap[parseInt(lc.item_id)] = lc.item_url;
 
   var nameIdMap = {};
   var fetched   = [];
