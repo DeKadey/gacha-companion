@@ -8,12 +8,9 @@ const COOKIE = process.env.HOYOLAB_COOKIE;
 const UID    = process.env.GENSHIN_UID;
 const SERVER = process.env.GENSHIN_SERVER;
 
-const API_HOST       = 'sg-public-api.hoyolab.com';
-const API_PATH       = '/event/game_record/genshin/api/act_calendar';
 const DS_SALT        = 'xV8v4Qu54lUKrEYFZkJhB8cuOh9Asafs';
 const SCHEDULE_PATH  = path.join(__dirname, '..', 'genshin', 'banner-schedule.json');
 const IMAGES_DIR     = path.join(__dirname, '..', 'genshin', 'images');
-const ENKA_CHARS_URL = 'https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/characters.json';
 
 function generateDS() {
   var t = Math.floor(Date.now() / 1000);
@@ -31,7 +28,9 @@ function httpsPost(body, headers) {
   return new Promise(function(resolve, reject) {
     var bodyStr = JSON.stringify(body);
     var opts = {
-      hostname: API_HOST, path: API_PATH, method: 'POST', timeout: 20000,
+      hostname: 'sg-public-api.hoyolab.com',
+      path: '/event/game_record/genshin/api/act_calendar',
+      method: 'POST', timeout: 20000,
       headers: Object.assign({ 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(bodyStr) }, headers),
     };
     var req = https.request(opts, function(res) {
@@ -46,20 +45,9 @@ function httpsPost(body, headers) {
   });
 }
 
-function httpsGetJson(url) {
-  return new Promise(function(resolve, reject) {
-    https.get(url, { timeout: 20000, headers: { 'User-Agent': 'gacha-companion-update' } }, function(res) {
-      if (res.statusCode !== 200) { res.resume(); reject(new Error('HTTP ' + res.statusCode + ' from ' + url)); return; }
-      var chunks = [];
-      res.on('data', function(c) { chunks.push(c); });
-      res.on('end', function() { try { resolve(JSON.parse(Buffer.concat(chunks).toString())); } catch(e) { reject(e); } });
-    }).on('error', reject);
-  });
-}
-
 function httpsGetBuffer(url) {
   return new Promise(function(resolve, reject) {
-    https.get(url, { timeout: 20000, headers: { 'User-Agent': 'gacha-companion-update' } }, function(res) {
+    https.get(url, { timeout: 20000, headers: { 'User-Agent': 'gacha-companion-update', 'Referer': 'https://act.hoyolab.com/' } }, function(res) {
       if (res.statusCode === 404) { res.resume(); resolve(null); return; }
       if (res.statusCode !== 200) { res.resume(); reject(new Error('HTTP ' + res.statusCode)); return; }
       var chunks = [];
@@ -130,7 +118,7 @@ async function main() {
   if (fs.existsSync(SCHEDULE_PATH)) {
     try { existing = JSON.parse(fs.readFileSync(SCHEDULE_PATH, 'utf-8')); } catch(_) {}
   }
-  if (!existing.length) throw new Error('banner-schedule.json is empty — run the paimon.moe seed first (should have happened on initial deploy).');
+  if (!existing.length) throw new Error('banner-schedule.json is empty — seed file must exist first.');
 
   console.log('Fetching Genshin calendar (UID ' + UID + ', server ' + SERVER + ')...');
   var json = await httpsPost({ server: SERVER, role_id: UID }, {
@@ -140,6 +128,18 @@ async function main() {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
   });
   if (json.retcode !== 0) throw new Error('HoYoLAB API error ' + json.retcode + ': ' + json.message);
+
+  // Build icon map from API response: id -> icon URL
+  var iconMap = {};
+  for (var pool of (json.data.avatar_card_pool_list || []))
+    for (var a of (pool.avatars || []))
+      if (a.id && a.icon) iconMap[a.id] = a.icon;
+  for (var pool of (json.data.weapon_card_pool_list || []))
+    for (var w of (pool.weapon || []))
+      if (w.id && w.icon) iconMap[w.id] = w.icon;
+  for (var pool of (json.data.mixed_card_pool_list || []))
+    for (var x of [...(pool.avatars || []), ...(pool.weapon || [])])
+      if (x.id && x.icon) iconMap[x.id] = x.icon;
 
   var apiEntries = apiToSchedule(json.data);
   var seen = new Map();
@@ -164,37 +164,26 @@ async function main() {
   console.log('Done. ' + newEntries.length + ' new entries added (' + merged.length + ' total).');
   if (newEntries.length > 0) console.log('New: ' + newEntries.map(function(b) { return b.name + ' (' + b.type + ')'; }).join(', '));
 
-  // ── Image downloads ────────────────────────────────────────────────────────
-  console.log('Fetching enka character map...');
-  var enkaChars = await httpsGetJson(ENKA_CHARS_URL);
-  var idToName = {};
-  for (var cid in enkaChars) {
-    var internalName = (enkaChars[cid].SideIconName || '').replace('UI_AvatarIcon_Side_', '');
-    if (internalName) idToName[parseInt(cid)] = internalName;
-  }
-
+  // Image downloads — using icon URLs from API response directly
   var uniqueIds = new Set();
-  for (var entry of merged) {
-    if (entry.type === 'character') {
-      for (var id of (entry.featuredIds || [])) uniqueIds.add(id);
-    }
-  }
+  for (var entry of merged)
+    for (var id of (entry.featuredIds || [])) uniqueIds.add(id);
 
   fs.mkdirSync(IMAGES_DIR, { recursive: true });
   var imgDownloaded = 0, imgSkipped = 0;
   for (var id of uniqueIds) {
     var imgPath = path.join(IMAGES_DIR, id + '.png');
     if (fs.existsSync(imgPath)) { imgSkipped++; continue; }
-    var internalName = idToName[id];
-    if (!internalName) { console.warn('  No name for ID ' + id); continue; }
+    var iconUrl = iconMap[id];
+    if (!iconUrl) { console.warn('  No icon URL for ID ' + id + ' (not in current banner window — backfill manually)'); continue; }
     try {
-      var buf = await httpsGetBuffer('https://enka.network/ui/UI_Gacha_AvatarImg_' + internalName + '.png');
+      var buf = await httpsGetBuffer(iconUrl);
       if (buf) {
         fs.writeFileSync(imgPath, buf);
         imgDownloaded++;
-        console.log('  Image saved: ' + id + ' (' + internalName + ')');
+        console.log('  Image saved: ' + id);
       } else {
-        console.warn('  No image: ' + id + ' (' + internalName + ')');
+        console.warn('  No image returned for ID ' + id);
       }
     } catch(err) {
       console.warn('  Image failed: ' + id + ' -- ' + err.message);
