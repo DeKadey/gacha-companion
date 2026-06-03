@@ -69,14 +69,14 @@ async function main() {
     const version = pool.version || '';
     for (const c of (pool.avatar_list || []).filter(c => c.rarity === 'S')) {
       iconMap[c.avatar_id] = c.icon;
-      fetched.push({ type: 'character', version, start, end, name: c.full_name || c.avatar_name, featured: [c.full_name || c.avatar_name], featuredId: c.avatar_id });
+      fetched.push({ type: 'character', version, start, end, name: c.avatar_name, featured: [c.avatar_name], featuredId: c.avatar_id });
     }
   }
   for (const pool of (json.data.weapon_gacha_schedule_list || [])) {
     const start   = unixToUtc8(pool.start_ts);
     const end     = unixToUtc8(pool.end_ts);
     const version = pool.version || '';
-    for (const w of (pool.weapon_list || []).filter(w => w.rarity === 'S')) {
+    for (const w of (pool.weapon_list || []).filter(w == w.rarity === 'S')) {
       iconMap[w.weapon_id] = w.icon;
       fetched.push({ type: 'weapon', version, start, end, name: w.talent_title, featured: [w.talent_title], featuredId: w.weapon_id });
     }
