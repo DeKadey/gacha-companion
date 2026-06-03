@@ -1716,6 +1716,17 @@
     "featuredId": 11505
   },
   {
+    "type": "chronicled",
+    "version": "4.5",
+    "start": "2024-03-13 06:00:00",
+    "end": "2024-04-02 17:59:00",
+    "name": "Mondstadt",
+    "featured": [
+      "Mondstadt"
+    ],
+    "featuredId": null
+  },
+  {
     "type": "character",
     "version": "4.5",
     "start": "2024-03-13 07:00:00",
@@ -1747,17 +1758,6 @@
       "Misugiri"
     ],
     "featuredId": 11514
-  },
-  {
-    "type": "chronicled",
-    "version": "4.5",
-    "start": "2024-03-13 06:00:00",
-    "end": "2024-04-02 17:59:00",
-    "name": "Mondstadt",
-    "featured": [
-      "Mondstadt"
-    ],
-    "featuredId": null
   },
   {
     "type": "character",
@@ -2607,6 +2607,17 @@
     "featuredId": 14516
   },
   {
+    "type": "chronicled",
+    "version": "6.0",
+    "start": "2025-09-10 06:00:00",
+    "end": "2025-09-30 17:59:00",
+    "name": "Sumeru",
+    "featured": [
+      "Sumeru"
+    ],
+    "featuredId": null
+  },
+  {
     "type": "character",
     "version": "6.0",
     "start": "2025-09-10 07:00:00",
@@ -2638,17 +2649,6 @@
       "Nightweaver's"
     ],
     "featuredId": 12426
-  },
-  {
-    "type": "chronicled",
-    "version": "6.0",
-    "start": "2025-09-10 06:00:00",
-    "end": "2025-09-30 17:59:00",
-    "name": "Sumeru",
-    "featured": [
-      "Sumeru"
-    ],
-    "featuredId": null
   },
   {
     "type": "character",
@@ -2882,6 +2882,17 @@
     "featuredId": 12426
   },
   {
+    "type": "chronicled",
+    "version": "6.4",
+    "start": "2026-02-25 06:00:00",
+    "end": "2026-03-17 17:59:00",
+    "name": "Mondstadt",
+    "featured": [
+      "Mondstadt"
+    ],
+    "featuredId": null
+  },
+  {
     "type": "character",
     "version": "6.4",
     "start": "2026-02-25 07:00:00",
@@ -2913,17 +2924,6 @@
       "Mighty Wolf"
     ],
     "featuredId": 12426
-  },
-  {
-    "type": "chronicled",
-    "version": "6.4",
-    "start": "2026-02-25 06:00:00",
-    "end": "2026-03-17 17:59:00",
-    "name": "Mondstadt",
-    "featured": [
-      "Mondstadt"
-    ],
-    "featuredId": null
   },
   {
     "type": "character",
@@ -3078,5 +3078,16 @@
       "Angelos' Heptades"
     ],
     "featuredId": 14523
+  },
+  {
+    "type": "weapon",
+    "version": "6.6",
+    "start": "2026-05-20 07:00:00",
+    "end": "2026-06-10 00:59:00",
+    "name": "Athame Artis",
+    "featured": [
+      "Athame Artis"
+    ],
+    "featuredId": 11518
   }
 ]
