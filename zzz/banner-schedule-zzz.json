@@ -15,9 +15,9 @@
     "version": "1.0",
     "start": "2024-07-04 19:00:00",
     "end": "2024-07-24 18:59:59",
-    "name": "Deep Sea Visitor",
+    "name": "Lord of Seas",
     "featured": [
-      "Deep Sea Visitor"
+      "Lord of Seas"
     ],
     "featuredId": 14119
   },
@@ -37,9 +37,9 @@
     "version": "1.0",
     "start": "2024-07-24 19:00:00",
     "end": "2024-08-13 21:59:59",
-    "name": "Riot Suppressor Mark VI",
+    "name": "Security Patrol",
     "featured": [
-      "Riot Suppressor Mark VI"
+      "Security Patrol"
     ],
     "featuredId": 14124
   },
@@ -59,9 +59,9 @@
     "version": "1.1",
     "start": "2024-08-14 19:00:00",
     "end": "2024-09-04 18:59:59",
-    "name": "Ice-Jade Teapot",
+    "name": "Ringing Melody",
     "featured": [
-      "Ice-Jade Teapot"
+      "Ringing Melody"
     ],
     "featuredId": 14125
   },
@@ -81,9 +81,9 @@
     "version": "1.1",
     "start": "2024-09-04 19:00:00",
     "end": "2024-09-24 21:59:59",
-    "name": "Sharpened Stinger",
+    "name": "Indulge in the Hunt",
     "featured": [
-      "Sharpened Stinger"
+      "Indulge in the Hunt"
     ],
     "featuredId": 14126
   },
@@ -103,9 +103,9 @@
     "version": "1.2",
     "start": "2024-09-25 19:00:00",
     "end": "2024-10-16 18:59:59",
-    "name": "Tusks of Fury",
+    "name": "Invincible Rider",
     "featured": [
-      "Tusks of Fury"
+      "Invincible Rider"
     ],
     "featuredId": 14107
   },
@@ -125,9 +125,9 @@
     "version": "1.2",
     "start": "2024-10-16 19:00:00",
     "end": "2024-11-05 21:59:59",
-    "name": "Flamemaker Shaker",
+    "name": "Fuel on the Rocks",
     "featured": [
-      "Flamemaker Shaker"
+      "Fuel on the Rocks"
     ],
     "featuredId": 14117
   },
@@ -147,9 +147,9 @@
     "version": "1.3",
     "start": "2024-11-06 19:00:00",
     "end": "2024-11-27 18:59:59",
-    "name": "Blazing Laurel",
+    "name": "Flowing Flame",
     "featured": [
-      "Blazing Laurel"
+      "Flowing Flame"
     ],
     "featuredId": 14116
   },
@@ -169,22 +169,11 @@
     "version": "1.3",
     "start": "2024-11-27 19:00:00",
     "end": "2024-12-17 21:59:59",
-    "name": "Timeweaver",
+    "name": "Time-Devouring Stratagem",
     "featured": [
-      "Timeweaver"
+      "Time-Devouring Stratagem"
     ],
     "featuredId": 14122
-  },
-  {
-    "type": "character",
-    "version": "1.4",
-    "start": "2024-12-18 19:00:00",
-    "end": "2025-01-21 21:59:59",
-    "name": "Harumasa",
-    "featured": [
-      "Harumasa"
-    ],
-    "featuredId": 1201
   },
   {
     "type": "character",
@@ -202,20 +191,31 @@
     "version": "1.4",
     "start": "2024-12-18 19:00:00",
     "end": "2025-01-21 21:59:59",
-    "name": "Hailstorm Shrine",
+    "name": "Frost-Stained Star",
     "featured": [
-      "Hailstorm Shrine"
+      "Frost-Stained Star"
     ],
     "featuredId": 14109
+  },
+  {
+    "type": "character",
+    "version": "1.4",
+    "start": "2024-12-18 19:00:00",
+    "end": "2025-01-21 21:59:59",
+    "name": "Harumasa",
+    "featured": [
+      "Harumasa"
+    ],
+    "featuredId": 1201
   },
   {
     "type": "weapon",
     "version": "1.4",
     "start": "2024-12-18 19:00:00",
     "end": "2025-01-21 21:59:59",
-    "name": "Zanshin Herb Case",
+    "name": "Growth Through Adversity",
     "featured": [
-      "Zanshin Herb Case"
+      "Growth Through Adversity"
     ],
     "featuredId": 14120
   },
@@ -246,20 +246,9 @@
     "version": "1.5",
     "start": "2025-01-22 19:00:00",
     "end": "2025-02-12 18:59:59",
-    "name": "Deep Sea Visitor",
+    "name": "Untold Beauty",
     "featured": [
-      "Deep Sea Visitor"
-    ],
-    "featuredId": 14119
-  },
-  {
-    "type": "weapon",
-    "version": "1.5",
-    "start": "2025-01-22 19:00:00",
-    "end": "2025-02-12 18:59:59",
-    "name": "Elegant Vanity",
-    "featured": [
-      "Elegant Vanity"
+      "Untold Beauty"
     ],
     "featuredId": 14131
   },
@@ -290,33 +279,33 @@
     "version": "1.5",
     "start": "2025-02-12 19:00:00",
     "end": "2025-03-11 21:59:59",
-    "name": "Heartstring Nocturne",
+    "name": "String & Melody",
     "featured": [
-      "Heartstring Nocturne"
+      "String & Melody"
     ],
     "featuredId": 14132
   },
   {
     "type": "weapon",
     "version": "1.5",
-    "start": "2025-02-12 19:00:00",
-    "end": "2025-03-11 21:59:59",
-    "name": "Ice-Jade Teapot",
+    "start": "2025-01-22 19:00:00",
+    "end": "2025-02-12 18:59:59",
+    "name": "Lord of Seas",
     "featured": [
-      "Ice-Jade Teapot"
+      "Lord of Seas"
     ],
-    "featuredId": 14125
+    "featuredId": 14119
   },
   {
-    "type": "character",
-    "version": "1.6",
-    "start": "2025-03-12 19:00:00",
-    "end": "2025-04-02 18:59:59",
-    "name": "Burnice",
+    "type": "weapon",
+    "version": "1.5",
+    "start": "2025-02-12 19:00:00",
+    "end": "2025-03-11 21:59:59",
+    "name": "Ringing Melody",
     "featured": [
-      "Burnice"
+      "Ringing Melody"
     ],
-    "featuredId": 1171
+    "featuredId": 14125
   },
   {
     "type": "character",
@@ -330,26 +319,15 @@
     "featuredId": 1381
   },
   {
-    "type": "weapon",
+    "type": "character",
     "version": "1.6",
     "start": "2025-03-12 19:00:00",
     "end": "2025-04-02 18:59:59",
-    "name": "Flamemaker Shaker",
+    "name": "Burnice",
     "featured": [
-      "Flamemaker Shaker"
+      "Burnice"
     ],
-    "featuredId": 14117
-  },
-  {
-    "type": "weapon",
-    "version": "1.6",
-    "start": "2025-03-12 19:00:00",
-    "end": "2025-04-02 18:59:59",
-    "name": "Severed Innocence",
-    "featured": [
-      "Severed Innocence"
-    ],
-    "featuredId": 14138
+    "featuredId": 1171
   },
   {
     "type": "character",
@@ -376,35 +354,46 @@
   {
     "type": "weapon",
     "version": "1.6",
-    "start": "2025-04-02 19:00:00",
-    "end": "2025-04-22 21:59:59",
-    "name": "Riot Suppressor Mark VI",
+    "start": "2025-03-12 19:00:00",
+    "end": "2025-04-02 18:59:59",
+    "name": "Tranquil Blossom",
     "featured": [
-      "Riot Suppressor Mark VI"
+      "Tranquil Blossom"
     ],
-    "featuredId": 14124
+    "featuredId": 14138
+  },
+  {
+    "type": "weapon",
+    "version": "1.6",
+    "start": "2025-03-12 19:00:00",
+    "end": "2025-04-02 18:59:59",
+    "name": "Fuel on the Rocks",
+    "featured": [
+      "Fuel on the Rocks"
+    ],
+    "featuredId": 14117
   },
   {
     "type": "weapon",
     "version": "1.6",
     "start": "2025-04-02 19:00:00",
     "end": "2025-04-22 21:59:59",
-    "name": "Spectral Gaze",
+    "name": "Wind Seeker",
     "featured": [
-      "Spectral Gaze"
+      "Wind Seeker"
     ],
     "featuredId": 14136
   },
   {
-    "type": "character",
-    "version": "1.7",
-    "start": "2025-04-23 19:00:00",
-    "end": "2025-05-14 18:59:59",
-    "name": "Jane Doe",
+    "type": "weapon",
+    "version": "1.6",
+    "start": "2025-04-02 19:00:00",
+    "end": "2025-04-22 21:59:59",
+    "name": "Security Patrol",
     "featured": [
-      "Jane Doe"
+      "Security Patrol"
     ],
-    "featuredId": 1261
+    "featuredId": 14124
   },
   {
     "type": "character",
@@ -418,26 +407,15 @@
     "featuredId": 1331
   },
   {
-    "type": "weapon",
+    "type": "character",
     "version": "1.7",
     "start": "2025-04-23 19:00:00",
     "end": "2025-05-14 18:59:59",
-    "name": "Flight of Fancy",
+    "name": "Jane Doe",
     "featured": [
-      "Flight of Fancy"
+      "Jane Doe"
     ],
-    "featuredId": 14133
-  },
-  {
-    "type": "weapon",
-    "version": "1.7",
-    "start": "2025-04-23 19:00:00",
-    "end": "2025-05-14 18:59:59",
-    "name": "Sharpened Stinger",
-    "featured": [
-      "Sharpened Stinger"
-    ],
-    "featuredId": 14126
+    "featuredId": 1261
   },
   {
     "type": "character",
@@ -464,35 +442,46 @@
   {
     "type": "weapon",
     "version": "1.7",
-    "start": "2025-05-14 19:00:00",
-    "end": "2025-06-05 21:59:59",
-    "name": "Blazing Laurel",
+    "start": "2025-04-23 19:00:00",
+    "end": "2025-05-14 18:59:59",
+    "name": "Silver Spiked Feathers",
     "featured": [
-      "Blazing Laurel"
+      "Silver Spiked Feathers"
     ],
-    "featuredId": 14116
+    "featuredId": 14133
+  },
+  {
+    "type": "weapon",
+    "version": "1.7",
+    "start": "2025-04-23 19:00:00",
+    "end": "2025-05-14 18:59:59",
+    "name": "Indulge in the Hunt",
+    "featured": [
+      "Indulge in the Hunt"
+    ],
+    "featuredId": 14126
   },
   {
     "type": "weapon",
     "version": "1.7",
     "start": "2025-05-14 19:00:00",
     "end": "2025-06-05 21:59:59",
-    "name": "Myriad Eclipse",
+    "name": "False Personas",
     "featured": [
-      "Myriad Eclipse"
+      "False Personas"
     ],
     "featuredId": 14129
   },
   {
-    "type": "character",
-    "version": "2.0",
-    "start": "2025-06-06 19:00:00",
-    "end": "2025-06-25 18:59:59",
-    "name": "Astra Yao",
+    "type": "weapon",
+    "version": "1.7",
+    "start": "2025-05-14 19:00:00",
+    "end": "2025-06-05 21:59:59",
+    "name": "Flowing Flame",
     "featured": [
-      "Astra Yao"
+      "Flowing Flame"
     ],
-    "featuredId": 1311
+    "featuredId": 14116
   },
   {
     "type": "character",
@@ -506,37 +495,26 @@
     "featuredId": 1371
   },
   {
-    "type": "weapon",
-    "version": "2.0",
-    "start": "2025-06-06 19:00:00",
-    "end": "2025-06-25 18:59:59",
-    "name": "Elegant Vanity",
-    "featured": [
-      "Elegant Vanity"
-    ],
-    "featuredId": 14131
-  },
-  {
-    "type": "weapon",
-    "version": "2.0",
-    "start": "2025-06-06 19:00:00",
-    "end": "2025-06-25 18:59:59",
-    "name": "Qingming Birdcage",
-    "featured": [
-      "Qingming Birdcage"
-    ],
-    "featuredId": 14137
-  },
-  {
     "type": "character",
     "version": "2.0",
-    "start": "2025-06-25 19:00:00",
-    "end": "2025-07-15 21:59:59",
-    "name": "Caesar",
+    "start": "2025-06-06 19:00:00",
+    "end": "2025-06-25 18:59:59",
+    "name": "Astra Yao",
     "featured": [
-      "Caesar"
+      "Astra Yao"
     ],
-    "featuredId": 1071
+    "featuredId": 1311
+  },
+  {
+    "type": "weapon",
+    "version": "2.0",
+    "start": "2025-06-06 19:00:00",
+    "end": "2025-06-25 18:59:59",
+    "name": "Cloud Flow",
+    "featured": [
+      "Cloud Flow"
+    ],
+    "featuredId": 14137
   },
   {
     "type": "character",
@@ -550,37 +528,48 @@
     "featuredId": 1391
   },
   {
+    "type": "character",
+    "version": "2.0",
+    "start": "2025-06-25 19:00:00",
+    "end": "2025-07-15 21:59:59",
+    "name": "Caesar",
+    "featured": [
+      "Caesar"
+    ],
+    "featuredId": 1071
+  },
+  {
     "type": "weapon",
     "version": "2.0",
     "start": "2025-06-25 19:00:00",
     "end": "2025-07-15 21:59:59",
-    "name": "Roaring Fur-nace",
+    "name": "Tiger Spirit Rising",
     "featured": [
-      "Roaring Fur-nace"
+      "Tiger Spirit Rising"
     ],
     "featuredId": 14139
   },
   {
     "type": "weapon",
     "version": "2.0",
-    "start": "2025-06-25 19:00:00",
-    "end": "2025-07-15 21:59:59",
-    "name": "Tusks of Fury",
+    "start": "2025-06-06 19:00:00",
+    "end": "2025-06-25 18:59:59",
+    "name": "Untold Beauty",
     "featured": [
-      "Tusks of Fury"
+      "Untold Beauty"
     ],
-    "featuredId": 14107
+    "featuredId": 14131
   },
   {
-    "type": "character",
-    "version": "2.1",
-    "start": "2025-07-16 19:00:00",
-    "end": "2025-08-06 18:59:59",
-    "name": "Miyabi",
+    "type": "weapon",
+    "version": "2.0",
+    "start": "2025-06-25 19:00:00",
+    "end": "2025-07-15 21:59:59",
+    "name": "Invincible Rider",
     "featured": [
-      "Miyabi"
+      "Invincible Rider"
     ],
-    "featuredId": 1091
+    "featuredId": 14107
   },
   {
     "type": "character",
@@ -594,26 +583,15 @@
     "featuredId": 1411
   },
   {
-    "type": "weapon",
+    "type": "character",
     "version": "2.1",
     "start": "2025-07-16 19:00:00",
     "end": "2025-08-06 18:59:59",
-    "name": "Hailstorm Shrine",
+    "name": "Miyabi",
     "featured": [
-      "Hailstorm Shrine"
+      "Miyabi"
     ],
-    "featuredId": 14109
-  },
-  {
-    "type": "weapon",
-    "version": "2.1",
-    "start": "2025-07-16 19:00:00",
-    "end": "2025-08-06 18:59:59",
-    "name": "Metanukimorphosis",
-    "featured": [
-      "Metanukimorphosis"
-    ],
-    "featuredId": 14141
+    "featuredId": 1091
   },
   {
     "type": "character",
@@ -640,11 +618,33 @@
   {
     "type": "weapon",
     "version": "2.1",
+    "start": "2025-07-16 19:00:00",
+    "end": "2025-08-06 18:59:59",
+    "name": "Exquisitely Ingenious",
+    "featured": [
+      "Exquisitely Ingenious"
+    ],
+    "featuredId": 14141
+  },
+  {
+    "type": "weapon",
+    "version": "2.1",
+    "start": "2025-07-16 19:00:00",
+    "end": "2025-08-06 18:59:59",
+    "name": "Frost-Stained Star",
+    "featured": [
+      "Frost-Stained Star"
+    ],
+    "featuredId": 14109
+  },
+  {
+    "type": "weapon",
+    "version": "2.1",
     "start": "2025-08-06 19:00:00",
     "end": "2025-09-03 21:59:59",
-    "name": "Practiced Perfection",
+    "name": "Gift of Stardust",
     "featured": [
-      "Practiced Perfection"
+      "Gift of Stardust"
     ],
     "featuredId": 14140
   },
@@ -653,9 +653,9 @@
     "version": "2.1",
     "start": "2025-08-06 19:00:00",
     "end": "2025-09-03 21:59:59",
-    "name": "Timeweaver",
+    "name": "Time-Devouring Stratagem",
     "featured": [
-      "Timeweaver"
+      "Time-Devouring Stratagem"
     ],
     "featuredId": 14122
   },
@@ -682,26 +682,15 @@
     "featuredId": 1361
   },
   {
-    "type": "weapon",
+    "type": "character",
     "version": "2.2",
-    "start": "2025-09-04 19:00:00",
-    "end": "2025-09-24 18:59:59",
-    "name": "Cordis Germina",
+    "start": "2025-09-24 19:00:00",
+    "end": "2025-10-14 21:59:59",
+    "name": "Orphie & Magus",
     "featured": [
-      "Cordis Germina"
+      "Orphie & Magus"
     ],
-    "featuredId": 14146
-  },
-  {
-    "type": "weapon",
-    "version": "2.2",
-    "start": "2025-09-04 19:00:00",
-    "end": "2025-09-24 18:59:59",
-    "name": "Spectral Gaze",
-    "featured": [
-      "Spectral Gaze"
-    ],
-    "featuredId": 14136
+    "featuredId": 1301
   },
   {
     "type": "character",
@@ -715,24 +704,35 @@
     "featuredId": 1321
   },
   {
-    "type": "character",
+    "type": "weapon",
     "version": "2.2",
-    "start": "2025-09-24 19:00:00",
-    "end": "2025-10-14 21:59:59",
-    "name": "Orphie & Magus",
+    "start": "2025-09-04 19:00:00",
+    "end": "2025-09-24 18:59:59",
+    "name": "Sprouting Core",
     "featured": [
-      "Orphie & Magus"
+      "Sprouting Core"
     ],
-    "featuredId": 1301
+    "featuredId": 14146
+  },
+  {
+    "type": "weapon",
+    "version": "2.2",
+    "start": "2025-09-04 19:00:00",
+    "end": "2025-09-24 18:59:59",
+    "name": "Wind Seeker",
+    "featured": [
+      "Wind Seeker"
+    ],
+    "featuredId": 14136
   },
   {
     "type": "weapon",
     "version": "2.2",
     "start": "2025-09-24 19:00:00",
     "end": "2025-10-14 21:59:59",
-    "name": "Bellicose Blaze",
+    "name": "Flame-Devouring Choir",
     "featured": [
-      "Bellicose Blaze"
+      "Flame-Devouring Choir"
     ],
     "featuredId": 14130
   },
@@ -741,9 +741,9 @@
     "version": "2.2",
     "start": "2025-09-24 19:00:00",
     "end": "2025-10-14 21:59:59",
-    "name": "Heartstring Nocturne",
+    "name": "String & Melody",
     "featured": [
-      "Heartstring Nocturne"
+      "String & Melody"
     ],
     "featuredId": 14132
   },
@@ -770,26 +770,15 @@
     "featuredId": 1331
   },
   {
-    "type": "weapon",
+    "type": "character",
     "version": "2.3",
-    "start": "2025-10-15 19:00:00",
-    "end": "2025-11-05 18:59:59",
-    "name": "Dreamlit Hearth",
+    "start": "2025-11-05 19:00:00",
+    "end": "2025-11-25 21:59:59",
+    "name": "Yidhari",
     "featured": [
-      "Dreamlit Hearth"
+      "Yidhari"
     ],
-    "featuredId": 14145
-  },
-  {
-    "type": "weapon",
-    "version": "2.3",
-    "start": "2025-10-15 19:00:00",
-    "end": "2025-11-05 18:59:59",
-    "name": "Flight of Fancy",
-    "featured": [
-      "Flight of Fancy"
-    ],
-    "featuredId": 14133
+    "featuredId": 1051
   },
   {
     "type": "character",
@@ -803,24 +792,35 @@
     "featuredId": 1391
   },
   {
-    "type": "character",
+    "type": "weapon",
     "version": "2.3",
-    "start": "2025-11-05 19:00:00",
-    "end": "2025-11-25 21:59:59",
-    "name": "Yidhari",
+    "start": "2025-10-15 19:00:00",
+    "end": "2025-11-05 18:59:59",
+    "name": "Moontide Epic",
     "featured": [
-      "Yidhari"
+      "Moontide Epic"
     ],
-    "featuredId": 1051
+    "featuredId": 14145
+  },
+  {
+    "type": "weapon",
+    "version": "2.3",
+    "start": "2025-10-15 19:00:00",
+    "end": "2025-11-05 18:59:59",
+    "name": "Silver Spiked Feathers",
+    "featured": [
+      "Silver Spiked Feathers"
+    ],
+    "featuredId": 14133
   },
   {
     "type": "weapon",
     "version": "2.3",
     "start": "2025-11-05 19:00:00",
     "end": "2025-11-25 21:59:59",
-    "name": "Kraken's Cradle",
+    "name": "Heartfelt Caress",
     "featured": [
-      "Kraken's Cradle"
+      "Heartfelt Caress"
     ],
     "featuredId": 14105
   },
@@ -829,9 +829,9 @@
     "version": "2.3",
     "start": "2025-11-05 19:00:00",
     "end": "2025-11-25 21:59:59",
-    "name": "Roaring Fur-nace",
+    "name": "Tiger Spirit Rising",
     "featured": [
-      "Roaring Fur-nace"
+      "Tiger Spirit Rising"
     ],
     "featuredId": 14139
   },
@@ -858,28 +858,6 @@
     "featuredId": 1291
   },
   {
-    "type": "weapon",
-    "version": "2.4",
-    "start": "2025-11-26 19:00:00",
-    "end": "2025-12-17 18:59:59",
-    "name": "Myriad Eclipse",
-    "featured": [
-      "Myriad Eclipse"
-    ],
-    "featuredId": 14129
-  },
-  {
-    "type": "weapon",
-    "version": "2.4",
-    "start": "2025-11-26 19:00:00",
-    "end": "2025-12-17 18:59:59",
-    "name": "Yesterday Calls",
-    "featured": [
-      "Yesterday Calls"
-    ],
-    "featuredId": 14148
-  },
-  {
     "type": "character",
     "version": "2.4",
     "start": "2025-12-17 19:00:00",
@@ -904,24 +882,46 @@
   {
     "type": "weapon",
     "version": "2.4",
-    "start": "2025-12-17 19:00:00",
-    "end": "2025-12-29 21:59:59",
-    "name": "Deep Sea Visitor",
+    "start": "2025-11-26 19:00:00",
+    "end": "2025-12-17 18:59:59",
+    "name": "24/7",
     "featured": [
-      "Deep Sea Visitor"
+      "24/7"
     ],
-    "featuredId": 14119
+    "featuredId": 14148
+  },
+  {
+    "type": "weapon",
+    "version": "2.4",
+    "start": "2025-11-26 19:00:00",
+    "end": "2025-12-17 18:59:59",
+    "name": "False Personas",
+    "featured": [
+      "False Personas"
+    ],
+    "featuredId": 14129
   },
   {
     "type": "weapon",
     "version": "2.4",
     "start": "2025-12-17 19:00:00",
     "end": "2025-12-29 21:59:59",
-    "name": "Wrathful Vajra",
+    "name": "Purging Karmic Fire",
     "featured": [
-      "Wrathful Vajra"
+      "Purging Karmic Fire"
     ],
     "featuredId": 14147
+  },
+  {
+    "type": "weapon",
+    "version": "2.4",
+    "start": "2025-12-17 19:00:00",
+    "end": "2025-12-29 21:59:59",
+    "name": "Lord of Seas",
+    "featured": [
+      "Lord of Seas"
+    ],
+    "featuredId": 14119
   },
   {
     "type": "character",
@@ -950,22 +950,33 @@
     "version": "2.5",
     "start": "2025-12-30 19:00:00",
     "end": "2026-02-05 21:59:59",
-    "name": "Cloudcleave Radiance",
+    "name": "Fragile Sweetness",
     "featured": [
-      "Cloudcleave Radiance"
+      "Fragile Sweetness"
     ],
-    "featuredId": 14143
+    "featuredId": 14134
   },
   {
     "type": "weapon",
     "version": "2.5",
     "start": "2025-12-30 19:00:00",
     "end": "2026-02-05 21:59:59",
-    "name": "Half-Sugar Bunny",
+    "name": "Jade Soul, Frozen Heart",
     "featured": [
-      "Half-Sugar Bunny"
+      "Jade Soul, Frozen Heart"
     ],
-    "featuredId": 14134
+    "featuredId": 14143
+  },
+  {
+    "type": "character",
+    "version": "2.5",
+    "start": "2026-01-21 19:00:00",
+    "end": "2026-02-05 21:59:59",
+    "name": "Soldier 0 Anby",
+    "featured": [
+      "Soldier 0 Anby"
+    ],
+    "featuredId": 1381
   },
   {
     "type": "character",
@@ -990,35 +1001,24 @@
     "featuredId": 1311
   },
   {
-    "type": "character",
+    "type": "weapon",
     "version": "2.5",
     "start": "2026-01-21 19:00:00",
     "end": "2026-02-05 21:59:59",
-    "name": "Soldier 0 Anby",
+    "name": "Tranquil Blossom",
     "featured": [
-      "Soldier 0 Anby"
+      "Tranquil Blossom"
     ],
-    "featuredId": 1381
+    "featuredId": 14138
   },
   {
     "type": "weapon",
     "version": "2.5",
     "start": "2026-01-21 19:00:00",
     "end": "2026-02-05 21:59:59",
-    "name": "Elegant Vanity",
+    "name": "Gift of Stardust",
     "featured": [
-      "Elegant Vanity"
-    ],
-    "featuredId": 14131
-  },
-  {
-    "type": "weapon",
-    "version": "2.5",
-    "start": "2026-01-21 19:00:00",
-    "end": "2026-02-05 21:59:59",
-    "name": "Practiced Perfection",
-    "featured": [
-      "Practiced Perfection"
+      "Gift of Stardust"
     ],
     "featuredId": 14140
   },
@@ -1027,11 +1027,11 @@
     "version": "2.5",
     "start": "2026-01-21 19:00:00",
     "end": "2026-02-05 21:59:59",
-    "name": "Severed Innocence",
+    "name": "Untold Beauty",
     "featured": [
-      "Severed Innocence"
+      "Untold Beauty"
     ],
-    "featuredId": 14138
+    "featuredId": 14131
   },
   {
     "type": "character",
@@ -1060,20 +1060,9 @@
     "version": "2.6",
     "start": "2026-02-06 19:00:00",
     "end": "2026-03-04 18:59:59",
-    "name": "Qingming Birdcage",
+    "name": "Decibel Monologue",
     "featured": [
-      "Qingming Birdcage"
-    ],
-    "featuredId": 14137
-  },
-  {
-    "type": "weapon",
-    "version": "2.6",
-    "start": "2026-02-06 19:00:00",
-    "end": "2026-03-04 18:59:59",
-    "name": "Thoughtbop",
-    "featured": [
-      "Thoughtbop"
+      "Decibel Monologue"
     ],
     "featuredId": 14149
   },
@@ -1086,7 +1075,7 @@
     "featured": [
       "Aria"
     ],
-    "featuredId": 1502
+    "featuredId": 1501
   },
   {
     "type": "character",
@@ -1104,20 +1093,31 @@
     "version": "2.6",
     "start": "2026-03-04 19:00:00",
     "end": "2026-03-23 21:59:59",
-    "name": "Angel in the Shell",
+    "name": "Energetic Strike",
     "featured": [
-      "Angel in the Shell"
+      "Energetic Strike"
     ],
     "featuredId": 14150
   },
   {
     "type": "weapon",
     "version": "2.6",
+    "start": "2026-02-06 19:00:00",
+    "end": "2026-03-04 18:59:59",
+    "name": "Cloud Flow",
+    "featured": [
+      "Cloud Flow"
+    ],
+    "featuredId": 14137
+  },
+  {
+    "type": "weapon",
+    "version": "2.6",
     "start": "2026-03-04 19:00:00",
     "end": "2026-03-23 21:59:59",
-    "name": "Metanukimorphosis",
+    "name": "Exquisitely Ingenious",
     "featured": [
-      "Metanukimorphosis"
+      "Exquisitely Ingenious"
     ],
     "featuredId": 14141
   },
@@ -1148,20 +1148,9 @@
     "version": "2.7",
     "start": "2026-03-24 19:00:00",
     "end": "2026-04-15 18:59:59",
-    "name": "Kraken's Cradle",
+    "name": "Disco Demon",
     "featured": [
-      "Kraken's Cradle"
-    ],
-    "featuredId": 14105
-  },
-  {
-    "type": "weapon",
-    "version": "2.7",
-    "start": "2026-03-24 19:00:00",
-    "end": "2026-04-15 18:59:59",
-    "name": "Neon Fantasies",
-    "featured": [
-      "Neon Fantasies"
+      "Disco Demon"
     ],
     "featuredId": 14151
   },
@@ -1192,33 +1181,33 @@
     "version": "2.7",
     "start": "2026-04-15 19:00:00",
     "end": "2026-05-05 21:59:59",
-    "name": "Cordis Germina",
+    "name": "Bioengineered Venom",
     "featured": [
-      "Cordis Germina"
+      "Bioengineered Venom"
     ],
-    "featuredId": 14146
+    "featuredId": 14152
+  },
+  {
+    "type": "weapon",
+    "version": "2.7",
+    "start": "2026-03-24 19:00:00",
+    "end": "2026-04-15 18:59:59",
+    "name": "Heartfelt Caress",
+    "featured": [
+      "Heartfelt Caress"
+    ],
+    "featuredId": 14105
   },
   {
     "type": "weapon",
     "version": "2.7",
     "start": "2026-04-15 19:00:00",
     "end": "2026-05-05 21:59:59",
-    "name": "Serpentine Seeker",
+    "name": "Sprouting Core",
     "featured": [
-      "Serpentine Seeker"
+      "Sprouting Core"
     ],
-    "featuredId": 14152
-  },
-  {
-    "type": "character",
-    "version": "2.8",
-    "start": "2026-05-06 19:00:00",
-    "end": "2026-05-27 18:59:59",
-    "name": "Lucia",
-    "featured": [
-      "Lucia"
-    ],
-    "featuredId": 1451
+    "featuredId": 14146
   },
   {
     "type": "character",
@@ -1232,37 +1221,37 @@
     "featuredId": 1541
   },
   {
-    "type": "weapon",
+    "type": "character",
     "version": "2.8",
     "start": "2026-05-06 19:00:00",
     "end": "2026-05-27 18:59:59",
-    "name": "Dreamlit Hearth",
+    "name": "Lucia",
     "featured": [
-      "Dreamlit Hearth"
+      "Lucia"
     ],
-    "featuredId": 14145
+    "featuredId": 1451
   },
   {
     "type": "weapon",
     "version": "2.8",
     "start": "2026-05-06 19:00:00",
     "end": "2026-05-27 18:59:59",
-    "name": "Frostfall Sickle",
+    "name": "Terminating Verdict",
     "featured": [
-      "Frostfall Sickle"
+      "Terminating Verdict"
     ],
     "featuredId": 14154
   },
   {
-    "type": "character",
+    "type": "weapon",
     "version": "2.8",
-    "start": "2026-05-27 19:00:00",
-    "end": "2026-06-16 21:59:59",
-    "name": "Orphie & Magus",
+    "start": "2026-05-06 19:00:00",
+    "end": "2026-05-27 18:59:59",
+    "name": "Moontide Epic",
     "featured": [
-      "Orphie & Magus"
+      "Moontide Epic"
     ],
-    "featuredId": 1301
+    "featuredId": 14145
   },
   {
     "type": "character",
@@ -1276,15 +1265,15 @@
     "featuredId": 1531
   },
   {
-    "type": "weapon",
+    "type": "character",
     "version": "2.8",
     "start": "2026-05-27 19:00:00",
     "end": "2026-06-16 21:59:59",
-    "name": "Flame-Devouring Choir",
+    "name": "Orphie & Magus",
     "featured": [
-      "Flame-Devouring Choir"
+      "Orphie & Magus"
     ],
-    "featuredId": 14130
+    "featuredId": 1301
   },
   {
     "type": "weapon",
@@ -1296,5 +1285,16 @@
       "Knight's Morale"
     ],
     "featuredId": 14153
+  },
+  {
+    "type": "weapon",
+    "version": "2.8",
+    "start": "2026-05-27 19:00:00",
+    "end": "2026-06-16 21:59:59",
+    "name": "Flame-Devouring Choir",
+    "featured": [
+      "Flame-Devouring Choir"
+    ],
+    "featuredId": 14130
   }
 ]
