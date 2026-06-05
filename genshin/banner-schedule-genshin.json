@@ -2,24 +2,38 @@
   {
     "type": "character",
     "version": "1.0",
-    "start": "2020-09-28 00:00:00",
-    "end": "2020-10-18 18:00:00",
+    "start": "2020-09-28 07:00:00",
+    "end": "2020-10-18 00:59:00",
     "name": "Venti",
     "featured": [
       "Venti"
     ],
-    "featuredId": 10000022
+    "featuredId": 10000022,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "1.0",
-    "start": "2020-09-28 00:00:00",
-    "end": "2020-10-18 18:00:00",
+    "start": "2020-09-28 07:00:00",
+    "end": "2020-10-18 00:59:00",
     "name": "Amos' Bow",
     "featured": [
       "Amos' Bow"
     ],
-    "featuredId": 15502
+    "featuredId": 15502,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "1.0",
+    "start": "2020-09-28 07:00:00",
+    "end": "2020-10-18 00:59:00",
+    "name": "Aquila Favonia",
+    "featured": [
+      "Aquila Favonia"
+    ],
+    "featuredId": 11501,
+    "phase": 1
   },
   {
     "type": "character",
@@ -30,7 +44,8 @@
     "featured": [
       "Klee"
     ],
-    "featuredId": 10000029
+    "featuredId": 10000029,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -41,29 +56,56 @@
     "featured": [
       "Lost Prayer to the Sacred Winds"
     ],
-    "featuredId": 14502
+    "featuredId": 14502,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "1.0",
+    "start": "2020-10-20 18:00:00",
+    "end": "2020-11-10 16:00:00",
+    "name": "Wolf's Gravestone",
+    "featured": [
+      "Wolf's Gravestone"
+    ],
+    "featuredId": 12502,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "1.1",
-    "start": "2020-11-11 06:00:00",
-    "end": "2020-12-01 16:00:00",
+    "start": "2020-11-11 07:00:00",
+    "end": "2020-12-01 00:59:00",
     "name": "Tartaglia",
     "featured": [
       "Tartaglia"
     ],
-    "featuredId": 10000033
+    "featuredId": 10000033,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "1.1",
-    "start": "2020-11-11 06:00:00",
-    "end": "2020-12-01 16:00:00",
-    "name": "Skyward Blade",
+    "start": "2020-11-11 07:00:00",
+    "end": "2020-12-01 00:59:00",
+    "name": "Skyward Harp",
     "featured": [
-      "Skyward Blade"
+      "Skyward Harp"
     ],
-    "featuredId": 11502
+    "featuredId": 15501,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "1.1",
+    "start": "2020-11-11 07:00:00",
+    "end": "2020-12-01 00:59:00",
+    "name": "Memory of Dust",
+    "featured": [
+      "Memory of Dust"
+    ],
+    "featuredId": 14504,
+    "phase": 1
   },
   {
     "type": "character",
@@ -74,7 +116,8 @@
     "featured": [
       "Zhongli"
     ],
-    "featuredId": 10000030
+    "featuredId": 10000030,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -85,29 +128,56 @@
     "featured": [
       "Vortex Vanquisher"
     ],
-    "featuredId": 13504
+    "featuredId": 13504,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "1.1",
+    "start": "2020-12-01 18:00:00",
+    "end": "2020-12-22 15:00:00",
+    "name": "The Unforged",
+    "featured": [
+      "The Unforged"
+    ],
+    "featuredId": 12504,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "1.2",
-    "start": "2020-12-23 06:00:00",
-    "end": "2021-01-12 16:00:00",
+    "start": "2020-12-23 07:00:00",
+    "end": "2021-01-12 00:59:00",
     "name": "Albedo",
     "featured": [
       "Albedo"
     ],
-    "featuredId": 10000038
+    "featuredId": 10000038,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "1.2",
-    "start": "2020-12-23 06:00:00",
-    "end": "2021-01-12 16:00:00",
+    "start": "2020-12-23 07:00:00",
+    "end": "2021-01-12 00:59:00",
     "name": "Summit Shaper",
     "featured": [
       "Summit Shaper"
     ],
-    "featuredId": 11504
+    "featuredId": 11504,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "1.2",
+    "start": "2020-12-23 07:00:00",
+    "end": "2021-01-12 00:59:00",
+    "name": "Skyward Atlas",
+    "featured": [
+      "Skyward Atlas"
+    ],
+    "featuredId": 14501,
+    "phase": 1
   },
   {
     "type": "character",
@@ -118,7 +188,8 @@
     "featured": [
       "Ganyu"
     ],
-    "featuredId": 10000037
+    "featuredId": 10000037,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -129,29 +200,56 @@
     "featured": [
       "Amos' Bow"
     ],
-    "featuredId": 15502
+    "featuredId": 15502,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "1.2",
+    "start": "2021-01-12 18:00:00",
+    "end": "2021-02-02 15:00:00",
+    "name": "Skyward Pride",
+    "featured": [
+      "Skyward Pride"
+    ],
+    "featuredId": 12501,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "1.3",
-    "start": "2021-02-03 06:00:00",
-    "end": "2021-02-17 16:00:00",
+    "start": "2021-02-03 07:00:00",
+    "end": "2021-02-17 00:59:00",
     "name": "Xiao",
     "featured": [
       "Xiao"
     ],
-    "featuredId": 10000026
+    "featuredId": 10000026,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "1.3",
-    "start": "2021-02-03 06:00:00",
-    "end": "2021-02-23 16:00:00",
+    "start": "2021-02-03 07:00:00",
+    "end": "2021-02-23 00:59:00",
     "name": "Primordial Jade Cutter",
     "featured": [
       "Primordial Jade Cutter"
     ],
-    "featuredId": 11505
+    "featuredId": 11505,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "1.3",
+    "start": "2021-02-03 07:00:00",
+    "end": "2021-02-23 00:59:00",
+    "name": "Primordial Jade Winged-Spear",
+    "featured": [
+      "Primordial Jade Winged-Spear"
+    ],
+    "featuredId": 13505,
+    "phase": 1
   },
   {
     "type": "character",
@@ -162,7 +260,8 @@
     "featured": [
       "Keqing"
     ],
-    "featuredId": 10000042
+    "featuredId": 10000042,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -173,7 +272,20 @@
     "featured": [
       "Staff of Homa"
     ],
-    "featuredId": 13501
+    "featuredId": 13501,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "1.3",
+    "start": "2021-02-23 18:00:00",
+    "end": "2021-03-16 15:00:00",
+    "name": "Wolf's Gravestone",
+    "featured": [
+      "Wolf's Gravestone"
+    ],
+    "featuredId": 12502,
+    "phase": 2
   },
   {
     "type": "character",
@@ -184,29 +296,44 @@
     "featured": [
       "Hu Tao"
     ],
-    "featuredId": 10000046
+    "featuredId": 10000046,
+    "phase": 3
   },
   {
     "type": "character",
     "version": "1.4",
-    "start": "2021-03-17 06:00:00",
-    "end": "2021-04-06 16:00:00",
+    "start": "2021-03-17 07:00:00",
+    "end": "2021-04-06 00:59:00",
     "name": "Venti",
     "featured": [
       "Venti"
     ],
-    "featuredId": 10000022
+    "featuredId": 10000022,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "1.4",
-    "start": "2021-03-17 06:00:00",
-    "end": "2021-04-06 16:00:00",
+    "start": "2021-03-17 07:00:00",
+    "end": "2021-04-06 00:59:00",
     "name": "Elegy for the End",
     "featured": [
       "Elegy for the End"
     ],
-    "featuredId": 15503
+    "featuredId": 15503,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "1.4",
+    "start": "2021-03-17 07:00:00",
+    "end": "2021-04-06 00:59:00",
+    "name": "Skyward Blade",
+    "featured": [
+      "Skyward Blade"
+    ],
+    "featuredId": 11502,
+    "phase": 1
   },
   {
     "type": "character",
@@ -217,40 +344,68 @@
     "featured": [
       "Tartaglia"
     ],
-    "featuredId": 10000033
+    "featuredId": 10000033,
+    "phase": 2
   },
   {
     "type": "weapon",
     "version": "1.4",
     "start": "2021-04-06 18:00:00",
     "end": "2021-04-27 15:00:00",
-    "name": "Skyward Blade",
+    "name": "Skyward Harp",
     "featured": [
-      "Skyward Blade"
+      "Skyward Harp"
     ],
-    "featuredId": 11502
+    "featuredId": 15501,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "1.4",
+    "start": "2021-04-06 18:00:00",
+    "end": "2021-04-27 15:00:00",
+    "name": "Lost Prayer to the Sacred Winds",
+    "featured": [
+      "Lost Prayer to the Sacred Winds"
+    ],
+    "featuredId": 14502,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "1.5",
-    "start": "2021-04-28 06:00:00",
-    "end": "2021-05-18 17:59:59",
+    "start": "2021-04-28 07:00:00",
+    "end": "2021-05-18 00:59:00",
     "name": "Zhongli",
     "featured": [
       "Zhongli"
     ],
-    "featuredId": 10000030
+    "featuredId": 10000030,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "1.5",
-    "start": "2021-04-28 06:00:00",
-    "end": "2021-05-18 17:59:59",
+    "start": "2021-04-28 07:00:00",
+    "end": "2021-05-18 00:59:00",
     "name": "Summit Shaper",
     "featured": [
       "Summit Shaper"
     ],
-    "featuredId": 11504
+    "featuredId": 11504,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "1.5",
+    "start": "2021-04-28 07:00:00",
+    "end": "2021-05-18 00:59:00",
+    "name": "Memory of Dust",
+    "featured": [
+      "Memory of Dust"
+    ],
+    "featuredId": 14504,
+    "phase": 1
   },
   {
     "type": "character",
@@ -261,7 +416,8 @@
     "featured": [
       "Eula"
     ],
-    "featuredId": 10000051
+    "featuredId": 10000051,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -272,29 +428,56 @@
     "featured": [
       "Song of Broken Pines"
     ],
-    "featuredId": 12503
+    "featuredId": 12503,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "1.5",
+    "start": "2021-05-18 18:00:00",
+    "end": "2021-06-08 15:00:00",
+    "name": "Aquila Favonia",
+    "featured": [
+      "Aquila Favonia"
+    ],
+    "featuredId": 11501,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "1.6",
-    "start": "2021-06-09 06:00:00",
-    "end": "2021-06-29 17:59:59",
+    "start": "2021-06-09 07:00:00",
+    "end": "2021-06-29 00:59:00",
     "name": "Klee",
     "featured": [
       "Klee"
     ],
-    "featuredId": 10000029
+    "featuredId": 10000029,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "1.6",
-    "start": "2021-06-09 06:00:00",
-    "end": "2021-06-29 17:59:59",
+    "start": "2021-06-09 07:00:00",
+    "end": "2021-06-29 00:59:00",
     "name": "Lost Prayer to the Sacred Winds",
     "featured": [
       "Lost Prayer to the Sacred Winds"
     ],
-    "featuredId": 14502
+    "featuredId": 14502,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "1.6",
+    "start": "2021-06-09 07:00:00",
+    "end": "2021-06-29 00:59:00",
+    "name": "Skyward Pride",
+    "featured": [
+      "Skyward Pride"
+    ],
+    "featuredId": 12501,
+    "phase": 1
   },
   {
     "type": "character",
@@ -305,7 +488,8 @@
     "featured": [
       "Kazuha"
     ],
-    "featuredId": 10000047
+    "featuredId": 10000047,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -316,29 +500,56 @@
     "featured": [
       "Freedom-Sworn"
     ],
-    "featuredId": 11503
+    "featuredId": 11503,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "1.6",
+    "start": "2021-06-29 18:00:00",
+    "end": "2021-07-20 14:59:59",
+    "name": "Skyward Atlas",
+    "featured": [
+      "Skyward Atlas"
+    ],
+    "featuredId": 14501,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "2.0",
-    "start": "2021-07-21 06:00:00",
-    "end": "2021-08-10 17:59:59",
+    "start": "2021-07-21 07:00:00",
+    "end": "2021-08-10 00:59:00",
     "name": "Ayaka",
     "featured": [
       "Ayaka"
     ],
-    "featuredId": 10000002
+    "featuredId": 10000002,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "2.0",
-    "start": "2021-07-21 06:00:00",
-    "end": "2021-08-10 17:59:59",
+    "start": "2021-07-21 07:00:00",
+    "end": "2021-08-10 00:59:00",
     "name": "Mistsplitter Reforged",
     "featured": [
       "Mistsplitter Reforged"
     ],
-    "featuredId": 11509
+    "featuredId": 11509,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "2.0",
+    "start": "2021-07-21 07:00:00",
+    "end": "2021-08-10 00:59:00",
+    "name": "Skyward Spine",
+    "featured": [
+      "Skyward Spine"
+    ],
+    "featuredId": 13502,
+    "phase": 1
   },
   {
     "type": "character",
@@ -349,7 +560,8 @@
     "featured": [
       "Yoimiya"
     ],
-    "featuredId": 10000049
+    "featuredId": 10000049,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -360,29 +572,56 @@
     "featured": [
       "Thundering Pulse"
     ],
-    "featuredId": 15509
+    "featuredId": 15509,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "2.0",
+    "start": "2021-08-10 18:00:00",
+    "end": "2021-08-31 14:59:59",
+    "name": "Skyward Blade",
+    "featured": [
+      "Skyward Blade"
+    ],
+    "featuredId": 11502,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "2.1",
-    "start": "2021-09-01 06:00:00",
-    "end": "2021-09-21 17:59:59",
+    "start": "2021-09-01 07:00:00",
+    "end": "2021-09-21 00:59:00",
     "name": "Raiden",
     "featured": [
       "Raiden"
     ],
-    "featuredId": 10000052
+    "featuredId": 10000052,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "2.1",
-    "start": "2021-09-01 06:00:00",
-    "end": "2021-09-21 17:59:59",
+    "start": "2021-09-01 07:00:00",
+    "end": "2021-09-21 00:59:00",
     "name": "Engulfing Lightning",
     "featured": [
       "Engulfing Lightning"
     ],
-    "featuredId": 13509
+    "featuredId": 13509,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "2.1",
+    "start": "2021-09-01 07:00:00",
+    "end": "2021-09-21 00:59:00",
+    "name": "The Unforged",
+    "featured": [
+      "The Unforged"
+    ],
+    "featuredId": 12504,
+    "phase": 1
   },
   {
     "type": "character",
@@ -393,7 +632,8 @@
     "featured": [
       "Kokomi"
     ],
-    "featuredId": 10000054
+    "featuredId": 10000054,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -404,29 +644,56 @@
     "featured": [
       "Everlasting Moonglow"
     ],
-    "featuredId": 14506
+    "featuredId": 14506,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "2.1",
+    "start": "2021-09-21 18:00:00",
+    "end": "2021-10-12 14:59:59",
+    "name": "Primordial Jade Cutter",
+    "featured": [
+      "Primordial Jade Cutter"
+    ],
+    "featuredId": 11505,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "2.2",
-    "start": "2021-10-13 06:00:00",
-    "end": "2021-11-02 17:59:59",
+    "start": "2021-10-13 07:00:00",
+    "end": "2021-11-02 00:59:00",
     "name": "Tartaglia",
     "featured": [
       "Tartaglia"
     ],
-    "featuredId": 10000033
+    "featuredId": 10000033,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "2.2",
-    "start": "2021-10-13 06:00:00",
-    "end": "2021-11-02 17:59:59",
+    "start": "2021-10-13 07:00:00",
+    "end": "2021-11-02 00:59:00",
     "name": "Polar Star",
     "featured": [
       "Polar Star"
     ],
-    "featuredId": 15507
+    "featuredId": 15507,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "2.2",
+    "start": "2021-10-13 07:00:00",
+    "end": "2021-11-02 00:59:00",
+    "name": "Memory of Dust",
+    "featured": [
+      "Memory of Dust"
+    ],
+    "featuredId": 14504,
+    "phase": 1
   },
   {
     "type": "character",
@@ -437,7 +704,8 @@
     "featured": [
       "Hu Tao"
     ],
-    "featuredId": 10000046
+    "featuredId": 10000046,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -448,40 +716,68 @@
     "featured": [
       "Staff of Homa"
     ],
-    "featuredId": 13501
+    "featuredId": 13501,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "2.2",
+    "start": "2021-11-02 18:00:00",
+    "end": "2021-11-23 14:59:59",
+    "name": "Elegy for the End",
+    "featured": [
+      "Elegy for the End"
+    ],
+    "featuredId": 15503,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "2.3",
-    "start": "2021-11-24 06:00:00",
-    "end": "2021-12-14 17:59:59",
+    "start": "2021-11-24 07:00:00",
+    "end": "2021-12-14 00:59:00",
     "name": "Albedo",
     "featured": [
       "Albedo"
     ],
-    "featuredId": 10000038
+    "featuredId": 10000038,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "2.3",
-    "start": "2021-11-24 06:00:00",
-    "end": "2021-12-14 17:59:59",
+    "start": "2021-11-24 07:00:00",
+    "end": "2021-12-14 00:59:00",
     "name": "Eula",
     "featured": [
       "Eula"
     ],
-    "featuredId": 10000051
+    "featuredId": 10000051,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "2.3",
-    "start": "2021-11-24 06:00:00",
-    "end": "2021-12-14 17:59:59",
+    "start": "2021-11-24 07:00:00",
+    "end": "2021-12-14 00:59:00",
     "name": "Freedom-Sworn",
     "featured": [
       "Freedom-Sworn"
     ],
-    "featuredId": 11503
+    "featuredId": 11503,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "2.3",
+    "start": "2021-11-24 07:00:00",
+    "end": "2021-12-14 00:59:00",
+    "name": "Song of Broken Pines",
+    "featured": [
+      "Song of Broken Pines"
+    ],
+    "featuredId": 12503,
+    "phase": 1
   },
   {
     "type": "character",
@@ -492,7 +788,8 @@
     "featured": [
       "Itto"
     ],
-    "featuredId": 10000057
+    "featuredId": 10000057,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -503,40 +800,68 @@
     "featured": [
       "Redhorn Stonethresher"
     ],
-    "featuredId": 12510
+    "featuredId": 12510,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "2.3",
+    "start": "2021-12-14 18:00:00",
+    "end": "2022-01-04 17:59:59",
+    "name": "Skyward Harp",
+    "featured": [
+      "Skyward Harp"
+    ],
+    "featuredId": 15501,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "2.4",
-    "start": "2022-01-05 06:00:00",
-    "end": "2022-01-25 17:59:59",
+    "start": "2022-01-05 07:00:00",
+    "end": "2022-01-25 00:59:00",
     "name": "Shenhe",
     "featured": [
       "Shenhe"
     ],
-    "featuredId": 10000063
+    "featuredId": 10000063,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "2.4",
-    "start": "2022-01-05 06:00:00",
-    "end": "2022-01-25 17:59:59",
+    "start": "2022-01-05 07:00:00",
+    "end": "2022-01-25 00:59:00",
     "name": "Xiao",
     "featured": [
       "Xiao"
     ],
-    "featuredId": 10000026
+    "featuredId": 10000026,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "2.4",
-    "start": "2022-01-05 06:00:00",
-    "end": "2022-01-25 17:59:59",
+    "start": "2022-01-05 07:00:00",
+    "end": "2022-01-25 00:59:00",
     "name": "Calamity Queller",
     "featured": [
       "Calamity Queller"
     ],
-    "featuredId": 13507
+    "featuredId": 13507,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "2.4",
+    "start": "2022-01-05 07:00:00",
+    "end": "2022-01-25 00:59:00",
+    "name": "Primordial Jade Winged-Spear",
+    "featured": [
+      "Primordial Jade Winged-Spear"
+    ],
+    "featuredId": 13505,
+    "phase": 1
   },
   {
     "type": "character",
@@ -547,7 +872,8 @@
     "featured": [
       "Ganyu"
     ],
-    "featuredId": 10000037
+    "featuredId": 10000037,
+    "phase": 2
   },
   {
     "type": "character",
@@ -558,7 +884,8 @@
     "featured": [
       "Zhongli"
     ],
-    "featuredId": 10000030
+    "featuredId": 10000030,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -569,29 +896,56 @@
     "featured": [
       "Amos' Bow"
     ],
-    "featuredId": 15502
+    "featuredId": 15502,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "2.4",
+    "start": "2022-01-25 18:00:00",
+    "end": "2022-02-15 14:59:59",
+    "name": "Vortex Vanquisher",
+    "featured": [
+      "Vortex Vanquisher"
+    ],
+    "featuredId": 13504,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "2.5",
-    "start": "2022-02-16 06:00:00",
-    "end": "2022-03-08 17:59:59",
+    "start": "2022-02-16 07:00:00",
+    "end": "2022-03-08 00:59:00",
     "name": "Yae",
     "featured": [
       "Yae"
     ],
-    "featuredId": 10000058
+    "featuredId": 10000058,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "2.5",
-    "start": "2022-02-16 06:00:00",
-    "end": "2022-03-08 17:59:59",
+    "start": "2022-02-16 07:00:00",
+    "end": "2022-03-08 00:59:00",
     "name": "Kagura's Verity",
     "featured": [
       "Kagura's Verity"
     ],
-    "featuredId": 14509
+    "featuredId": 14509,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "2.5",
+    "start": "2022-02-16 07:00:00",
+    "end": "2022-03-08 00:59:00",
+    "name": "Primordial Jade Cutter",
+    "featured": [
+      "Primordial Jade Cutter"
+    ],
+    "featuredId": 11505,
+    "phase": 1
   },
   {
     "type": "character",
@@ -602,7 +956,8 @@
     "featured": [
       "Kokomi"
     ],
-    "featuredId": 10000054
+    "featuredId": 10000054,
+    "phase": 2
   },
   {
     "type": "character",
@@ -613,7 +968,8 @@
     "featured": [
       "Raiden"
     ],
-    "featuredId": 10000052
+    "featuredId": 10000052,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -624,40 +980,68 @@
     "featured": [
       "Engulfing Lightning"
     ],
-    "featuredId": 13509
+    "featuredId": 13509,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "2.5",
+    "start": "2022-03-08 18:00:00",
+    "end": "2022-03-29 14:59:59",
+    "name": "Everlasting Moonglow",
+    "featured": [
+      "Everlasting Moonglow"
+    ],
+    "featuredId": 14506,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "2.6",
-    "start": "2022-03-30 06:00:00",
-    "end": "2022-04-19 17:59:59",
+    "start": "2022-03-30 07:00:00",
+    "end": "2022-04-19 00:59:00",
     "name": "Ayato",
     "featured": [
       "Ayato"
     ],
-    "featuredId": 10000066
+    "featuredId": 10000066,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "2.6",
-    "start": "2022-03-30 06:00:00",
-    "end": "2022-04-19 17:59:59",
+    "start": "2022-03-30 07:00:00",
+    "end": "2022-04-19 00:59:00",
     "name": "Venti",
     "featured": [
       "Venti"
     ],
-    "featuredId": 10000022
+    "featuredId": 10000022,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "2.6",
-    "start": "2022-03-30 06:00:00",
-    "end": "2022-04-19 17:59:59",
+    "start": "2022-03-30 07:00:00",
+    "end": "2022-04-19 00:59:00",
     "name": "Haran Geppaku Futsu",
     "featured": [
       "Haran Geppaku Futsu"
     ],
-    "featuredId": 11510
+    "featuredId": 11510,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "2.6",
+    "start": "2022-03-30 07:00:00",
+    "end": "2022-04-19 00:59:00",
+    "name": "Elegy for the End",
+    "featured": [
+      "Elegy for the End"
+    ],
+    "featuredId": 15503,
+    "phase": 1
   },
   {
     "type": "character",
@@ -668,7 +1052,8 @@
     "featured": [
       "Ayaka"
     ],
-    "featuredId": 10000002
+    "featuredId": 10000002,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -679,40 +1064,68 @@
     "featured": [
       "Mistsplitter Reforged"
     ],
-    "featuredId": 11509
+    "featuredId": 11509,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "2.6",
+    "start": "2022-04-19 18:00:00",
+    "end": "2022-05-31 05:59:59",
+    "name": "The Unforged",
+    "featured": [
+      "The Unforged"
+    ],
+    "featuredId": 12504,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "2.7",
-    "start": "2022-05-31 09:00:00",
-    "end": "2022-06-21 17:59:59",
+    "start": "2022-05-31 07:00:00",
+    "end": "2022-06-21 00:59:00",
     "name": "Xiao",
     "featured": [
       "Xiao"
     ],
-    "featuredId": 10000026
+    "featuredId": 10000026,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "2.7",
-    "start": "2022-05-31 09:00:00",
-    "end": "2022-06-21 17:59:59",
+    "start": "2022-05-31 07:00:00",
+    "end": "2022-06-21 00:59:00",
     "name": "Yelan",
     "featured": [
       "Yelan"
     ],
-    "featuredId": 10000060
+    "featuredId": 10000060,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "2.7",
-    "start": "2022-05-31 09:00:00",
-    "end": "2022-06-21 17:59:59",
+    "start": "2022-05-31 07:00:00",
+    "end": "2022-06-21 00:59:00",
     "name": "Aqua Simulacra",
     "featured": [
       "Aqua Simulacra"
     ],
-    "featuredId": 15508
+    "featuredId": 15508,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "2.7",
+    "start": "2022-05-31 07:00:00",
+    "end": "2022-06-21 00:59:00",
+    "name": "Primordial Jade Winged-Spear",
+    "featured": [
+      "Primordial Jade Winged-Spear"
+    ],
+    "featuredId": 13505,
+    "phase": 1
   },
   {
     "type": "character",
@@ -723,7 +1136,8 @@
     "featured": [
       "Itto"
     ],
-    "featuredId": 10000057
+    "featuredId": 10000057,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -734,40 +1148,68 @@
     "featured": [
       "Redhorn Stonethresher"
     ],
-    "featuredId": 12510
+    "featuredId": 12510,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "2.7",
+    "start": "2022-06-21 18:00:00",
+    "end": "2022-07-12 14:59:59",
+    "name": "Memory of Dust",
+    "featured": [
+      "Memory of Dust"
+    ],
+    "featuredId": 14504,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "2.8",
-    "start": "2022-07-13 06:00:00",
-    "end": "2022-08-02 17:59:59",
+    "start": "2022-07-13 07:00:00",
+    "end": "2022-08-02 00:59:00",
     "name": "Kazuha",
     "featured": [
       "Kazuha"
     ],
-    "featuredId": 10000047
+    "featuredId": 10000047,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "2.8",
-    "start": "2022-07-13 06:00:00",
-    "end": "2022-08-02 17:59:59",
+    "start": "2022-07-13 07:00:00",
+    "end": "2022-08-02 00:59:00",
     "name": "Klee",
     "featured": [
       "Klee"
     ],
-    "featuredId": 10000029
+    "featuredId": 10000029,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "2.8",
-    "start": "2022-07-13 06:00:00",
-    "end": "2022-08-02 17:59:59",
+    "start": "2022-07-13 07:00:00",
+    "end": "2022-08-02 00:59:00",
     "name": "Freedom-Sworn",
     "featured": [
       "Freedom-Sworn"
     ],
-    "featuredId": 11503
+    "featuredId": 11503,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "2.8",
+    "start": "2022-07-13 07:00:00",
+    "end": "2022-08-02 00:59:00",
+    "name": "Lost Prayer to the Sacred Winds",
+    "featured": [
+      "Lost Prayer to the Sacred Winds"
+    ],
+    "featuredId": 14502,
+    "phase": 1
   },
   {
     "type": "character",
@@ -778,7 +1220,8 @@
     "featured": [
       "Yoimiya"
     ],
-    "featuredId": 10000049
+    "featuredId": 10000049,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -789,40 +1232,68 @@
     "featured": [
       "Thundering Pulse"
     ],
-    "featuredId": 15509
+    "featuredId": 15509,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "2.8",
+    "start": "2022-08-02 18:00:00",
+    "end": "2022-08-23 14:59:59",
+    "name": "Summit Shaper",
+    "featured": [
+      "Summit Shaper"
+    ],
+    "featuredId": 11504,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "3.0",
-    "start": "2022-08-24 06:00:00",
-    "end": "2022-09-09 17:59:59",
+    "start": "2022-08-24 07:00:00",
+    "end": "2022-09-09 00:59:00",
     "name": "Tighnari",
     "featured": [
       "Tighnari"
     ],
-    "featuredId": 10000069
+    "featuredId": 10000069,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "3.0",
-    "start": "2022-08-24 06:00:00",
-    "end": "2022-09-09 17:59:59",
+    "start": "2022-08-24 07:00:00",
+    "end": "2022-09-09 00:59:00",
     "name": "Zhongli",
     "featured": [
       "Zhongli"
     ],
-    "featuredId": 10000030
+    "featuredId": 10000030,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "3.0",
-    "start": "2022-08-24 06:00:00",
-    "end": "2022-09-09 17:59:59",
+    "start": "2022-08-24 07:00:00",
+    "end": "2022-09-09 00:59:00",
     "name": "Hunter's Path",
     "featured": [
       "Hunter's Path"
     ],
-    "featuredId": 15511
+    "featuredId": 15511,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "3.0",
+    "start": "2022-08-24 07:00:00",
+    "end": "2022-09-09 00:59:00",
+    "name": "Vortex Vanquisher",
+    "featured": [
+      "Vortex Vanquisher"
+    ],
+    "featuredId": 13504,
+    "phase": 1
   },
   {
     "type": "character",
@@ -833,7 +1304,8 @@
     "featured": [
       "Ganyu"
     ],
-    "featuredId": 10000037
+    "featuredId": 10000037,
+    "phase": 2
   },
   {
     "type": "character",
@@ -844,7 +1316,8 @@
     "featured": [
       "Kokomi"
     ],
-    "featuredId": 10000054
+    "featuredId": 10000054,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -855,40 +1328,68 @@
     "featured": [
       "Amos' Bow"
     ],
-    "featuredId": 15502
+    "featuredId": 15502,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "3.0",
+    "start": "2022-09-09 18:00:00",
+    "end": "2022-09-27 14:59:59",
+    "name": "Everlasting Moonglow",
+    "featured": [
+      "Everlasting Moonglow"
+    ],
+    "featuredId": 14506,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "3.1",
-    "start": "2022-09-28 06:00:00",
-    "end": "2022-10-14 17:59:59",
+    "start": "2022-09-28 07:00:00",
+    "end": "2022-10-14 00:59:00",
     "name": "Cyno",
     "featured": [
       "Cyno"
     ],
-    "featuredId": 10000071
+    "featuredId": 10000071,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "3.1",
-    "start": "2022-09-28 06:00:00",
-    "end": "2022-10-14 17:59:59",
+    "start": "2022-09-28 07:00:00",
+    "end": "2022-10-14 00:59:00",
     "name": "Venti",
     "featured": [
       "Venti"
     ],
-    "featuredId": 10000022
+    "featuredId": 10000022,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "3.1",
-    "start": "2022-09-28 06:00:00",
-    "end": "2022-10-14 17:59:59",
+    "start": "2022-09-28 07:00:00",
+    "end": "2022-10-14 00:59:00",
     "name": "Staff of the Scarlet Sands",
     "featured": [
       "Staff of the Scarlet Sands"
     ],
-    "featuredId": 13511
+    "featuredId": 13511,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "3.1",
+    "start": "2022-09-28 07:00:00",
+    "end": "2022-10-14 00:59:00",
+    "name": "Elegy for the End",
+    "featured": [
+      "Elegy for the End"
+    ],
+    "featuredId": 15503,
+    "phase": 1
   },
   {
     "type": "character",
@@ -899,7 +1400,8 @@
     "featured": [
       "Albedo"
     ],
-    "featuredId": 10000038
+    "featuredId": 10000038,
+    "phase": 2
   },
   {
     "type": "character",
@@ -910,7 +1412,8 @@
     "featured": [
       "Nilou"
     ],
-    "featuredId": 10000070
+    "featuredId": 10000070,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -921,40 +1424,68 @@
     "featured": [
       "Key of Khaj-Nisut"
     ],
-    "featuredId": 11511
+    "featuredId": 11511,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "3.1",
+    "start": "2022-10-14 18:00:00",
+    "end": "2022-11-01 14:59:59",
+    "name": "Primordial Jade Cutter",
+    "featured": [
+      "Primordial Jade Cutter"
+    ],
+    "featuredId": 11505,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "3.2",
-    "start": "2022-11-02 06:00:00",
-    "end": "2022-11-18 17:59:59",
+    "start": "2022-11-02 07:00:00",
+    "end": "2022-11-18 00:59:00",
     "name": "Nahida",
     "featured": [
       "Nahida"
     ],
-    "featuredId": 10000073
+    "featuredId": 10000073,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "3.2",
-    "start": "2022-11-02 06:00:00",
-    "end": "2022-11-18 17:59:59",
+    "start": "2022-11-02 07:00:00",
+    "end": "2022-11-18 00:59:00",
     "name": "Yoimiya",
     "featured": [
       "Yoimiya"
     ],
-    "featuredId": 10000049
+    "featuredId": 10000049,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "3.2",
-    "start": "2022-11-02 06:00:00",
-    "end": "2022-11-18 17:59:59",
+    "start": "2022-11-02 07:00:00",
+    "end": "2022-11-18 00:59:00",
     "name": "A Thousand Floating Dreams",
     "featured": [
       "A Thousand Floating Dreams"
     ],
-    "featuredId": 14511
+    "featuredId": 14511,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "3.2",
+    "start": "2022-11-02 07:00:00",
+    "end": "2022-11-18 00:59:00",
+    "name": "Thundering Pulse",
+    "featured": [
+      "Thundering Pulse"
+    ],
+    "featuredId": 15509,
+    "phase": 1
   },
   {
     "type": "character",
@@ -965,7 +1496,8 @@
     "featured": [
       "Tartaglia"
     ],
-    "featuredId": 10000033
+    "featuredId": 10000033,
+    "phase": 2
   },
   {
     "type": "character",
@@ -976,7 +1508,8 @@
     "featured": [
       "Yae Miko"
     ],
-    "featuredId": 10000058
+    "featuredId": 10000058,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -987,40 +1520,68 @@
     "featured": [
       "Kagura's Verity"
     ],
-    "featuredId": 14509
+    "featuredId": 14509,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "3.2",
+    "start": "2022-11-18 18:00:00",
+    "end": "2022-12-06 14:59:59",
+    "name": "Polar Star",
+    "featured": [
+      "Polar Star"
+    ],
+    "featuredId": 15507,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "3.3",
-    "start": "2022-12-07 06:00:00",
-    "end": "2022-12-27 17:59:59",
+    "start": "2022-12-07 07:00:00",
+    "end": "2022-12-27 00:59:00",
     "name": "Itto",
     "featured": [
       "Itto"
     ],
-    "featuredId": 10000057
+    "featuredId": 10000057,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "3.3",
-    "start": "2022-12-07 06:00:00",
-    "end": "2022-12-27 17:59:59",
+    "start": "2022-12-07 07:00:00",
+    "end": "2022-12-27 00:59:00",
     "name": "Wanderer",
     "featured": [
       "Wanderer"
     ],
-    "featuredId": 10000075
+    "featuredId": 10000075,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "3.3",
-    "start": "2022-12-07 06:00:00",
-    "end": "2022-12-27 17:59:59",
+    "start": "2022-12-07 07:00:00",
+    "end": "2022-12-27 00:59:00",
     "name": "Tulaytullah's Remembrance",
     "featured": [
       "Tulaytullah's Remembrance"
     ],
-    "featuredId": 14512
+    "featuredId": 14512,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "3.3",
+    "start": "2022-12-07 07:00:00",
+    "end": "2022-12-27 00:59:00",
+    "name": "Redhorn Stonethresher",
+    "featured": [
+      "Redhorn Stonethresher"
+    ],
+    "featuredId": 12510,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1031,7 +1592,8 @@
     "featured": [
       "Ayato"
     ],
-    "featuredId": 10000066
+    "featuredId": 10000066,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1042,7 +1604,8 @@
     "featured": [
       "Raiden"
     ],
-    "featuredId": 10000052
+    "featuredId": 10000052,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1053,40 +1616,68 @@
     "featured": [
       "Engulfing Lightning"
     ],
-    "featuredId": 13509
+    "featuredId": 13509,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "3.3",
+    "start": "2022-12-27 18:00:00",
+    "end": "2023-01-17 14:59:59",
+    "name": "Haran Geppaku Futsu",
+    "featured": [
+      "Haran Geppaku Futsu"
+    ],
+    "featuredId": 11510,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "3.4",
-    "start": "2023-01-18 06:00:00",
-    "end": "2023-02-07 17:59:59",
+    "start": "2023-01-18 07:00:00",
+    "end": "2023-02-07 00:59:00",
     "name": "Alhaitham",
     "featured": [
       "Alhaitham"
     ],
-    "featuredId": 10000078
+    "featuredId": 10000078,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "3.4",
-    "start": "2023-01-18 06:00:00",
-    "end": "2023-02-07 17:59:59",
+    "start": "2023-01-18 07:00:00",
+    "end": "2023-02-07 00:59:00",
     "name": "Xiao",
     "featured": [
       "Xiao"
     ],
-    "featuredId": 10000026
+    "featuredId": 10000026,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "3.4",
-    "start": "2023-01-18 06:00:00",
-    "end": "2023-02-07 17:59:59",
+    "start": "2023-01-18 07:00:00",
+    "end": "2023-02-07 00:59:00",
     "name": "Light of Foliar Incision",
     "featured": [
       "Light of Foliar Incision"
     ],
-    "featuredId": 11512
+    "featuredId": 11512,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "3.4",
+    "start": "2023-01-18 07:00:00",
+    "end": "2023-02-07 00:59:00",
+    "name": "Primordial Jade Winged-Spear",
+    "featured": [
+      "Primordial Jade Winged-Spear"
+    ],
+    "featuredId": 13505,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1097,7 +1688,8 @@
     "featured": [
       "Hu Tao"
     ],
-    "featuredId": 10000046
+    "featuredId": 10000046,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1108,7 +1700,8 @@
     "featured": [
       "Yelan"
     ],
-    "featuredId": 10000060
+    "featuredId": 10000060,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1119,40 +1712,68 @@
     "featured": [
       "Staff of Homa"
     ],
-    "featuredId": 13501
+    "featuredId": 13501,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "3.4",
+    "start": "2023-02-07 18:00:00",
+    "end": "2023-02-28 14:59:59",
+    "name": "Aqua Simulacra",
+    "featured": [
+      "Aqua Simulacra"
+    ],
+    "featuredId": 15508,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "3.5",
-    "start": "2023-03-01 06:00:00",
-    "end": "2023-03-21 17:59:59",
+    "start": "2023-03-01 07:00:00",
+    "end": "2023-03-21 00:59:00",
     "name": "Cyno",
     "featured": [
       "Cyno"
     ],
-    "featuredId": 10000071
+    "featuredId": 10000071,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "3.5",
-    "start": "2023-03-01 06:00:00",
-    "end": "2023-03-21 17:59:59",
+    "start": "2023-03-01 07:00:00",
+    "end": "2023-03-21 00:59:00",
     "name": "Dehya",
     "featured": [
       "Dehya"
     ],
-    "featuredId": 10000079
+    "featuredId": 10000079,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "3.5",
-    "start": "2023-03-01 06:00:00",
-    "end": "2023-03-21 17:59:59",
-    "name": "Light of Foliar Incision",
+    "start": "2023-03-01 07:00:00",
+    "end": "2023-03-21 00:59:00",
+    "name": "Beacon of the Reed Sea",
     "featured": [
-      "Light of Foliar Incision"
+      "Beacon of the Reed Sea"
     ],
-    "featuredId": 11512
+    "featuredId": 12511,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "3.5",
+    "start": "2023-03-01 07:00:00",
+    "end": "2023-03-21 00:59:00",
+    "name": "Staff of the Scarlet Sands",
+    "featured": [
+      "Staff of the Scarlet Sands"
+    ],
+    "featuredId": 13511,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1163,7 +1784,8 @@
     "featured": [
       "Ayaka"
     ],
-    "featuredId": 10000002
+    "featuredId": 10000002,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1174,51 +1796,80 @@
     "featured": [
       "Shenhe"
     ],
-    "featuredId": 10000063
+    "featuredId": 10000063,
+    "phase": 2
   },
   {
     "type": "weapon",
     "version": "3.5",
     "start": "2023-03-21 18:00:00",
     "end": "2023-04-11 14:59:59",
-    "name": "Light of Foliar Incision",
+    "name": "Calamity Queller",
     "featured": [
-      "Light of Foliar Incision"
+      "Calamity Queller"
     ],
-    "featuredId": 11512
+    "featuredId": 13507,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "3.5",
+    "start": "2023-03-21 18:00:00",
+    "end": "2023-04-11 14:59:59",
+    "name": "Mistsplitter Reforged",
+    "featured": [
+      "Mistsplitter Reforged"
+    ],
+    "featuredId": 11509,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "3.6",
-    "start": "2023-04-12 06:00:00",
-    "end": "2023-05-02 17:59:59",
+    "start": "2023-04-12 07:00:00",
+    "end": "2023-05-02 00:59:00",
     "name": "Nahida",
     "featured": [
       "Nahida"
     ],
-    "featuredId": 10000073
+    "featuredId": 10000073,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "3.6",
-    "start": "2023-04-12 06:00:00",
-    "end": "2023-05-02 17:59:59",
+    "start": "2023-04-12 07:00:00",
+    "end": "2023-05-02 00:59:00",
     "name": "Nilou",
     "featured": [
       "Nilou"
     ],
-    "featuredId": 10000070
+    "featuredId": 10000070,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "3.6",
-    "start": "2023-04-12 06:00:00",
-    "end": "2023-05-02 17:59:59",
+    "start": "2023-04-12 07:00:00",
+    "end": "2023-05-02 00:59:00",
     "name": "A Thousand Floating Dreams",
     "featured": [
       "A Thousand Floating Dreams"
     ],
-    "featuredId": 14511
+    "featuredId": 14511,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "3.6",
+    "start": "2023-04-12 07:00:00",
+    "end": "2023-05-02 00:59:00",
+    "name": "Key of Khaj-Nisut",
+    "featured": [
+      "Key of Khaj-Nisut"
+    ],
+    "featuredId": 11511,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1229,7 +1880,8 @@
     "featured": [
       "Baizhu"
     ],
-    "featuredId": 10000082
+    "featuredId": 10000082,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1240,7 +1892,8 @@
     "featured": [
       "Ganyu"
     ],
-    "featuredId": 10000037
+    "featuredId": 10000037,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1251,40 +1904,68 @@
     "featured": [
       "Jadefall's Splendor"
     ],
-    "featuredId": 14505
+    "featuredId": 14505,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "3.6",
+    "start": "2023-05-02 18:00:00",
+    "end": "2023-05-23 14:59:59",
+    "name": "Amos' Bow",
+    "featured": [
+      "Amos' Bow"
+    ],
+    "featuredId": 15502,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "3.7",
-    "start": "2023-05-24 06:00:00",
-    "end": "2023-06-13 17:59:59",
+    "start": "2023-05-24 07:00:00",
+    "end": "2023-06-13 00:59:00",
     "name": "Yae Miko",
     "featured": [
       "Yae Miko"
     ],
-    "featuredId": 10000058
+    "featuredId": 10000058,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "3.7",
-    "start": "2023-05-24 06:00:00",
-    "end": "2023-06-13 17:59:59",
+    "start": "2023-05-24 07:00:00",
+    "end": "2023-06-13 00:59:00",
     "name": "Yoimiya",
     "featured": [
       "Yoimiya"
     ],
-    "featuredId": 10000049
+    "featuredId": 10000049,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "3.7",
-    "start": "2023-05-24 06:00:00",
-    "end": "2023-06-13 17:59:59",
+    "start": "2023-05-24 07:00:00",
+    "end": "2023-06-13 00:59:00",
     "name": "Thundering Pulse",
     "featured": [
       "Thundering Pulse"
     ],
-    "featuredId": 15509
+    "featuredId": 15509,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "3.7",
+    "start": "2023-05-24 07:00:00",
+    "end": "2023-06-13 00:59:00",
+    "name": "Kagura's Verity",
+    "featured": [
+      "Kagura's Verity"
+    ],
+    "featuredId": 14509,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1295,7 +1976,8 @@
     "featured": [
       "Alhaitham"
     ],
-    "featuredId": 10000078
+    "featuredId": 10000078,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1306,7 +1988,8 @@
     "featured": [
       "Kazuha"
     ],
-    "featuredId": 10000047
+    "featuredId": 10000047,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1317,40 +2000,68 @@
     "featured": [
       "Freedom-Sworn"
     ],
-    "featuredId": 11503
+    "featuredId": 11503,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "3.7",
+    "start": "2023-06-13 18:00:00",
+    "end": "2023-07-04 14:59:59",
+    "name": "Light of Foliar Incision",
+    "featured": [
+      "Light of Foliar Incision"
+    ],
+    "featuredId": 11512,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "3.8",
-    "start": "2023-07-05 06:00:00",
-    "end": "2023-07-25 17:59:59",
+    "start": "2023-07-05 07:00:00",
+    "end": "2023-07-25 00:59:00",
     "name": "Eula",
     "featured": [
       "Eula"
     ],
-    "featuredId": 10000051
+    "featuredId": 10000051,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "3.8",
-    "start": "2023-07-05 06:00:00",
-    "end": "2023-07-25 17:59:59",
+    "start": "2023-07-05 07:00:00",
+    "end": "2023-07-25 00:59:00",
     "name": "Klee",
     "featured": [
       "Klee"
     ],
-    "featuredId": 10000029
+    "featuredId": 10000029,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "3.8",
-    "start": "2023-07-05 06:00:00",
-    "end": "2023-07-25 17:59:59",
-    "name": "Freedom-Sworn",
+    "start": "2023-07-05 07:00:00",
+    "end": "2023-07-25 00:59:00",
+    "name": "Song of Broken Pines",
     "featured": [
-      "Freedom-Sworn"
+      "Song of Broken Pines"
     ],
-    "featuredId": 11503
+    "featuredId": 12503,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "3.8",
+    "start": "2023-07-05 07:00:00",
+    "end": "2023-07-25 00:59:00",
+    "name": "Lost Prayer to the Sacred Winds",
+    "featured": [
+      "Lost Prayer to the Sacred Winds"
+    ],
+    "featuredId": 14502,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1361,7 +2072,8 @@
     "featured": [
       "Kokomi"
     ],
-    "featuredId": 10000054
+    "featuredId": 10000054,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1372,7 +2084,8 @@
     "featured": [
       "Wanderer"
     ],
-    "featuredId": 10000075
+    "featuredId": 10000075,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1383,40 +2096,68 @@
     "featured": [
       "Everlasting Moonglow"
     ],
-    "featuredId": 14506
+    "featuredId": 14506,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "3.8",
+    "start": "2023-07-25 18:00:00",
+    "end": "2023-08-15 17:59:59",
+    "name": "Tulaytullah's Remembrance",
+    "featured": [
+      "Tulaytullah's Remembrance"
+    ],
+    "featuredId": 14512,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "4.0",
-    "start": "2023-08-16 06:00:00",
-    "end": "2023-09-05 17:59:59",
+    "start": "2023-08-16 07:00:00",
+    "end": "2023-09-05 00:59:00",
     "name": "Lyney",
     "featured": [
       "Lyney"
     ],
-    "featuredId": 10000084
+    "featuredId": 10000084,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "4.0",
-    "start": "2023-08-16 06:00:00",
-    "end": "2023-09-05 17:59:59",
+    "start": "2023-08-16 07:00:00",
+    "end": "2023-09-05 00:59:00",
     "name": "Yelan",
     "featured": [
       "Yelan"
     ],
-    "featuredId": 10000060
+    "featuredId": 10000060,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "4.0",
-    "start": "2023-08-16 06:00:00",
-    "end": "2023-09-05 17:59:59",
+    "start": "2023-08-16 07:00:00",
+    "end": "2023-09-05 00:59:00",
     "name": "The First Great Magic",
     "featured": [
       "The First Great Magic"
     ],
-    "featuredId": 15512
+    "featuredId": 15512,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "4.0",
+    "start": "2023-08-16 07:00:00",
+    "end": "2023-09-05 00:59:00",
+    "name": "Aqua Simulacra",
+    "featured": [
+      "Aqua Simulacra"
+    ],
+    "featuredId": 15508,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1427,7 +2168,8 @@
     "featured": [
       "Tartaglia"
     ],
-    "featuredId": 10000033
+    "featuredId": 10000033,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1438,7 +2180,8 @@
     "featured": [
       "Zhongli"
     ],
-    "featuredId": 10000030
+    "featuredId": 10000030,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1449,40 +2192,68 @@
     "featured": [
       "Polar Star"
     ],
-    "featuredId": 15507
+    "featuredId": 15507,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "4.0",
+    "start": "2023-09-05 18:00:00",
+    "end": "2023-09-26 14:59:59",
+    "name": "Vortex Vanquisher",
+    "featured": [
+      "Vortex Vanquisher"
+    ],
+    "featuredId": 13504,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "4.1",
-    "start": "2023-09-27 06:00:00",
-    "end": "2023-10-17 17:59:59",
+    "start": "2023-09-27 07:00:00",
+    "end": "2023-10-17 00:59:00",
     "name": "Hu Tao",
     "featured": [
       "Hu Tao"
     ],
-    "featuredId": 10000046
+    "featuredId": 10000046,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "4.1",
-    "start": "2023-09-27 06:00:00",
-    "end": "2023-10-17 17:59:59",
+    "start": "2023-09-27 07:00:00",
+    "end": "2023-10-17 00:59:00",
     "name": "Neuvillette",
     "featured": [
       "Neuvillette"
     ],
-    "featuredId": 10000087
+    "featuredId": 10000087,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "4.1",
-    "start": "2023-09-27 06:00:00",
-    "end": "2023-10-17 17:59:59",
-    "name": "Polar Star",
+    "start": "2023-09-27 07:00:00",
+    "end": "2023-10-17 00:59:00",
+    "name": "Tome of the Eternal Flow",
     "featured": [
-      "Polar Star"
+      "Tome of the Eternal Flow"
     ],
-    "featuredId": 15507
+    "featuredId": 14514,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "4.1",
+    "start": "2023-09-27 07:00:00",
+    "end": "2023-10-17 00:59:00",
+    "name": "Staff of Homa",
+    "featured": [
+      "Staff of Homa"
+    ],
+    "featuredId": 13501,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1493,7 +2264,8 @@
     "featured": [
       "Venti"
     ],
-    "featuredId": 10000022
+    "featuredId": 10000022,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1504,51 +2276,80 @@
     "featured": [
       "Wriothesley"
     ],
-    "featuredId": 10000086
+    "featuredId": 10000086,
+    "phase": 2
   },
   {
     "type": "weapon",
     "version": "4.1",
     "start": "2023-10-17 18:00:00",
     "end": "2023-11-07 14:59:59",
-    "name": "Polar Star",
+    "name": "Cashflow Supervision",
     "featured": [
-      "Polar Star"
+      "Cashflow Supervision"
     ],
-    "featuredId": 15507
+    "featuredId": 14513,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "4.1",
+    "start": "2023-10-17 18:00:00",
+    "end": "2023-11-07 14:59:59",
+    "name": "Elegy for the End",
+    "featured": [
+      "Elegy for the End"
+    ],
+    "featuredId": 15503,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "4.2",
-    "start": "2023-11-08 06:00:00",
-    "end": "2023-11-28 17:59:59",
+    "start": "2023-11-08 07:00:00",
+    "end": "2023-11-28 00:59:00",
     "name": "Baizhu",
     "featured": [
       "Baizhu"
     ],
-    "featuredId": 10000082
+    "featuredId": 10000082,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "4.2",
-    "start": "2023-11-08 06:00:00",
-    "end": "2023-11-28 17:59:59",
+    "start": "2023-11-08 07:00:00",
+    "end": "2023-11-28 00:59:00",
     "name": "Furina",
     "featured": [
       "Furina"
     ],
-    "featuredId": 10000089
+    "featuredId": 10000089,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "4.2",
-    "start": "2023-11-08 06:00:00",
-    "end": "2023-11-28 17:59:59",
+    "start": "2023-11-08 07:00:00",
+    "end": "2023-11-28 00:59:00",
     "name": "Splendor of Tranquil Waters",
     "featured": [
       "Splendor of Tranquil Waters"
     ],
-    "featuredId": 11513
+    "featuredId": 11513,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "4.2",
+    "start": "2023-11-08 07:00:00",
+    "end": "2023-11-28 00:59:00",
+    "name": "Jadefall's Splendor",
+    "featured": [
+      "Jadefall's Splendor"
+    ],
+    "featuredId": 14505,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1559,7 +2360,8 @@
     "featured": [
       "Ayato"
     ],
-    "featuredId": 10000066
+    "featuredId": 10000066,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1570,7 +2372,8 @@
     "featured": [
       "Cyno"
     ],
-    "featuredId": 10000071
+    "featuredId": 10000071,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1581,40 +2384,68 @@
     "featured": [
       "Staff of the Scarlet Sands"
     ],
-    "featuredId": 13511
+    "featuredId": 13511,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "4.2",
+    "start": "2023-11-28 18:00:00",
+    "end": "2023-12-19 14:59:59",
+    "name": "Haran Geppaku Futsu",
+    "featured": [
+      "Haran Geppaku Futsu"
+    ],
+    "featuredId": 11510,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "4.3",
-    "start": "2023-12-20 06:00:00",
-    "end": "2024-01-09 17:59:59",
+    "start": "2023-12-20 07:00:00",
+    "end": "2024-01-09 00:59:00",
     "name": "Ayaka",
     "featured": [
       "Ayaka"
     ],
-    "featuredId": 10000002
+    "featuredId": 10000002,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "4.3",
-    "start": "2023-12-20 06:00:00",
-    "end": "2024-01-09 17:59:59",
+    "start": "2023-12-20 07:00:00",
+    "end": "2024-01-09 00:59:00",
     "name": "Navia",
     "featured": [
       "Navia"
     ],
-    "featuredId": 10000091
+    "featuredId": 10000091,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "4.3",
-    "start": "2023-12-20 06:00:00",
-    "end": "2024-01-09 17:59:59",
+    "start": "2023-12-20 07:00:00",
+    "end": "2024-01-09 00:59:00",
     "name": "Verdict",
     "featured": [
       "Verdict"
     ],
-    "featuredId": 12512
+    "featuredId": 12512,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "4.3",
+    "start": "2023-12-20 07:00:00",
+    "end": "2024-01-09 00:59:00",
+    "name": "Mistsplitter Reforged",
+    "featured": [
+      "Mistsplitter Reforged"
+    ],
+    "featuredId": 11509,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1625,7 +2456,8 @@
     "featured": [
       "Raiden"
     ],
-    "featuredId": 10000052
+    "featuredId": 10000052,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1636,7 +2468,8 @@
     "featured": [
       "Yoimiya"
     ],
-    "featuredId": 10000049
+    "featuredId": 10000049,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1647,40 +2480,68 @@
     "featured": [
       "Engulfing Lightning"
     ],
-    "featuredId": 13509
+    "featuredId": 13509,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "4.3",
+    "start": "2024-01-09 18:00:00",
+    "end": "2024-01-30 14:59:00",
+    "name": "Thundering Pulse",
+    "featured": [
+      "Thundering Pulse"
+    ],
+    "featuredId": 15509,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "4.4",
-    "start": "2024-01-31 06:00:00",
-    "end": "2024-02-20 17:59:00",
+    "start": "2024-01-31 07:00:00",
+    "end": "2024-02-20 00:59:00",
     "name": "Nahida",
     "featured": [
       "Nahida"
     ],
-    "featuredId": 10000073
+    "featuredId": 10000073,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "4.4",
-    "start": "2024-01-31 06:00:00",
-    "end": "2024-02-20 17:59:00",
+    "start": "2024-01-31 07:00:00",
+    "end": "2024-02-20 00:59:00",
     "name": "Xianyun",
     "featured": [
       "Xianyun"
     ],
-    "featuredId": 10000093
+    "featuredId": 10000093,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "4.4",
-    "start": "2024-01-31 06:00:00",
-    "end": "2024-02-20 17:59:00",
+    "start": "2024-01-31 07:00:00",
+    "end": "2024-02-20 00:59:00",
     "name": "Crane's Echoing Call",
     "featured": [
       "Crane's Echoing Call"
     ],
-    "featuredId": 14515
+    "featuredId": 14515,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "4.4",
+    "start": "2024-01-31 07:00:00",
+    "end": "2024-02-20 00:59:00",
+    "name": "A Thousand Floating Dreams",
+    "featured": [
+      "A Thousand Floating Dreams"
+    ],
+    "featuredId": 14511,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1691,7 +2552,8 @@
     "featured": [
       "Xiao"
     ],
-    "featuredId": 10000026
+    "featuredId": 10000026,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1702,62 +2564,92 @@
     "featured": [
       "Yae"
     ],
-    "featuredId": 10000058
+    "featuredId": 10000058,
+    "phase": 2
   },
   {
     "type": "weapon",
     "version": "4.4",
     "start": "2024-02-20 18:00:00",
     "end": "2024-03-12 14:59:00",
-    "name": "Primordial Jade Cutter",
+    "name": "Primordial Jade Winged-Spear",
     "featured": [
-      "Primordial Jade Cutter"
+      "Primordial Jade Winged-Spear"
     ],
-    "featuredId": 11505
+    "featuredId": 13505,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "4.4",
+    "start": "2024-02-20 18:00:00",
+    "end": "2024-03-12 14:59:00",
+    "name": "Kagura's Verity",
+    "featured": [
+      "Kagura's Verity"
+    ],
+    "featuredId": 14509,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "4.5",
-    "start": "2024-03-13 06:00:00",
-    "end": "2024-04-02 17:59:00",
+    "start": "2024-03-13 07:00:00",
+    "end": "2024-04-02 00:59:00",
     "name": "Chiori",
     "featured": [
       "Chiori"
     ],
-    "featuredId": 10000094
+    "featuredId": 10000094,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "4.5",
-    "start": "2024-03-13 06:00:00",
-    "end": "2024-04-02 17:59:00",
+    "start": "2024-03-13 07:00:00",
+    "end": "2024-04-02 00:59:00",
     "name": "Itto",
     "featured": [
       "Itto"
     ],
-    "featuredId": 10000057
+    "featuredId": 10000057,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "4.5",
-    "start": "2024-03-13 06:00:00",
-    "end": "2024-04-02 17:59:00",
+    "start": "2024-03-13 07:00:00",
+    "end": "2024-04-02 00:59:00",
     "name": "Uraku Misugiri",
     "featured": [
       "Uraku Misugiri"
     ],
-    "featuredId": 11514
+    "featuredId": 11514,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "4.5",
+    "start": "2024-03-13 07:00:00",
+    "end": "2024-04-02 00:59:00",
+    "name": "Redhorn Stonethresher",
+    "featured": [
+      "Redhorn Stonethresher"
+    ],
+    "featuredId": 12510,
+    "phase": 1
   },
   {
     "type": "chronicled",
     "version": "4.5",
-    "start": "2024-03-13 06:00:00",
-    "end": "2024-04-02 17:59:00",
+    "start": "2024-03-13 07:00:00",
+    "end": "2024-04-02 00:59:00",
     "name": "Mondstadt",
     "featured": [
       "Mondstadt"
     ],
-    "featuredId": null
+    "featuredId": null,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1768,7 +2660,8 @@
     "featured": [
       "Kazuha"
     ],
-    "featuredId": 10000047
+    "featuredId": 10000047,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1779,7 +2672,8 @@
     "featured": [
       "Neuvillette"
     ],
-    "featuredId": 10000087
+    "featuredId": 10000087,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1790,40 +2684,68 @@
     "featured": [
       "Tome of the Eternal Flow"
     ],
-    "featuredId": 14514
+    "featuredId": 14514,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "4.5",
+    "start": "2024-04-02 18:00:00",
+    "end": "2024-04-23 14:59:00",
+    "name": "Freedom-Sworn",
+    "featured": [
+      "Freedom-Sworn"
+    ],
+    "featuredId": 11503,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "4.6",
-    "start": "2024-04-24 06:00:00",
-    "end": "2024-05-14 17:59:00",
+    "start": "2024-04-24 07:00:00",
+    "end": "2024-05-14 00:59:00",
     "name": "Arlecchino",
     "featured": [
       "Arlecchino"
     ],
-    "featuredId": 10000096
+    "featuredId": 10000096,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "4.6",
-    "start": "2024-04-24 06:00:00",
-    "end": "2024-05-14 17:59:00",
+    "start": "2024-04-24 07:00:00",
+    "end": "2024-05-14 00:59:00",
     "name": "Lyney",
     "featured": [
       "Lyney"
     ],
-    "featuredId": 10000084
+    "featuredId": 10000084,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "4.6",
-    "start": "2024-04-24 06:00:00",
-    "end": "2024-05-14 17:59:00",
+    "start": "2024-04-24 07:00:00",
+    "end": "2024-05-14 00:59:00",
     "name": "Crimson Moon's Semblance",
     "featured": [
       "Crimson Moon's Semblance"
     ],
-    "featuredId": 13512
+    "featuredId": 13512,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "4.6",
+    "start": "2024-04-24 07:00:00",
+    "end": "2024-05-14 00:59:00",
+    "name": "The First Great Magic",
+    "featured": [
+      "The First Great Magic"
+    ],
+    "featuredId": 15512,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1834,7 +2756,8 @@
     "featured": [
       "Baizhu"
     ],
-    "featuredId": 10000082
+    "featuredId": 10000082,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1845,7 +2768,8 @@
     "featured": [
       "Wanderer"
     ],
-    "featuredId": 10000075
+    "featuredId": 10000075,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1856,40 +2780,68 @@
     "featured": [
       "Tulaytullah's Remembrance"
     ],
-    "featuredId": 14512
+    "featuredId": 14512,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "4.6",
+    "start": "2024-05-14 18:00:00",
+    "end": "2024-06-04 14:59:00",
+    "name": "Jadefall's Splendor",
+    "featured": [
+      "Jadefall's Splendor"
+    ],
+    "featuredId": 14505,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "4.7",
-    "start": "2024-06-05 06:00:00",
-    "end": "2024-06-25 17:59:00",
+    "start": "2024-06-05 07:00:00",
+    "end": "2024-06-25 00:59:00",
     "name": "Alhaitham",
     "featured": [
       "Alhaitham"
     ],
-    "featuredId": 10000078
+    "featuredId": 10000078,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "4.7",
-    "start": "2024-06-05 06:00:00",
-    "end": "2024-06-25 17:59:00",
+    "start": "2024-06-05 07:00:00",
+    "end": "2024-06-25 00:59:00",
     "name": "Clorinde",
     "featured": [
       "Clorinde"
     ],
-    "featuredId": 10000098
+    "featuredId": 10000098,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "4.7",
-    "start": "2024-06-05 06:00:00",
-    "end": "2024-06-25 17:59:00",
+    "start": "2024-06-05 07:00:00",
+    "end": "2024-06-25 00:59:00",
     "name": "Absolution",
     "featured": [
       "Absolution"
     ],
-    "featuredId": 11515
+    "featuredId": 11515,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "4.7",
+    "start": "2024-06-05 07:00:00",
+    "end": "2024-06-25 00:59:00",
+    "name": "Light of Foliar Incision",
+    "featured": [
+      "Light of Foliar Incision"
+    ],
+    "featuredId": 11512,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1900,7 +2852,8 @@
     "featured": [
       "Furina"
     ],
-    "featuredId": 10000089
+    "featuredId": 10000089,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1911,7 +2864,8 @@
     "featured": [
       "Sigewinne"
     ],
-    "featuredId": 10000095
+    "featuredId": 10000095,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1922,40 +2876,68 @@
     "featured": [
       "Silvershower Heartstrings"
     ],
-    "featuredId": 15513
+    "featuredId": 15513,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "4.7",
+    "start": "2024-06-25 18:00:00",
+    "end": "2024-07-16 14:59:00",
+    "name": "Splendor of Tranquil Waters",
+    "featured": [
+      "Splendor of Tranquil Waters"
+    ],
+    "featuredId": 11513,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "4.8",
-    "start": "2024-07-17 06:00:00",
-    "end": "2024-08-06 17:59:00",
+    "start": "2024-07-17 07:00:00",
+    "end": "2024-08-06 00:59:00",
     "name": "Navia",
     "featured": [
       "Navia"
     ],
-    "featuredId": 10000091
+    "featuredId": 10000091,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "4.8",
-    "start": "2024-07-17 06:00:00",
-    "end": "2024-08-06 17:59:00",
+    "start": "2024-07-17 07:00:00",
+    "end": "2024-08-06 00:59:00",
     "name": "Nilou",
     "featured": [
       "Nilou"
     ],
-    "featuredId": 10000070
+    "featuredId": 10000070,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "4.8",
-    "start": "2024-07-17 06:00:00",
-    "end": "2024-08-06 17:59:00",
+    "start": "2024-07-17 07:00:00",
+    "end": "2024-08-06 00:59:00",
     "name": "Verdict",
     "featured": [
       "Verdict"
     ],
-    "featuredId": 12512
+    "featuredId": 12512,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "4.8",
+    "start": "2024-07-17 07:00:00",
+    "end": "2024-08-06 00:59:00",
+    "name": "Key of Khaj-Nisut",
+    "featured": [
+      "Key of Khaj-Nisut"
+    ],
+    "featuredId": 11511,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1966,7 +2948,8 @@
     "featured": [
       "Emilie"
     ],
-    "featuredId": 10000099
+    "featuredId": 10000099,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1977,7 +2960,8 @@
     "featured": [
       "Yelan"
     ],
-    "featuredId": 10000060
+    "featuredId": 10000060,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1988,40 +2972,68 @@
     "featured": [
       "Lumidouce Elegy"
     ],
-    "featuredId": 13513
+    "featuredId": 13513,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "4.8",
+    "start": "2024-08-06 18:00:00",
+    "end": "2024-08-27 14:59:00",
+    "name": "Aqua Simulacra",
+    "featured": [
+      "Aqua Simulacra"
+    ],
+    "featuredId": 15508,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "5.0",
-    "start": "2024-08-28 06:00:00",
-    "end": "2024-09-17 17:59:00",
+    "start": "2024-08-28 07:00:00",
+    "end": "2024-09-17 00:59:00",
     "name": "Kazuha",
     "featured": [
       "Kazuha"
     ],
-    "featuredId": 10000047
+    "featuredId": 10000047,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "5.0",
-    "start": "2024-08-28 06:00:00",
-    "end": "2024-09-17 17:59:00",
+    "start": "2024-08-28 07:00:00",
+    "end": "2024-09-17 00:59:00",
     "name": "Mualani",
     "featured": [
       "Mualani"
     ],
-    "featuredId": 10000102
+    "featuredId": 10000102,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "5.0",
-    "start": "2024-08-28 06:00:00",
-    "end": "2024-09-17 17:59:00",
+    "start": "2024-08-28 07:00:00",
+    "end": "2024-09-17 00:59:00",
     "name": "Surf's Up",
     "featured": [
       "Surf's Up"
     ],
-    "featuredId": 14516
+    "featuredId": 14516,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "5.0",
+    "start": "2024-08-28 07:00:00",
+    "end": "2024-09-17 00:59:00",
+    "name": "Freedom-Sworn",
+    "featured": [
+      "Freedom-Sworn"
+    ],
+    "featuredId": 11503,
+    "phase": 1
   },
   {
     "type": "character",
@@ -2032,7 +3044,8 @@
     "featured": [
       "Kinich"
     ],
-    "featuredId": 10000101
+    "featuredId": 10000101,
+    "phase": 2
   },
   {
     "type": "character",
@@ -2043,7 +3056,8 @@
     "featured": [
       "Raiden"
     ],
-    "featuredId": 10000052
+    "featuredId": 10000052,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -2054,40 +3068,68 @@
     "featured": [
       "Fang of the Mountain King"
     ],
-    "featuredId": 12513
+    "featuredId": 12513,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "5.0",
+    "start": "2024-09-17 18:00:00",
+    "end": "2024-10-08 14:59:00",
+    "name": "Engulfing Lightning",
+    "featured": [
+      "Engulfing Lightning"
+    ],
+    "featuredId": 13509,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "5.1",
-    "start": "2024-10-09 06:00:00",
-    "end": "2024-10-29 17:59:00",
+    "start": "2024-10-09 07:00:00",
+    "end": "2024-10-29 00:59:00",
     "name": "Chiori",
     "featured": [
       "Chiori"
     ],
-    "featuredId": 10000094
+    "featuredId": 10000094,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "5.1",
-    "start": "2024-10-09 06:00:00",
-    "end": "2024-10-29 17:59:00",
+    "start": "2024-10-09 07:00:00",
+    "end": "2024-10-29 00:59:00",
     "name": "Xilonen",
     "featured": [
       "Xilonen"
     ],
-    "featuredId": 10000103
+    "featuredId": 10000103,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "5.1",
-    "start": "2024-10-09 06:00:00",
-    "end": "2024-10-29 17:59:00",
+    "start": "2024-10-09 07:00:00",
+    "end": "2024-10-29 00:59:00",
     "name": "Peak Patrol Song",
     "featured": [
       "Peak Patrol Song"
     ],
-    "featuredId": 11516
+    "featuredId": 11516,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "5.1",
+    "start": "2024-10-09 07:00:00",
+    "end": "2024-10-29 00:59:00",
+    "name": "Uraku Misugiri",
+    "featured": [
+      "Uraku Misugiri"
+    ],
+    "featuredId": 11514,
+    "phase": 1
   },
   {
     "type": "character",
@@ -2098,7 +3140,8 @@
     "featured": [
       "Hu Tao"
     ],
-    "featuredId": 10000046
+    "featuredId": 10000046,
+    "phase": 2
   },
   {
     "type": "character",
@@ -2109,7 +3152,8 @@
     "featured": [
       "Nahida"
     ],
-    "featuredId": 10000073
+    "featuredId": 10000073,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -2120,40 +3164,68 @@
     "featured": [
       "A Thousand Floating Dreams"
     ],
-    "featuredId": 14511
+    "featuredId": 14511,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "5.1",
+    "start": "2024-10-29 18:00:00",
+    "end": "2024-11-19 14:59:00",
+    "name": "Staff of Homa",
+    "featured": [
+      "Staff of Homa"
+    ],
+    "featuredId": 13501,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "5.2",
-    "start": "2024-11-20 06:00:00",
-    "end": "2024-12-10 17:59:00",
+    "start": "2024-11-20 07:00:00",
+    "end": "2024-12-10 00:59:00",
     "name": "Chasca",
     "featured": [
       "Chasca"
     ],
-    "featuredId": 10000104
+    "featuredId": 10000104,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "5.2",
-    "start": "2024-11-20 06:00:00",
-    "end": "2024-12-10 17:59:00",
+    "start": "2024-11-20 07:00:00",
+    "end": "2024-12-10 00:59:00",
     "name": "Lyney",
     "featured": [
       "Lyney"
     ],
-    "featuredId": 10000084
+    "featuredId": 10000084,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "5.2",
-    "start": "2024-11-20 06:00:00",
-    "end": "2024-12-10 17:59:00",
+    "start": "2024-11-20 07:00:00",
+    "end": "2024-12-10 00:59:00",
     "name": "Astral Vulture's Crimson Plumage",
     "featured": [
       "Astral Vulture's Crimson Plumage"
     ],
-    "featuredId": 15514
+    "featuredId": 15514,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "5.2",
+    "start": "2024-11-20 07:00:00",
+    "end": "2024-12-10 00:59:00",
+    "name": "The First Great Magic",
+    "featured": [
+      "The First Great Magic"
+    ],
+    "featuredId": 15512,
+    "phase": 1
   },
   {
     "type": "character",
@@ -2164,7 +3236,8 @@
     "featured": [
       "Neuvillette"
     ],
-    "featuredId": 10000087
+    "featuredId": 10000087,
+    "phase": 2
   },
   {
     "type": "character",
@@ -2175,7 +3248,8 @@
     "featured": [
       "Zhongli"
     ],
-    "featuredId": 10000030
+    "featuredId": 10000030,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -2186,40 +3260,68 @@
     "featured": [
       "Tome of the Eternal Flow"
     ],
-    "featuredId": 14514
+    "featuredId": 14514,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "5.2",
+    "start": "2024-12-10 18:00:00",
+    "end": "2024-12-31 14:59:00",
+    "name": "Vortex Vanquisher",
+    "featured": [
+      "Vortex Vanquisher"
+    ],
+    "featuredId": 13504,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "5.3",
-    "start": "2025-01-01 06:00:00",
-    "end": "2025-01-21 17:59:00",
+    "start": "2025-01-01 07:00:00",
+    "end": "2025-01-21 00:59:00",
     "name": "Citlali",
     "featured": [
       "Citlali"
     ],
-    "featuredId": 10000107
+    "featuredId": 10000107,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "5.3",
-    "start": "2025-01-01 06:00:00",
-    "end": "2025-01-21 17:59:00",
+    "start": "2025-01-01 07:00:00",
+    "end": "2025-01-21 00:59:00",
     "name": "Mavuika",
     "featured": [
       "Mavuika"
     ],
-    "featuredId": 10000106
+    "featuredId": 10000106,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "5.3",
-    "start": "2025-01-01 06:00:00",
-    "end": "2025-01-21 17:59:00",
+    "start": "2025-01-01 07:00:00",
+    "end": "2025-01-21 00:59:00",
     "name": "A Thousand Blazing Suns",
     "featured": [
       "A Thousand Blazing Suns"
     ],
-    "featuredId": 12514
+    "featuredId": 12514,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "5.3",
+    "start": "2025-01-01 07:00:00",
+    "end": "2025-01-21 00:59:00",
+    "name": "Starcaller's Watch",
+    "featured": [
+      "Starcaller's Watch"
+    ],
+    "featuredId": 14517,
+    "phase": 1
   },
   {
     "type": "character",
@@ -2230,7 +3332,8 @@
     "featured": [
       "Arlecchino"
     ],
-    "featuredId": 10000096
+    "featuredId": 10000096,
+    "phase": 2
   },
   {
     "type": "character",
@@ -2241,18 +3344,32 @@
     "featured": [
       "Clorinde"
     ],
-    "featuredId": 10000098
+    "featuredId": 10000098,
+    "phase": 2
   },
   {
     "type": "weapon",
     "version": "5.3",
     "start": "2025-01-21 18:00:00",
     "end": "2025-02-11 14:59:00",
-    "name": "A Thousand Blazing Suns",
+    "name": "Crimson Moon's Semblance",
     "featured": [
-      "A Thousand Blazing Suns"
+      "Crimson Moon's Semblance"
     ],
-    "featuredId": 12514
+    "featuredId": 13512,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "5.3",
+    "start": "2025-01-21 18:00:00",
+    "end": "2025-02-11 14:59:00",
+    "name": "Absolution",
+    "featured": [
+      "Absolution"
+    ],
+    "featuredId": 11515,
+    "phase": 2
   },
   {
     "type": "chronicled",
@@ -2263,40 +3380,56 @@
     "featured": [
       "Liyue"
     ],
-    "featuredId": null
+    "featuredId": null,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "5.4",
-    "start": "2025-02-12 06:00:00",
-    "end": "2025-03-04 17:59:00",
+    "start": "2025-02-12 07:00:00",
+    "end": "2025-03-04 00:59:00",
     "name": "Mizuki",
     "featured": [
       "Mizuki"
     ],
-    "featuredId": 10000109
+    "featuredId": 10000109,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "5.4",
-    "start": "2025-02-12 06:00:00",
-    "end": "2025-03-04 17:59:00",
+    "start": "2025-02-12 07:00:00",
+    "end": "2025-03-04 00:59:00",
     "name": "Sigewinne",
     "featured": [
       "Sigewinne"
     ],
-    "featuredId": 10000095
+    "featuredId": 10000095,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "5.4",
-    "start": "2025-02-12 06:00:00",
-    "end": "2025-03-04 17:59:00",
-    "name": "A Thousand Blazing Suns",
+    "start": "2025-02-12 07:00:00",
+    "end": "2025-03-04 00:59:00",
+    "name": "Sunny Morning Sleep-In",
     "featured": [
-      "A Thousand Blazing Suns"
+      "Sunny Morning Sleep-In"
     ],
-    "featuredId": 12514
+    "featuredId": 14518,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "5.4",
+    "start": "2025-02-12 07:00:00",
+    "end": "2025-03-04 00:59:00",
+    "name": "Silvershower Heartstrings",
+    "featured": [
+      "Silvershower Heartstrings"
+    ],
+    "featuredId": 15513,
+    "phase": 1
   },
   {
     "type": "character",
@@ -2307,7 +3440,8 @@
     "featured": [
       "Furina"
     ],
-    "featuredId": 10000089
+    "featuredId": 10000089,
+    "phase": 2
   },
   {
     "type": "character",
@@ -2318,51 +3452,80 @@
     "featured": [
       "Wriothesley"
     ],
-    "featuredId": 10000086
+    "featuredId": 10000086,
+    "phase": 2
   },
   {
     "type": "weapon",
     "version": "5.4",
     "start": "2025-03-04 18:00:00",
     "end": "2025-03-25 14:59:00",
-    "name": "Jadefall's Splendor",
+    "name": "Splendor of Tranquil Waters",
     "featured": [
-      "Jadefall's Splendor"
+      "Splendor of Tranquil Waters"
     ],
-    "featuredId": 14505
+    "featuredId": 11513,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "5.4",
+    "start": "2025-03-04 18:00:00",
+    "end": "2025-03-25 14:59:00",
+    "name": "Cashflow Supervision",
+    "featured": [
+      "Cashflow Supervision"
+    ],
+    "featuredId": 14513,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "5.5",
-    "start": "2025-03-26 06:00:00",
-    "end": "2025-04-15 17:59:00",
+    "start": "2025-03-26 07:00:00",
+    "end": "2025-04-15 00:59:00",
     "name": "Varesa",
     "featured": [
       "Varesa"
     ],
-    "featuredId": 10000111
+    "featuredId": 10000111,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "5.5",
-    "start": "2025-03-26 06:00:00",
-    "end": "2025-04-15 17:59:00",
+    "start": "2025-03-26 07:00:00",
+    "end": "2025-04-15 00:59:00",
     "name": "Xianyun",
     "featured": [
       "Xianyun"
     ],
-    "featuredId": 10000093
+    "featuredId": 10000093,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "5.5",
-    "start": "2025-03-26 06:00:00",
-    "end": "2025-04-15 17:59:00",
+    "start": "2025-03-26 07:00:00",
+    "end": "2025-04-15 00:59:00",
     "name": "Vivid Notions",
     "featured": [
       "Vivid Notions"
     ],
-    "featuredId": 14519
+    "featuredId": 14519,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "5.5",
+    "start": "2025-03-26 07:00:00",
+    "end": "2025-04-15 00:59:00",
+    "name": "Crane's Echoing Call",
+    "featured": [
+      "Crane's Echoing Call"
+    ],
+    "featuredId": 14515,
+    "phase": 1
   },
   {
     "type": "character",
@@ -2373,62 +3536,92 @@
     "featured": [
       "Xilonen"
     ],
-    "featuredId": 10000103
+    "featuredId": 10000103,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "5.5",
     "start": "2025-04-15 18:00:00",
     "end": "2025-05-06 14:59:00",
-    "name": "Xilonen",
+    "name": "Venti",
     "featured": [
-      "Xilonen"
+      "Venti"
     ],
-    "featuredId": 10000103
+    "featuredId": 10000022,
+    "phase": 2
   },
   {
     "type": "weapon",
     "version": "5.5",
     "start": "2025-04-15 18:00:00",
     "end": "2025-05-06 14:59:00",
-    "name": "Vivid Notions",
+    "name": "Peak Patrol Song",
     "featured": [
-      "Vivid Notions"
+      "Peak Patrol Song"
     ],
-    "featuredId": 14519
+    "featuredId": 11516,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "5.5",
+    "start": "2025-04-15 18:00:00",
+    "end": "2025-05-06 14:59:00",
+    "name": "Elegy for the End",
+    "featured": [
+      "Elegy for the End"
+    ],
+    "featuredId": 15503,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "5.6",
-    "start": "2025-05-07 06:00:00",
-    "end": "2025-05-27 17:59:00",
+    "start": "2025-05-07 07:00:00",
+    "end": "2025-05-27 00:59:00",
     "name": "Escoffier",
     "featured": [
       "Escoffier"
     ],
-    "featuredId": 10000112
+    "featuredId": 10000112,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "5.6",
-    "start": "2025-05-07 06:00:00",
-    "end": "2025-05-27 17:59:00",
+    "start": "2025-05-07 07:00:00",
+    "end": "2025-05-27 00:59:00",
     "name": "Navia",
     "featured": [
       "Navia"
     ],
-    "featuredId": 10000091
+    "featuredId": 10000091,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "5.6",
-    "start": "2025-05-07 06:00:00",
-    "end": "2025-05-27 17:59:00",
+    "start": "2025-05-07 07:00:00",
+    "end": "2025-05-27 00:59:00",
     "name": "Symphonist of Scents",
     "featured": [
       "Symphonist of Scents"
     ],
-    "featuredId": 13514
+    "featuredId": 13514,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "5.6",
+    "start": "2025-05-07 07:00:00",
+    "end": "2025-05-27 00:59:00",
+    "name": "Verdict",
+    "featured": [
+      "Verdict"
+    ],
+    "featuredId": 12512,
+    "phase": 1
   },
   {
     "type": "character",
@@ -2439,7 +3632,8 @@
     "featured": [
       "Kinich"
     ],
-    "featuredId": 10000101
+    "featuredId": 10000101,
+    "phase": 2
   },
   {
     "type": "character",
@@ -2450,7 +3644,8 @@
     "featured": [
       "Raiden"
     ],
-    "featuredId": 10000052
+    "featuredId": 10000052,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -2461,7 +3656,20 @@
     "featured": [
       "Fang of the Mountain King"
     ],
-    "featuredId": 12513
+    "featuredId": 12513,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "5.6",
+    "start": "2025-05-27 18:00:00",
+    "end": "2025-06-17 14:59:00",
+    "name": "Engulfing Lightning",
+    "featured": [
+      "Engulfing Lightning"
+    ],
+    "featuredId": 13509,
+    "phase": 2
   },
   {
     "type": "chronicled",
@@ -2472,40 +3680,56 @@
     "featured": [
       "Inazuma"
     ],
-    "featuredId": null
+    "featuredId": null,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "5.7",
-    "start": "2025-06-18 06:00:00",
-    "end": "2025-07-08 17:59:00",
+    "start": "2025-06-18 07:00:00",
+    "end": "2025-07-08 00:59:00",
     "name": "Shenhe",
     "featured": [
       "Shenhe"
     ],
-    "featuredId": 10000063
+    "featuredId": 10000063,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "5.7",
-    "start": "2025-06-18 06:00:00",
-    "end": "2025-07-08 17:59:00",
+    "start": "2025-06-18 07:00:00",
+    "end": "2025-07-08 00:59:00",
     "name": "Skirk",
     "featured": [
       "Skirk"
     ],
-    "featuredId": 10000114
+    "featuredId": 10000114,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "5.7",
-    "start": "2025-06-18 06:00:00",
-    "end": "2025-07-08 17:59:00",
+    "start": "2025-06-18 07:00:00",
+    "end": "2025-07-08 00:59:00",
     "name": "Azurelight",
     "featured": [
       "Azurelight"
     ],
-    "featuredId": 11517
+    "featuredId": 11517,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "5.7",
+    "start": "2025-06-18 07:00:00",
+    "end": "2025-07-08 00:59:00",
+    "name": "Calamity Queller",
+    "featured": [
+      "Calamity Queller"
+    ],
+    "featuredId": 13507,
+    "phase": 1
   },
   {
     "type": "character",
@@ -2516,7 +3740,8 @@
     "featured": [
       "Emilie"
     ],
-    "featuredId": 10000099
+    "featuredId": 10000099,
+    "phase": 2
   },
   {
     "type": "character",
@@ -2527,7 +3752,8 @@
     "featured": [
       "Mavuika"
     ],
-    "featuredId": 10000106
+    "featuredId": 10000106,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -2538,40 +3764,68 @@
     "featured": [
       "A Thousand Blazing Suns"
     ],
-    "featuredId": 12514
+    "featuredId": 12514,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "5.7",
+    "start": "2025-07-08 18:00:00",
+    "end": "2025-07-29 14:59:00",
+    "name": "Calamity Queller",
+    "featured": [
+      "Calamity Queller"
+    ],
+    "featuredId": 13507,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "5.8",
-    "start": "2025-07-30 06:00:00",
-    "end": "2025-08-19 17:59:00",
+    "start": "2025-07-30 07:00:00",
+    "end": "2025-08-19 00:59:00",
     "name": "Citlali",
     "featured": [
       "Citlali"
     ],
-    "featuredId": 10000107
+    "featuredId": 10000107,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "5.8",
-    "start": "2025-07-30 06:00:00",
-    "end": "2025-08-19 17:59:00",
+    "start": "2025-07-30 07:00:00",
+    "end": "2025-08-19 00:59:00",
     "name": "Ineffa",
     "featured": [
       "Ineffa"
     ],
-    "featuredId": 10000116
+    "featuredId": 10000116,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "5.8",
-    "start": "2025-07-30 06:00:00",
-    "end": "2025-08-19 17:59:00",
+    "start": "2025-07-30 07:00:00",
+    "end": "2025-08-19 00:59:00",
     "name": "Fractured Halo",
     "featured": [
       "Fractured Halo"
     ],
-    "featuredId": 13515
+    "featuredId": 13515,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "5.8",
+    "start": "2025-07-30 07:00:00",
+    "end": "2025-08-19 00:59:00",
+    "name": "Starcaller's Watch",
+    "featured": [
+      "Starcaller's Watch"
+    ],
+    "featuredId": 14517,
+    "phase": 1
   },
   {
     "type": "character",
@@ -2582,7 +3836,8 @@
     "featured": [
       "Chasca"
     ],
-    "featuredId": 10000104
+    "featuredId": 10000104,
+    "phase": 2
   },
   {
     "type": "character",
@@ -2593,7 +3848,8 @@
     "featured": [
       "Mualani"
     ],
-    "featuredId": 10000102
+    "featuredId": 10000102,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -2604,51 +3860,80 @@
     "featured": [
       "Surf's Up"
     ],
-    "featuredId": 14516
+    "featuredId": 14516,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "5.8",
+    "start": "2025-08-19 18:00:00",
+    "end": "2025-09-09 14:59:00",
+    "name": "Astral Vulture's Crimson Plumage",
+    "featured": [
+      "Astral Vulture's Crimson Plumage"
+    ],
+    "featuredId": 15514,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "6.0",
-    "start": "2025-09-10 06:00:00",
-    "end": "2025-09-30 17:59:00",
+    "start": "2025-09-10 07:00:00",
+    "end": "2025-09-30 00:59:00",
     "name": "Lauma",
     "featured": [
       "Lauma"
     ],
-    "featuredId": 10000119
+    "featuredId": 10000119,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "6.0",
-    "start": "2025-09-10 06:00:00",
-    "end": "2025-09-30 17:59:00",
+    "start": "2025-09-10 07:00:00",
+    "end": "2025-09-30 00:59:00",
     "name": "Nahida",
     "featured": [
       "Nahida"
     ],
-    "featuredId": 10000073
+    "featuredId": 10000073,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "6.0",
-    "start": "2025-09-10 06:00:00",
-    "end": "2025-09-30 17:59:00",
+    "start": "2025-09-10 07:00:00",
+    "end": "2025-09-30 00:59:00",
     "name": "Nightweaver's Looking Glass",
     "featured": [
       "Nightweaver's Looking Glass"
     ],
-    "featuredId": 14520
+    "featuredId": 14520,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "6.0",
+    "start": "2025-09-10 07:00:00",
+    "end": "2025-09-30 00:59:00",
+    "name": "A Thousand Floating Dreams",
+    "featured": [
+      "A Thousand Floating Dreams"
+    ],
+    "featuredId": 14511,
+    "phase": 1
   },
   {
     "type": "chronicled",
     "version": "6.0",
-    "start": "2025-09-10 06:00:00",
-    "end": "2025-09-30 17:59:00",
+    "start": "2025-09-10 07:00:00",
+    "end": "2025-09-30 00:59:00",
     "name": "Sumeru",
     "featured": [
       "Sumeru"
     ],
-    "featuredId": null
+    "featuredId": null,
+    "phase": 1
   },
   {
     "type": "character",
@@ -2659,7 +3944,8 @@
     "featured": [
       "Flins"
     ],
-    "featuredId": 10000120
+    "featuredId": 10000120,
+    "phase": 2
   },
   {
     "type": "character",
@@ -2670,51 +3956,80 @@
     "featured": [
       "Yelan"
     ],
-    "featuredId": 10000060
+    "featuredId": 10000060,
+    "phase": 2
   },
   {
     "type": "weapon",
     "version": "6.0",
     "start": "2025-09-30 18:00:00",
     "end": "2025-10-21 17:59:00",
-    "name": "Nightweaver's Looking Glass",
+    "name": "Bloodsoaked Ruins",
     "featured": [
-      "Nightweaver's Looking Glass"
+      "Bloodsoaked Ruins"
     ],
-    "featuredId": 14520
+    "featuredId": 13516,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "6.0",
+    "start": "2025-09-30 18:00:00",
+    "end": "2025-10-21 17:59:00",
+    "name": "Aqua Simulacra",
+    "featured": [
+      "Aqua Simulacra"
+    ],
+    "featuredId": 15508,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "6.1",
-    "start": "2025-10-22 06:00:00",
-    "end": "2025-11-11 17:59:00",
+    "start": "2025-10-22 07:00:00",
+    "end": "2025-11-11 00:59:00",
     "name": "Furina",
     "featured": [
       "Furina"
     ],
-    "featuredId": 10000089
+    "featuredId": 10000089,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "6.1",
-    "start": "2025-10-22 06:00:00",
-    "end": "2025-11-11 17:59:00",
+    "start": "2025-10-22 07:00:00",
+    "end": "2025-11-11 00:59:00",
     "name": "Nefer",
     "featured": [
       "Nefer"
     ],
-    "featuredId": 10000122
+    "featuredId": 10000122,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "6.1",
-    "start": "2025-10-22 06:00:00",
-    "end": "2025-11-11 17:59:00",
+    "start": "2025-10-22 07:00:00",
+    "end": "2025-11-11 00:59:00",
     "name": "Reliquary of Truth",
     "featured": [
       "Reliquary of Truth"
     ],
-    "featuredId": 14521
+    "featuredId": 14521,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "6.1",
+    "start": "2025-10-22 07:00:00",
+    "end": "2025-11-11 00:59:00",
+    "name": "Splendor of Tranquil Waters",
+    "featured": [
+      "Splendor of Tranquil Waters"
+    ],
+    "featuredId": 11513,
+    "phase": 1
   },
   {
     "type": "character",
@@ -2725,7 +4040,8 @@
     "featured": [
       "Arlecchino"
     ],
-    "featuredId": 10000096
+    "featuredId": 10000096,
+    "phase": 2
   },
   {
     "type": "character",
@@ -2736,7 +4052,8 @@
     "featured": [
       "Zhongli"
     ],
-    "featuredId": 10000030
+    "featuredId": 10000030,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -2747,40 +4064,68 @@
     "featured": [
       "Crimson Moon's Semblance"
     ],
-    "featuredId": 13512
+    "featuredId": 13512,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "6.1",
+    "start": "2025-11-11 18:00:00",
+    "end": "2025-12-02 14:59:00",
+    "name": "Vortex Vanquisher",
+    "featured": [
+      "Vortex Vanquisher"
+    ],
+    "featuredId": 13504,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "6.2",
-    "start": "2025-12-03 06:00:00",
-    "end": "2025-12-23 17:59:00",
+    "start": "2025-12-03 07:00:00",
+    "end": "2025-12-23 00:59:00",
     "name": "Durin",
     "featured": [
       "Durin"
     ],
-    "featuredId": 10000123
+    "featuredId": 10000123,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "6.2",
-    "start": "2025-12-03 06:00:00",
-    "end": "2025-12-23 17:59:00",
+    "start": "2025-12-03 07:00:00",
+    "end": "2025-12-23 00:59:00",
     "name": "Venti",
     "featured": [
       "Venti"
     ],
-    "featuredId": 10000022
+    "featuredId": 10000022,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "6.2",
-    "start": "2025-12-03 06:00:00",
-    "end": "2025-12-23 17:59:00",
+    "start": "2025-12-03 07:00:00",
+    "end": "2025-12-23 00:59:00",
     "name": "Athame Artis",
     "featured": [
       "Athame Artis"
     ],
-    "featuredId": 11518
+    "featuredId": 11518,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "6.2",
+    "start": "2025-12-03 07:00:00",
+    "end": "2025-12-23 00:59:00",
+    "name": "The Daybreak Chronicles",
+    "featured": [
+      "The Daybreak Chronicles"
+    ],
+    "featuredId": 15515,
+    "phase": 1
   },
   {
     "type": "character",
@@ -2791,7 +4136,8 @@
     "featured": [
       "Varesa"
     ],
-    "featuredId": 10000111
+    "featuredId": 10000111,
+    "phase": 2
   },
   {
     "type": "character",
@@ -2802,7 +4148,8 @@
     "featured": [
       "Xilonen"
     ],
-    "featuredId": 10000103
+    "featuredId": 10000103,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -2813,40 +4160,68 @@
     "featured": [
       "Vivid Notions"
     ],
-    "featuredId": 14519
+    "featuredId": 14519,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "6.2",
+    "start": "2025-12-23 18:00:00",
+    "end": "2026-01-13 14:59:00",
+    "name": "Peak Patrol Song",
+    "featured": [
+      "Peak Patrol Song"
+    ],
+    "featuredId": 11516,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "6.3",
-    "start": "2026-01-14 06:00:00",
-    "end": "2026-02-03 17:59:00",
+    "start": "2026-01-14 07:00:00",
+    "end": "2026-02-03 00:59:00",
     "name": "Columbina",
     "featured": [
       "Columbina"
     ],
-    "featuredId": 10000125
+    "featuredId": 10000125,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "6.3",
-    "start": "2026-01-14 06:00:00",
-    "end": "2026-02-03 17:59:00",
+    "start": "2026-01-14 07:00:00",
+    "end": "2026-02-03 00:59:00",
     "name": "Ineffa",
     "featured": [
       "Ineffa"
     ],
-    "featuredId": 10000116
+    "featuredId": 10000116,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "6.3",
-    "start": "2026-01-14 06:00:00",
-    "end": "2026-02-03 17:59:00",
+    "start": "2026-01-14 07:00:00",
+    "end": "2026-02-03 00:59:00",
     "name": "Nocturne's Curtain Call",
     "featured": [
       "Nocturne's Curtain Call"
     ],
-    "featuredId": 14522
+    "featuredId": 14522,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "6.3",
+    "start": "2026-01-14 07:00:00",
+    "end": "2026-02-03 00:59:00",
+    "name": "Fractured Halo",
+    "featured": [
+      "Fractured Halo"
+    ],
+    "featuredId": 13515,
+    "phase": 1
   },
   {
     "type": "character",
@@ -2857,7 +4232,8 @@
     "featured": [
       "Neuvillette"
     ],
-    "featuredId": 10000087
+    "featuredId": 10000087,
+    "phase": 2
   },
   {
     "type": "character",
@@ -2868,62 +4244,92 @@
     "featured": [
       "Zibai"
     ],
-    "featuredId": 10000126
+    "featuredId": 10000126,
+    "phase": 2
   },
   {
     "type": "weapon",
     "version": "6.3",
     "start": "2026-02-03 18:00:00",
     "end": "2026-02-24 14:59:00",
-    "name": "Nocturne's Curtain Call",
+    "name": "Lightbearing Moonshard",
     "featured": [
-      "Nocturne's Curtain Call"
+      "Lightbearing Moonshard"
     ],
-    "featuredId": 14522
+    "featuredId": 11519,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "6.3",
+    "start": "2026-02-03 18:00:00",
+    "end": "2026-02-24 14:59:00",
+    "name": "Tome of the Eternal Flow",
+    "featured": [
+      "Tome of the Eternal Flow"
+    ],
+    "featuredId": 14514,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "6.4",
-    "start": "2026-02-25 06:00:00",
-    "end": "2026-03-17 17:59:00",
+    "start": "2026-02-25 07:00:00",
+    "end": "2026-03-17 00:59:00",
     "name": "Flins",
     "featured": [
       "Flins"
     ],
-    "featuredId": 10000120
+    "featuredId": 10000120,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "6.4",
-    "start": "2026-02-25 06:00:00",
-    "end": "2026-03-17 17:59:00",
+    "start": "2026-02-25 07:00:00",
+    "end": "2026-03-17 00:59:00",
     "name": "Varka",
     "featured": [
       "Varka"
     ],
-    "featuredId": 10000128
+    "featuredId": 10000128,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "6.4",
-    "start": "2026-02-25 06:00:00",
-    "end": "2026-03-17 17:59:00",
+    "start": "2026-02-25 07:00:00",
+    "end": "2026-03-17 00:59:00",
     "name": "Gest of the Mighty Wolf",
     "featured": [
       "Gest of the Mighty Wolf"
     ],
-    "featuredId": 12515
+    "featuredId": 12515,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "6.4",
+    "start": "2026-02-25 07:00:00",
+    "end": "2026-03-17 00:59:00",
+    "name": "Bloodsoaked Ruins",
+    "featured": [
+      "Bloodsoaked Ruins"
+    ],
+    "featuredId": 13516,
+    "phase": 1
   },
   {
     "type": "chronicled",
     "version": "6.4",
-    "start": "2026-02-25 06:00:00",
-    "end": "2026-03-17 17:59:00",
+    "start": "2026-02-25 07:00:00",
+    "end": "2026-03-17 00:59:00",
     "name": "Mondstadt",
     "featured": [
       "Mondstadt"
     ],
-    "featuredId": null
+    "featuredId": null,
+    "phase": 1
   },
   {
     "type": "character",
@@ -2934,7 +4340,8 @@
     "featured": [
       "Escoffier"
     ],
-    "featuredId": 10000112
+    "featuredId": 10000112,
+    "phase": 2
   },
   {
     "type": "character",
@@ -2945,7 +4352,8 @@
     "featured": [
       "Skirk"
     ],
-    "featuredId": 10000114
+    "featuredId": 10000114,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -2956,40 +4364,68 @@
     "featured": [
       "Azurelight"
     ],
-    "featuredId": 11517
+    "featuredId": 11517,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "6.4",
+    "start": "2026-03-17 18:00:00",
+    "end": "2026-04-07 14:59:00",
+    "name": "Symphonist of Scents",
+    "featured": [
+      "Symphonist of Scents"
+    ],
+    "featuredId": 13514,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "6.5",
-    "start": "2026-04-08 06:00:00",
-    "end": "2026-04-28 17:59:00",
+    "start": "2026-04-08 07:00:00",
+    "end": "2026-04-28 00:59:00",
     "name": "Chasca",
     "featured": [
       "Chasca"
     ],
-    "featuredId": 10000104
+    "featuredId": 10000104,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "6.5",
-    "start": "2026-04-08 06:00:00",
-    "end": "2026-04-28 17:59:00",
+    "start": "2026-04-08 07:00:00",
+    "end": "2026-04-28 00:59:00",
     "name": "Linnea",
     "featured": [
       "Linnea"
     ],
-    "featuredId": 10000130
+    "featuredId": 10000130,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "6.5",
-    "start": "2026-04-08 06:00:00",
-    "end": "2026-04-28 17:59:00",
+    "start": "2026-04-08 07:00:00",
+    "end": "2026-04-28 00:59:00",
     "name": "Golden Frostbound Oath",
     "featured": [
       "Golden Frostbound Oath"
     ],
-    "featuredId": 15516
+    "featuredId": 15516,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "6.5",
+    "start": "2026-04-08 07:00:00",
+    "end": "2026-04-28 00:59:00",
+    "name": "Astral Vulture's Crimson Plumage",
+    "featured": [
+      "Astral Vulture's Crimson Plumage"
+    ],
+    "featuredId": 15514,
+    "phase": 1
   },
   {
     "type": "character",
@@ -3000,7 +4436,8 @@
     "featured": [
       "Lauma"
     ],
-    "featuredId": 10000119
+    "featuredId": 10000119,
+    "phase": 2
   },
   {
     "type": "character",
@@ -3011,7 +4448,8 @@
     "featured": [
       "Nefer"
     ],
-    "featuredId": 10000122
+    "featuredId": 10000122,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -3022,7 +4460,20 @@
     "featured": [
       "Nightweaver's Looking Glass"
     ],
-    "featuredId": 14520
+    "featuredId": 14520,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "6.5",
+    "start": "2026-04-28 18:00:00",
+    "end": "2026-05-19 14:59:00",
+    "name": "Reliquary of Truth",
+    "featured": [
+      "Reliquary of Truth"
+    ],
+    "featuredId": 14521,
+    "phase": 2
   },
   {
     "type": "chronicled",
@@ -3033,40 +4484,32 @@
     "featured": [
       "Fontaine"
     ],
-    "featuredId": null
+    "featuredId": null,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "6.6",
-    "start": "2026-05-20 06:00:00",
-    "end": "2026-06-09 17:59:00",
+    "start": "2026-05-20 07:00:00",
+    "end": "2026-06-09 00:59:00",
     "name": "Durin",
     "featured": [
       "Durin"
     ],
-    "featuredId": 10000123
+    "featuredId": 10000123,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "6.6",
-    "start": "2026-05-20 06:00:00",
-    "end": "2026-06-09 17:59:00",
+    "start": "2026-05-20 07:00:00",
+    "end": "2026-06-09 00:59:00",
     "name": "Nicole",
     "featured": [
       "Nicole"
     ],
-    "featuredId": 10000131
-  },
-  {
-    "type": "weapon",
-    "version": "6.6",
-    "start": "2026-05-20 06:00:00",
-    "end": "2026-06-09 17:59:00",
-    "name": "Angelos' Heptades",
-    "featured": [
-      "Angelos' Heptades"
-    ],
-    "featuredId": 14523
+    "featuredId": 10000131,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -3077,7 +4520,8 @@
     "featured": [
       "Angelos' Heptades"
     ],
-    "featuredId": 14523
+    "featuredId": 14523,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -3088,6 +4532,7 @@
     "featured": [
       "Athame Artis"
     ],
-    "featuredId": 11518
+    "featuredId": 11518,
+    "phase": 1
   }
 ]
