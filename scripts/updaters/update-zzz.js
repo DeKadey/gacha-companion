@@ -9,8 +9,8 @@ const UID    = process.env.ZZZ_UID;
 const REGION = process.env.ZZZ_SERVER;
 
 const SALT          = '6s25p5ox5y14umn1p61aqyyvbvvl3lrt';
-const SCHEDULE_PATH = path.join(__dirname, '..', 'zzz', 'banner-schedule-zzz.json');
-const IMAGES_DIR    = path.join(__dirname, '..', 'zzz', 'images');
+const SCHEDULE_PATH = path.join(__dirname, '..', '..', 'zzz', 'banner-schedule-zzz.json');
+const IMAGES_DIR    = path.join(__dirname, '..', '..', 'zzz', 'images');
 
 function generateDS() {
   const t = Math.floor(Date.now() / 1000);
