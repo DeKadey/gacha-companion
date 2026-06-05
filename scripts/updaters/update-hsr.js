@@ -10,8 +10,8 @@ const SERVER = process.env.HSR_SERVER;
 
 const SALT          = '6s25p5ox5y14umn1p61aqyyvbvvl3lrt';
 const API_URL       = 'https://sg-public-api.hoyolab.com/event/game_record/hkrpg/api/get_act_calender';
-const SCHEDULE_PATH = path.join(__dirname, '..', 'hsr', 'banner-schedule-hsr.json');
-const IMAGES_DIR    = path.join(__dirname, '..', 'hsr', 'images');
+const SCHEDULE_PATH = path.join(__dirname, '..', '..', 'hsr', 'banner-schedule-hsr.json');
+const IMAGES_DIR    = path.join(__dirname, '..', '..', 'hsr', 'images');
 
 function generateDS() {
   const t = Math.floor(Date.now() / 1000);
