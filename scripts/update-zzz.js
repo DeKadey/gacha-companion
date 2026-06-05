@@ -76,7 +76,7 @@ async function main() {
     const start   = unixToUtc8(pool.start_ts);
     const end     = unixToUtc8(pool.end_ts);
     const version = pool.version || '';
-    for (const w of (pool.weapon_list || []).filter(w == w.rarity === 'S')) {
+    for (const w of (pool.weapon_list || []).filter(w => w.rarity === 'S')) {
       iconMap[w.weapon_id] = w.icon;
       fetched.push({ type: 'weapon', version, start, end, name: w.talent_title, featured: [w.talent_title], featuredId: w.weapon_id });
     }
