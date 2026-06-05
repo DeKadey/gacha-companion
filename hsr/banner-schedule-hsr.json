@@ -8,7 +8,8 @@
     "featured": [
       "Seele"
     ],
-    "featuredId": 1102
+    "featuredId": 1102,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -19,7 +20,8 @@
     "featured": [
       "In the Night"
     ],
-    "featuredId": 23001
+    "featuredId": 23001,
+    "phase": 1
   },
   {
     "type": "character",
@@ -30,7 +32,8 @@
     "featured": [
       "Jing Yuan"
     ],
-    "featuredId": 1204
+    "featuredId": 1204,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -41,7 +44,8 @@
     "featured": [
       "Before Dawn"
     ],
-    "featuredId": 23010
+    "featuredId": 23010,
+    "phase": 2
   },
   {
     "type": "character",
@@ -52,7 +56,8 @@
     "featured": [
       "Silver Wolf"
     ],
-    "featuredId": 1006
+    "featuredId": 1006,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -63,7 +68,8 @@
     "featured": [
       "Incessant Rain"
     ],
-    "featuredId": 23007
+    "featuredId": 23007,
+    "phase": 1
   },
   {
     "type": "character",
@@ -74,7 +80,8 @@
     "featured": [
       "Luocha"
     ],
-    "featuredId": 1203
+    "featuredId": 1203,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -85,7 +92,8 @@
     "featured": [
       "Echoes of the Coffin"
     ],
-    "featuredId": 23008
+    "featuredId": 23008,
+    "phase": 2
   },
   {
     "type": "character",
@@ -96,7 +104,8 @@
     "featured": [
       "Blade"
     ],
-    "featuredId": 1205
+    "featuredId": 1205,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -107,7 +116,8 @@
     "featured": [
       "The Unreachable Side"
     ],
-    "featuredId": 23009
+    "featuredId": 23009,
+    "phase": 1
   },
   {
     "type": "character",
@@ -118,7 +128,8 @@
     "featured": [
       "Kafka"
     ],
-    "featuredId": 1005
+    "featuredId": 1005,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -129,7 +140,8 @@
     "featured": [
       "Patience Is All You Need"
     ],
-    "featuredId": 23006
+    "featuredId": 23006,
+    "phase": 2
   },
   {
     "type": "character",
@@ -140,7 +152,8 @@
     "featured": [
       "Dan Heng • Imbibitor Lunae"
     ],
-    "featuredId": 1213
+    "featuredId": 1213,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -151,7 +164,8 @@
     "featured": [
       "Brighter Than the Sun"
     ],
-    "featuredId": 23015
+    "featuredId": 23015,
+    "phase": 1
   },
   {
     "type": "character",
@@ -162,7 +176,8 @@
     "featured": [
       "Fu Xuan"
     ],
-    "featuredId": 1208
+    "featuredId": 1208,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -173,7 +188,8 @@
     "featured": [
       "She Already Shut Her Eyes"
     ],
-    "featuredId": 23011
+    "featuredId": 23011,
+    "phase": 2
   },
   {
     "type": "character",
@@ -184,7 +200,8 @@
     "featured": [
       "Jingliu"
     ],
-    "featuredId": 1212
+    "featuredId": 1212,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -195,7 +212,8 @@
     "featured": [
       "I Shall Be My Own Sword"
     ],
-    "featuredId": 23014
+    "featuredId": 23014,
+    "phase": 1
   },
   {
     "type": "character",
@@ -206,7 +224,8 @@
     "featured": [
       "Seele"
     ],
-    "featuredId": 1102
+    "featuredId": 1102,
+    "phase": 2
   },
   {
     "type": "character",
@@ -217,7 +236,8 @@
     "featured": [
       "Topaz & Numby"
     ],
-    "featuredId": 1112
+    "featuredId": 1112,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -228,7 +248,8 @@
     "featured": [
       "In the Night"
     ],
-    "featuredId": 23001
+    "featuredId": 23001,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -239,7 +260,8 @@
     "featured": [
       "Worrisome, Blissful"
     ],
-    "featuredId": 23016
+    "featuredId": 23016,
+    "phase": 2
   },
   {
     "type": "character",
@@ -250,7 +272,8 @@
     "featured": [
       "Huohuo"
     ],
-    "featuredId": 1217
+    "featuredId": 1217,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -261,7 +284,8 @@
     "featured": [
       "Night of Fright"
     ],
-    "featuredId": 23017
+    "featuredId": 23017,
+    "phase": 1
   },
   {
     "type": "character",
@@ -272,7 +296,8 @@
     "featured": [
       "Argenti"
     ],
-    "featuredId": 1302
+    "featuredId": 1302,
+    "phase": 2
   },
   {
     "type": "character",
@@ -283,7 +308,8 @@
     "featured": [
       "Silver Wolf"
     ],
-    "featuredId": 1006
+    "featuredId": 1006,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -294,7 +320,8 @@
     "featured": [
       "An Instant Before A Gaze"
     ],
-    "featuredId": 23018
+    "featuredId": 23018,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -305,7 +332,8 @@
     "featured": [
       "Incessant Rain"
     ],
-    "featuredId": 23007
+    "featuredId": 23007,
+    "phase": 2
   },
   {
     "type": "character",
@@ -316,7 +344,8 @@
     "featured": [
       "Blade"
     ],
-    "featuredId": 1205
+    "featuredId": 1205,
+    "phase": 1
   },
   {
     "type": "character",
@@ -327,7 +356,8 @@
     "featured": [
       "Ruan Mei"
     ],
-    "featuredId": 1303
+    "featuredId": 1303,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -338,7 +368,8 @@
     "featured": [
       "Past Self in Mirror"
     ],
-    "featuredId": 23019
+    "featuredId": 23019,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -349,7 +380,8 @@
     "featured": [
       "The Unreachable Side"
     ],
-    "featuredId": 23009
+    "featuredId": 23009,
+    "phase": 1
   },
   {
     "type": "character",
@@ -360,7 +392,8 @@
     "featured": [
       "Dr. Ratio"
     ],
-    "featuredId": 1305
+    "featuredId": 1305,
+    "phase": 2
   },
   {
     "type": "character",
@@ -371,7 +404,8 @@
     "featured": [
       "Kafka"
     ],
-    "featuredId": 1005
+    "featuredId": 1005,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -382,7 +416,8 @@
     "featured": [
       "Baptism of Pure Thought"
     ],
-    "featuredId": 23020
+    "featuredId": 23020,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -393,7 +428,8 @@
     "featured": [
       "Patience Is All You Need"
     ],
-    "featuredId": 23006
+    "featuredId": 23006,
+    "phase": 2
   },
   {
     "type": "character",
@@ -404,7 +440,8 @@
     "featured": [
       "Black Swan"
     ],
-    "featuredId": 1307
+    "featuredId": 1307,
+    "phase": 1
   },
   {
     "type": "character",
@@ -415,7 +452,8 @@
     "featured": [
       "Dan Heng • Imbibitor Lunae"
     ],
-    "featuredId": 1213
+    "featuredId": 1213,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -426,7 +464,8 @@
     "featured": [
       "Brighter Than the Sun"
     ],
-    "featuredId": 23015
+    "featuredId": 23015,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -437,7 +476,8 @@
     "featured": [
       "Reforged Remembrance"
     ],
-    "featuredId": 23022
+    "featuredId": 23022,
+    "phase": 1
   },
   {
     "type": "character",
@@ -448,7 +488,8 @@
     "featured": [
       "Jing Yuan"
     ],
-    "featuredId": 1204
+    "featuredId": 1204,
+    "phase": 2
   },
   {
     "type": "character",
@@ -459,7 +500,8 @@
     "featured": [
       "Sparkle"
     ],
-    "featuredId": 1306
+    "featuredId": 1306,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -470,7 +512,8 @@
     "featured": [
       "Before Dawn"
     ],
-    "featuredId": 23010
+    "featuredId": 23010,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -481,7 +524,8 @@
     "featured": [
       "Earthly Escapade"
     ],
-    "featuredId": 23021
+    "featuredId": 23021,
+    "phase": 2
   },
   {
     "type": "character",
@@ -492,7 +536,8 @@
     "featured": [
       "Acheron"
     ],
-    "featuredId": 1308
+    "featuredId": 1308,
+    "phase": 1
   },
   {
     "type": "character",
@@ -503,7 +548,8 @@
     "featured": [
       "Luocha"
     ],
-    "featuredId": 1203
+    "featuredId": 1203,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -514,7 +560,8 @@
     "featured": [
       "Along the Passing Shore"
     ],
-    "featuredId": 23024
+    "featuredId": 23024,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -525,7 +572,8 @@
     "featured": [
       "Echoes of the Coffin"
     ],
-    "featuredId": 23008
+    "featuredId": 23008,
+    "phase": 1
   },
   {
     "type": "character",
@@ -536,7 +584,8 @@
     "featured": [
       "Aventurine"
     ],
-    "featuredId": 1304
+    "featuredId": 1304,
+    "phase": 2
   },
   {
     "type": "character",
@@ -547,7 +596,8 @@
     "featured": [
       "Jingliu"
     ],
-    "featuredId": 1212
+    "featuredId": 1212,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -558,7 +608,8 @@
     "featured": [
       "I Shall Be My Own Sword"
     ],
-    "featuredId": 23014
+    "featuredId": 23014,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -569,7 +620,8 @@
     "featured": [
       "Inherently Unjust Destiny"
     ],
-    "featuredId": 23023
+    "featuredId": 23023,
+    "phase": 2
   },
   {
     "type": "character",
@@ -580,7 +632,8 @@
     "featured": [
       "Robin"
     ],
-    "featuredId": 1309
+    "featuredId": 1309,
+    "phase": 1
   },
   {
     "type": "character",
@@ -591,7 +644,8 @@
     "featured": [
       "Topaz & Numby"
     ],
-    "featuredId": 1112
+    "featuredId": 1112,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -602,7 +656,8 @@
     "featured": [
       "Flowing Nightglow"
     ],
-    "featuredId": 23026
+    "featuredId": 23026,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -613,7 +668,8 @@
     "featured": [
       "Worrisome, Blissful"
     ],
-    "featuredId": 23016
+    "featuredId": 23016,
+    "phase": 1
   },
   {
     "type": "character",
@@ -624,7 +680,8 @@
     "featured": [
       "Boothill"
     ],
-    "featuredId": 1315
+    "featuredId": 1315,
+    "phase": 2
   },
   {
     "type": "character",
@@ -635,7 +692,8 @@
     "featured": [
       "Fu Xuan"
     ],
-    "featuredId": 1208
+    "featuredId": 1208,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -646,7 +704,8 @@
     "featured": [
       "Sailing Towards a Second Life"
     ],
-    "featuredId": 23027
+    "featuredId": 23027,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -657,7 +716,8 @@
     "featured": [
       "She Already Shut Her Eyes"
     ],
-    "featuredId": 23011
+    "featuredId": 23011,
+    "phase": 2
   },
   {
     "type": "character",
@@ -668,7 +728,8 @@
     "featured": [
       "Firefly"
     ],
-    "featuredId": 1310
+    "featuredId": 1310,
+    "phase": 1
   },
   {
     "type": "character",
@@ -679,7 +740,8 @@
     "featured": [
       "Ruan Mei"
     ],
-    "featuredId": 1303
+    "featuredId": 1303,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -690,7 +752,8 @@
     "featured": [
       "Past Self in Mirror"
     ],
-    "featuredId": 23019
+    "featuredId": 23019,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -701,7 +764,8 @@
     "featured": [
       "Whereabouts Should Dreams Rest"
     ],
-    "featuredId": 23025
+    "featuredId": 23025,
+    "phase": 1
   },
   {
     "type": "character",
@@ -712,7 +776,8 @@
     "featured": [
       "Argenti"
     ],
-    "featuredId": 1302
+    "featuredId": 1302,
+    "phase": 2
   },
   {
     "type": "character",
@@ -723,7 +788,8 @@
     "featured": [
       "Jade"
     ],
-    "featuredId": 1314
+    "featuredId": 1314,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -734,7 +800,8 @@
     "featured": [
       "An Instant Before A Gaze"
     ],
-    "featuredId": 23018
+    "featuredId": 23018,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -745,7 +812,8 @@
     "featured": [
       "Yet Hope Is Priceless"
     ],
-    "featuredId": 23028
+    "featuredId": 23028,
+    "phase": 2
   },
   {
     "type": "character",
@@ -756,7 +824,8 @@
     "featured": [
       "Huohuo"
     ],
-    "featuredId": 1217
+    "featuredId": 1217,
+    "phase": 1
   },
   {
     "type": "character",
@@ -767,7 +836,8 @@
     "featured": [
       "Yunli"
     ],
-    "featuredId": 1221
+    "featuredId": 1221,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -778,7 +848,8 @@
     "featured": [
       "Dance at Sunset"
     ],
-    "featuredId": 23030
+    "featuredId": 23030,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -789,7 +860,8 @@
     "featured": [
       "Night of Fright"
     ],
-    "featuredId": 23017
+    "featuredId": 23017,
+    "phase": 1
   },
   {
     "type": "character",
@@ -800,7 +872,8 @@
     "featured": [
       "Jiaoqiu"
     ],
-    "featuredId": 1218
+    "featuredId": 1218,
+    "phase": 2
   },
   {
     "type": "character",
@@ -811,7 +884,8 @@
     "featured": [
       "Sparkle"
     ],
-    "featuredId": 1306
+    "featuredId": 1306,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -822,7 +896,8 @@
     "featured": [
       "Earthly Escapade"
     ],
-    "featuredId": 23021
+    "featuredId": 23021,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -833,7 +908,8 @@
     "featured": [
       "Those Many Springs"
     ],
-    "featuredId": 23029
+    "featuredId": 23029,
+    "phase": 2
   },
   {
     "type": "character",
@@ -844,7 +920,8 @@
     "featured": [
       "Black Swan"
     ],
-    "featuredId": 1307
+    "featuredId": 1307,
+    "phase": 1
   },
   {
     "type": "character",
@@ -855,7 +932,8 @@
     "featured": [
       "Feixiao"
     ],
-    "featuredId": 1220
+    "featuredId": 1220,
+    "phase": 1
   },
   {
     "type": "character",
@@ -866,7 +944,8 @@
     "featured": [
       "Kafka"
     ],
-    "featuredId": 1005
+    "featuredId": 1005,
+    "phase": 1
   },
   {
     "type": "character",
@@ -877,7 +956,8 @@
     "featured": [
       "Robin"
     ],
-    "featuredId": 1309
+    "featuredId": 1309,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -888,7 +968,8 @@
     "featured": [
       "Flowing Nightglow"
     ],
-    "featuredId": 23026
+    "featuredId": 23026,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -899,7 +980,8 @@
     "featured": [
       "I Venture Forth to Hunt"
     ],
-    "featuredId": 23031
+    "featuredId": 23031,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -910,7 +992,8 @@
     "featured": [
       "Patience Is All You Need"
     ],
-    "featuredId": 23006
+    "featuredId": 23006,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -921,7 +1004,8 @@
     "featured": [
       "Reforged Remembrance"
     ],
-    "featuredId": 23022
+    "featuredId": 23022,
+    "phase": 1
   },
   {
     "type": "character",
@@ -932,7 +1016,8 @@
     "featured": [
       "Lingsha"
     ],
-    "featuredId": 1222
+    "featuredId": 1222,
+    "phase": 2
   },
   {
     "type": "character",
@@ -943,7 +1028,8 @@
     "featured": [
       "Topaz & Numby"
     ],
-    "featuredId": 1112
+    "featuredId": 1112,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -954,7 +1040,8 @@
     "featured": [
       "Scent Alone Stays True"
     ],
-    "featuredId": 23032
+    "featuredId": 23032,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -965,7 +1052,8 @@
     "featured": [
       "Worrisome, Blissful"
     ],
-    "featuredId": 23016
+    "featuredId": 23016,
+    "phase": 2
   },
   {
     "type": "character",
@@ -976,7 +1064,8 @@
     "featured": [
       "Dan Heng • Imbibitor Lunae"
     ],
-    "featuredId": 1213
+    "featuredId": 1213,
+    "phase": 1
   },
   {
     "type": "character",
@@ -987,7 +1076,8 @@
     "featured": [
       "Rappa"
     ],
-    "featuredId": 1317
+    "featuredId": 1317,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -998,7 +1088,8 @@
     "featured": [
       "Brighter Than the Sun"
     ],
-    "featuredId": 23015
+    "featuredId": 23015,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -1009,7 +1100,8 @@
     "featured": [
       "Ninjutsu Inscription: Dazzling Evilbreaker"
     ],
-    "featuredId": 23033
+    "featuredId": 23033,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1020,7 +1112,8 @@
     "featured": [
       "Acheron"
     ],
-    "featuredId": 1308
+    "featuredId": 1308,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1031,7 +1124,8 @@
     "featured": [
       "Aventurine"
     ],
-    "featuredId": 1304
+    "featuredId": 1304,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1042,7 +1136,8 @@
     "featured": [
       "Along the Passing Shore"
     ],
-    "featuredId": 23024
+    "featuredId": 23024,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1053,7 +1148,8 @@
     "featured": [
       "Inherently Unjust Destiny"
     ],
-    "featuredId": 23023
+    "featuredId": 23023,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1064,7 +1160,8 @@
     "featured": [
       "Jing Yuan"
     ],
-    "featuredId": 1204
+    "featuredId": 1204,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1075,7 +1172,8 @@
     "featured": [
       "Sunday"
     ],
-    "featuredId": 1313
+    "featuredId": 1313,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -1086,7 +1184,8 @@
     "featured": [
       "A Grounded Ascent"
     ],
-    "featuredId": 23034
+    "featuredId": 23034,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -1097,7 +1196,8 @@
     "featured": [
       "Before Dawn"
     ],
-    "featuredId": 23010
+    "featuredId": 23010,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1108,7 +1208,8 @@
     "featured": [
       "Firefly"
     ],
-    "featuredId": 1310
+    "featuredId": 1310,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1119,7 +1220,8 @@
     "featured": [
       "Fugue"
     ],
-    "featuredId": 1225
+    "featuredId": 1225,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1130,7 +1232,8 @@
     "featured": [
       "Long Road Leads Home"
     ],
-    "featuredId": 23035
+    "featuredId": 23035,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1141,7 +1244,8 @@
     "featured": [
       "Whereabouts Should Dreams Rest"
     ],
-    "featuredId": 23025
+    "featuredId": 23025,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1152,7 +1256,8 @@
     "featured": [
       "Feixiao"
     ],
-    "featuredId": 1220
+    "featuredId": 1220,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1163,7 +1268,8 @@
     "featured": [
       "Jade"
     ],
-    "featuredId": 1314
+    "featuredId": 1314,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1174,7 +1280,8 @@
     "featured": [
       "Lingsha"
     ],
-    "featuredId": 1222
+    "featuredId": 1222,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1185,7 +1292,8 @@
     "featured": [
       "The Herta"
     ],
-    "featuredId": 1401
+    "featuredId": 1401,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -1196,7 +1304,8 @@
     "featured": [
       "I Venture Forth to Hunt"
     ],
-    "featuredId": 23031
+    "featuredId": 23031,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -1207,7 +1316,8 @@
     "featured": [
       "Into the Unreachable Veil"
     ],
-    "featuredId": 23037
+    "featuredId": 23037,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -1218,7 +1328,8 @@
     "featured": [
       "Scent Alone Stays True"
     ],
-    "featuredId": 23032
+    "featuredId": 23032,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -1229,7 +1340,8 @@
     "featured": [
       "Yet Hope Is Priceless"
     ],
-    "featuredId": 23028
+    "featuredId": 23028,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1240,7 +1352,8 @@
     "featured": [
       "Aglaea"
     ],
-    "featuredId": 1402
+    "featuredId": 1402,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1251,7 +1364,8 @@
     "featured": [
       "Boothill"
     ],
-    "featuredId": 1315
+    "featuredId": 1315,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1262,7 +1376,8 @@
     "featured": [
       "Robin"
     ],
-    "featuredId": 1309
+    "featuredId": 1309,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1273,7 +1388,8 @@
     "featured": [
       "Silver Wolf"
     ],
-    "featuredId": 1006
+    "featuredId": 1006,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1284,7 +1400,8 @@
     "featured": [
       "Flowing Nightglow"
     ],
-    "featuredId": 23026
+    "featuredId": 23026,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1295,7 +1412,8 @@
     "featured": [
       "Incessant Rain"
     ],
-    "featuredId": 23007
+    "featuredId": 23007,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1306,7 +1424,8 @@
     "featured": [
       "Sailing Towards a Second Life"
     ],
-    "featuredId": 23027
+    "featuredId": 23027,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1317,7 +1436,8 @@
     "featured": [
       "Time Woven Into Gold"
     ],
-    "featuredId": 23036
+    "featuredId": 23036,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1328,7 +1448,8 @@
     "featured": [
       "Tribbie"
     ],
-    "featuredId": 1403
+    "featuredId": 1403,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1339,7 +1460,8 @@
     "featured": [
       "Yunli"
     ],
-    "featuredId": 1221
+    "featuredId": 1221,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -1350,7 +1472,8 @@
     "featured": [
       "Dance at Sunset"
     ],
-    "featuredId": 23030
+    "featuredId": 23030,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -1361,7 +1484,8 @@
     "featured": [
       "If Time Were a Flower"
     ],
-    "featuredId": 23038
+    "featuredId": 23038,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1372,7 +1496,8 @@
     "featured": [
       "Huohuo"
     ],
-    "featuredId": 1217
+    "featuredId": 1217,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1383,7 +1508,8 @@
     "featured": [
       "Mydei"
     ],
-    "featuredId": 1404
+    "featuredId": 1404,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1394,7 +1520,8 @@
     "featured": [
       "Flame of Blood, Blaze My Path"
     ],
-    "featuredId": 23039
+    "featuredId": 23039,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1405,7 +1532,8 @@
     "featured": [
       "Night of Fright"
     ],
-    "featuredId": 23017
+    "featuredId": 23017,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1416,7 +1544,8 @@
     "featured": [
       "Acheron"
     ],
-    "featuredId": 1308
+    "featuredId": 1308,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1427,7 +1556,8 @@
     "featured": [
       "Castorice"
     ],
-    "featuredId": 1407
+    "featuredId": 1407,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1438,7 +1568,8 @@
     "featured": [
       "Fugue"
     ],
-    "featuredId": 1225
+    "featuredId": 1225,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1449,7 +1580,8 @@
     "featured": [
       "Jiaoqiu"
     ],
-    "featuredId": 1218
+    "featuredId": 1218,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -1460,7 +1592,8 @@
     "featured": [
       "Along the Passing Shore"
     ],
-    "featuredId": 23024
+    "featuredId": 23024,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -1471,7 +1604,8 @@
     "featured": [
       "Long Road Leads Home"
     ],
-    "featuredId": 23035
+    "featuredId": 23035,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -1482,7 +1616,8 @@
     "featured": [
       "Make Farewells More Beautiful"
     ],
-    "featuredId": 23040
+    "featuredId": 23040,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -1493,7 +1628,8 @@
     "featured": [
       "Those Many Springs"
     ],
-    "featuredId": 23029
+    "featuredId": 23029,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1504,7 +1640,8 @@
     "featured": [
       "Anaxa"
     ],
-    "featuredId": 1405
+    "featuredId": 1405,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1515,7 +1652,8 @@
     "featured": [
       "Dr. Ratio"
     ],
-    "featuredId": 1305
+    "featuredId": 1305,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1526,7 +1664,8 @@
     "featured": [
       "Baptism of Pure Thought"
     ],
-    "featuredId": 23020
+    "featuredId": 23020,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1537,7 +1676,8 @@
     "featured": [
       "Life Should Be Cast to Flames"
     ],
-    "featuredId": 23041
+    "featuredId": 23041,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1548,7 +1688,8 @@
     "featured": [
       "Hyacine"
     ],
-    "featuredId": 1409
+    "featuredId": 1409,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1559,7 +1700,8 @@
     "featured": [
       "The Herta"
     ],
-    "featuredId": 1401
+    "featuredId": 1401,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -1570,7 +1712,8 @@
     "featured": [
       "Into the Unreachable Veil"
     ],
-    "featuredId": 23037
+    "featuredId": 23037,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -1581,7 +1724,8 @@
     "featured": [
       "Long May Rainbows Adorn the Sky"
     ],
-    "featuredId": 23042
+    "featuredId": 23042,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1592,7 +1736,8 @@
     "featured": [
       "Aglaea"
     ],
-    "featuredId": 1402
+    "featuredId": 1402,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1603,7 +1748,8 @@
     "featured": [
       "Cipher"
     ],
-    "featuredId": 1406
+    "featuredId": 1406,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1614,7 +1760,8 @@
     "featured": [
       "Lies Dance on the Breeze"
     ],
-    "featuredId": 23043
+    "featuredId": 23043,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1625,7 +1772,8 @@
     "featured": [
       "Time Woven Into Gold"
     ],
-    "featuredId": 23036
+    "featuredId": 23036,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1636,7 +1784,8 @@
     "featured": [
       "Phainon"
     ],
-    "featuredId": 1408
+    "featuredId": 1408,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1647,7 +1796,8 @@
     "featured": [
       "Sparkle"
     ],
-    "featuredId": 1306
+    "featuredId": 1306,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1658,7 +1808,8 @@
     "featured": [
       "Sunday"
     ],
-    "featuredId": 1313
+    "featuredId": 1313,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1669,7 +1820,8 @@
     "featured": [
       "Tribbie"
     ],
-    "featuredId": 1403
+    "featuredId": 1403,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -1680,7 +1832,8 @@
     "featured": [
       "A Grounded Ascent"
     ],
-    "featuredId": 23034
+    "featuredId": 23034,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -1691,7 +1844,8 @@
     "featured": [
       "Earthly Escapade"
     ],
-    "featuredId": 23021
+    "featuredId": 23021,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -1702,7 +1856,8 @@
     "featured": [
       "If Time Were a Flower"
     ],
-    "featuredId": 23038
+    "featuredId": 23038,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -1713,7 +1868,8 @@
     "featured": [
       "Thus Burns the Dawn"
     ],
-    "featuredId": 23044
+    "featuredId": 23044,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1724,7 +1880,8 @@
     "featured": [
       "Blade"
     ],
-    "featuredId": 1205
+    "featuredId": 1205,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1735,7 +1892,8 @@
     "featured": [
       "Firefly"
     ],
-    "featuredId": 1310
+    "featuredId": 1310,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1746,7 +1904,8 @@
     "featured": [
       "Jingliu"
     ],
-    "featuredId": 1212
+    "featuredId": 1212,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1757,7 +1916,8 @@
     "featured": [
       "I Shall Be My Own Sword"
     ],
-    "featuredId": 23014
+    "featuredId": 23014,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1768,7 +1928,8 @@
     "featured": [
       "The Unreachable Side"
     ],
-    "featuredId": 23009
+    "featuredId": 23009,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1779,7 +1940,8 @@
     "featured": [
       "Whereabouts Should Dreams Rest"
     ],
-    "featuredId": 23025
+    "featuredId": 23025,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1790,7 +1952,8 @@
     "featured": [
       "Hysilens"
     ],
-    "featuredId": 1410
+    "featuredId": 1410,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1801,7 +1964,8 @@
     "featured": [
       "Kafka"
     ],
-    "featuredId": 1005
+    "featuredId": 1005,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -1812,7 +1976,8 @@
     "featured": [
       "Patience Is All You Need"
     ],
-    "featuredId": 23006
+    "featuredId": 23006,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -1823,7 +1988,8 @@
     "featured": [
       "Why Does the Ocean Sing"
     ],
-    "featuredId": 23047
+    "featuredId": 23047,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1834,7 +2000,8 @@
     "featured": [
       "Cerydra"
     ],
-    "featuredId": 1412
+    "featuredId": 1412,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1845,7 +2012,8 @@
     "featured": [
       "Silver Wolf"
     ],
-    "featuredId": 1006
+    "featuredId": 1006,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1856,7 +2024,8 @@
     "featured": [
       "Epoch Etched in Golden Blood"
     ],
-    "featuredId": 23048
+    "featuredId": 23048,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1867,7 +2036,8 @@
     "featured": [
       "Incessant Rain"
     ],
-    "featuredId": 23007
+    "featuredId": 23007,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1878,7 +2048,8 @@
     "featured": [
       "Evernight"
     ],
-    "featuredId": 1413
+    "featuredId": 1413,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1889,7 +2060,8 @@
     "featured": [
       "The Herta"
     ],
-    "featuredId": 1401
+    "featuredId": 1401,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -1900,7 +2072,8 @@
     "featured": [
       "Into the Unreachable Veil"
     ],
-    "featuredId": 23037
+    "featuredId": 23037,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -1911,7 +2084,8 @@
     "featured": [
       "To Evernight's Stars"
     ],
-    "featuredId": 23049
+    "featuredId": 23049,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1922,7 +2096,8 @@
     "featured": [
       "Anaxa"
     ],
-    "featuredId": 1405
+    "featuredId": 1405,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1933,7 +2108,8 @@
     "featured": [
       "Dan Heng • Permansor Terrae"
     ],
-    "featuredId": 1414
+    "featuredId": 1414,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1944,7 +2120,8 @@
     "featured": [
       "Life Should Be Cast to Flames"
     ],
-    "featuredId": 23041
+    "featuredId": 23041,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1955,7 +2132,8 @@
     "featured": [
       "Though Worlds Apart"
     ],
-    "featuredId": 23051
+    "featuredId": 23051,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1966,18 +2144,20 @@
     "featured": [
       "Castorice"
     ],
-    "featuredId": 1407
+    "featuredId": 1407,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "3.7",
     "start": "2025-11-05 10:00:00",
-    "end": "2025-12-16 22:00:00",
+    "end": "2025-12-16 18:59:00",
     "name": "Cyrene",
     "featured": [
       "Cyrene"
     ],
-    "featuredId": 1415
+    "featuredId": 1415,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1988,7 +2168,8 @@
     "featured": [
       "Hyacine"
     ],
-    "featuredId": 1409
+    "featuredId": 1409,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1999,7 +2180,8 @@
     "featured": [
       "Tribbie"
     ],
-    "featuredId": 1403
+    "featuredId": 1403,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -2010,7 +2192,8 @@
     "featured": [
       "If Time Were a Flower"
     ],
-    "featuredId": 23038
+    "featuredId": 23038,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -2021,7 +2204,8 @@
     "featured": [
       "Long May Rainbows Adorn the Sky"
     ],
-    "featuredId": 23042
+    "featuredId": 23042,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -2032,18 +2216,20 @@
     "featured": [
       "Make Farewells More Beautiful"
     ],
-    "featuredId": 23040
+    "featuredId": 23040,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "3.7",
     "start": "2025-11-05 10:00:00",
-    "end": "2025-12-16 22:00:00",
+    "end": "2025-12-16 18:59:00",
     "name": "This Love, Forever",
     "featured": [
       "This Love, Forever"
     ],
-    "featuredId": 23052
+    "featuredId": 23052,
+    "phase": 1
   },
   {
     "type": "character",
@@ -2054,7 +2240,8 @@
     "featured": [
       "Cipher"
     ],
-    "featuredId": 1406
+    "featuredId": 1406,
+    "phase": 2
   },
   {
     "type": "character",
@@ -2065,7 +2252,8 @@
     "featured": [
       "Mydei"
     ],
-    "featuredId": 1404
+    "featuredId": 1404,
+    "phase": 2
   },
   {
     "type": "character",
@@ -2076,7 +2264,8 @@
     "featured": [
       "Phainon"
     ],
-    "featuredId": 1408
+    "featuredId": 1408,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -2087,7 +2276,8 @@
     "featured": [
       "Flame of Blood, Blaze My Path"
     ],
-    "featuredId": 23039
+    "featuredId": 23039,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -2098,7 +2288,8 @@
     "featured": [
       "Lies Dance on the Breeze"
     ],
-    "featuredId": 23043
+    "featuredId": 23043,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -2109,7 +2300,8 @@
     "featured": [
       "Thus Burns the Dawn"
     ],
-    "featuredId": 23044
+    "featuredId": 23044,
+    "phase": 2
   },
   {
     "type": "character",
@@ -2120,7 +2312,8 @@
     "featured": [
       "Firefly"
     ],
-    "featuredId": 1310
+    "featuredId": 1310,
+    "phase": 1
   },
   {
     "type": "character",
@@ -2131,7 +2324,8 @@
     "featured": [
       "The Dahlia"
     ],
-    "featuredId": 1321
+    "featuredId": 1321,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -2142,7 +2336,8 @@
     "featured": [
       "Never Forget Her Flame"
     ],
-    "featuredId": 23050
+    "featuredId": 23050,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -2153,51 +2348,56 @@
     "featured": [
       "Whereabouts Should Dreams Rest"
     ],
-    "featuredId": 23025
+    "featuredId": 23025,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "3.8",
     "start": "2026-01-07 19:00:00",
-    "end": "2026-01-07 18:59:00",
+    "end": "2026-01-07 22:00:00",
     "name": "Fugue",
     "featured": [
       "Fugue"
     ],
-    "featuredId": 1225
+    "featuredId": 1225,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "3.8",
     "start": "2026-01-07 19:00:00",
-    "end": "2026-01-07 18:59:00",
+    "end": "2026-01-07 22:00:00",
     "name": "Lingsha",
     "featured": [
       "Lingsha"
     ],
-    "featuredId": 1222
+    "featuredId": 1222,
+    "phase": 2
   },
   {
     "type": "weapon",
     "version": "3.8",
     "start": "2026-01-07 19:00:00",
-    "end": "2026-01-07 18:59:00",
+    "end": "2026-01-07 22:00:00",
     "name": "Long Road Leads Home",
     "featured": [
       "Long Road Leads Home"
     ],
-    "featuredId": 23035
+    "featuredId": 23035,
+    "phase": 2
   },
   {
     "type": "weapon",
     "version": "3.8",
     "start": "2026-01-07 19:00:00",
-    "end": "2026-01-07 18:59:00",
+    "end": "2026-01-07 22:00:00",
     "name": "Scent Alone Stays True",
     "featured": [
       "Scent Alone Stays True"
     ],
-    "featuredId": 23032
+    "featuredId": 23032,
+    "phase": 2
   },
   {
     "type": "character",
@@ -2208,7 +2408,8 @@
     "featured": [
       "Aglaea"
     ],
-    "featuredId": 1402
+    "featuredId": 1402,
+    "phase": 2
   },
   {
     "type": "character",
@@ -2219,7 +2420,8 @@
     "featured": [
       "Sunday"
     ],
-    "featuredId": 1313
+    "featuredId": 1313,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -2230,7 +2432,8 @@
     "featured": [
       "A Grounded Ascent"
     ],
-    "featuredId": 23034
+    "featuredId": 23034,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -2241,7 +2444,8 @@
     "featured": [
       "Time Woven Into Gold"
     ],
-    "featuredId": 23036
+    "featuredId": 23036,
+    "phase": 2
   },
   {
     "type": "character",
@@ -2252,7 +2456,8 @@
     "featured": [
       "Black Swan"
     ],
-    "featuredId": 1307
+    "featuredId": 1307,
+    "phase": 1
   },
   {
     "type": "character",
@@ -2263,7 +2468,8 @@
     "featured": [
       "Evernight"
     ],
-    "featuredId": 1413
+    "featuredId": 1413,
+    "phase": 1
   },
   {
     "type": "character",
@@ -2274,18 +2480,20 @@
     "featured": [
       "Hysilens"
     ],
-    "featuredId": 1410
+    "featuredId": 1410,
+    "phase": 1
   },
   {
     "type": "character",
     "version": "4.0",
     "start": "2026-02-13 10:00:00",
-    "end": "2026-03-24 22:00:00",
+    "end": "2026-03-24 18:59:00",
     "name": "Yao Guang",
     "featured": [
       "Yao Guang"
     ],
-    "featuredId": 1502
+    "featuredId": 1502,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -2296,7 +2504,8 @@
     "featured": [
       "Reforged Remembrance"
     ],
-    "featuredId": 23022
+    "featuredId": 23022,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -2307,18 +2516,20 @@
     "featured": [
       "To Evernight's Stars"
     ],
-    "featuredId": 23049
+    "featuredId": 23049,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "4.0",
     "start": "2026-02-13 10:00:00",
-    "end": "2026-03-24 22:00:00",
+    "end": "2026-03-24 18:59:00",
     "name": "When She Decided to See",
     "featured": [
       "When She Decided to See"
     ],
-    "featuredId": 23054
+    "featuredId": 23054,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -2329,7 +2540,8 @@
     "featured": [
       "Why Does the Ocean Sing"
     ],
-    "featuredId": 23047
+    "featuredId": 23047,
+    "phase": 1
   },
   {
     "type": "character",
@@ -2340,7 +2552,8 @@
     "featured": [
       "Cerydra"
     ],
-    "featuredId": 1412
+    "featuredId": 1412,
+    "phase": 2
   },
   {
     "type": "character",
@@ -2351,7 +2564,8 @@
     "featured": [
       "Rappa"
     ],
-    "featuredId": 1317
+    "featuredId": 1317,
+    "phase": 2
   },
   {
     "type": "character",
@@ -2362,7 +2576,8 @@
     "featured": [
       "Sparkle"
     ],
-    "featuredId": 1306
+    "featuredId": 1306,
+    "phase": 2
   },
   {
     "type": "character",
@@ -2373,7 +2588,8 @@
     "featured": [
       "Sparxie"
     ],
-    "featuredId": 1501
+    "featuredId": 1501,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -2384,7 +2600,8 @@
     "featured": [
       "Dazzled by a Flowery World"
     ],
-    "featuredId": 23053
+    "featuredId": 23053,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -2395,7 +2612,8 @@
     "featured": [
       "Earthly Escapade"
     ],
-    "featuredId": 23021
+    "featuredId": 23021,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -2406,7 +2624,8 @@
     "featured": [
       "Epoch Etched in Golden Blood"
     ],
-    "featuredId": 23048
+    "featuredId": 23048,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -2417,18 +2636,20 @@
     "featured": [
       "Ninjutsu Inscription: Dazzling Evilbreaker"
     ],
-    "featuredId": 23033
+    "featuredId": 23033,
+    "phase": 2
   },
   {
     "type": "character",
     "version": "4.1",
     "start": "2026-03-25 10:00:00",
-    "end": "2026-04-22 22:00:00",
+    "end": "2026-04-22 18:59:00",
     "name": "Ashveil",
     "featured": [
       "Ashveil"
     ],
-    "featuredId": 1504
+    "featuredId": 1504,
+    "phase": 1
   },
   {
     "type": "character",
@@ -2439,7 +2660,8 @@
     "featured": [
       "Hyacine"
     ],
-    "featuredId": 1409
+    "featuredId": 1409,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -2450,18 +2672,20 @@
     "featured": [
       "Long May Rainbows Adorn the Sky"
     ],
-    "featuredId": 23042
+    "featuredId": 23042,
+    "phase": 1
   },
   {
     "type": "weapon",
     "version": "4.1",
     "start": "2026-03-25 10:00:00",
-    "end": "2026-04-22 22:00:00",
+    "end": "2026-04-22 18:59:00",
     "name": "The Finale of a Lie",
     "featured": [
       "The Finale of a Lie"
     ],
-    "featuredId": 23056
+    "featuredId": 23056,
+    "phase": 1
   },
   {
     "type": "character",
@@ -2472,7 +2696,8 @@
     "featured": [
       "Boothill"
     ],
-    "featuredId": 1315
+    "featuredId": 1315,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -2483,7 +2708,8 @@
     "featured": [
       "Sailing Towards a Second Life"
     ],
-    "featuredId": 23027
+    "featuredId": 23027,
+    "phase": 2
   },
   {
     "type": "character",
@@ -2494,7 +2720,8 @@
     "featured": [
       "Castorice"
     ],
-    "featuredId": 1407
+    "featuredId": 1407,
+    "phase": 1
   },
   {
     "type": "character",
@@ -2505,7 +2732,8 @@
     "featured": [
       "Firefly"
     ],
-    "featuredId": 1310
+    "featuredId": 1310,
+    "phase": 1
   },
   {
     "type": "character",
@@ -2516,7 +2744,8 @@
     "featured": [
       "Silver Wolf LV.999"
     ],
-    "featuredId": 1506
+    "featuredId": 1506,
+    "phase": 1
   },
   {
     "type": "character",
@@ -2527,7 +2756,8 @@
     "featured": [
       "The Dahlia"
     ],
-    "featuredId": 1321
+    "featuredId": 1321,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -2538,7 +2768,8 @@
     "featured": [
       "Make Farewells More Beautiful"
     ],
-    "featuredId": 23040
+    "featuredId": 23040,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -2549,7 +2780,8 @@
     "featured": [
       "Never Forget Her Flame"
     ],
-    "featuredId": 23050
+    "featuredId": 23050,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -2560,7 +2792,8 @@
     "featured": [
       "Welcome to the Cosmic City"
     ],
-    "featuredId": 23057
+    "featuredId": 23057,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -2571,7 +2804,8 @@
     "featured": [
       "Whereabouts Should Dreams Rest"
     ],
-    "featuredId": 23025
+    "featuredId": 23025,
+    "phase": 1
   },
   {
     "type": "character",
@@ -2582,7 +2816,8 @@
     "featured": [
       "Evanescia"
     ],
-    "featuredId": 1505
+    "featuredId": 1505,
+    "phase": 2
   },
   {
     "type": "character",
@@ -2593,7 +2828,8 @@
     "featured": [
       "Feixiao"
     ],
-    "featuredId": 1220
+    "featuredId": 1220,
+    "phase": 2
   },
   {
     "type": "character",
@@ -2604,7 +2840,8 @@
     "featured": [
       "Sunday"
     ],
-    "featuredId": 1313
+    "featuredId": 1313,
+    "phase": 2
   },
   {
     "type": "character",
@@ -2615,7 +2852,8 @@
     "featured": [
       "Tribbie"
     ],
-    "featuredId": 1403
+    "featuredId": 1403,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -2626,7 +2864,8 @@
     "featured": [
       "A Grounded Ascent"
     ],
-    "featuredId": 23034
+    "featuredId": 23034,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -2637,7 +2876,8 @@
     "featured": [
       "I Venture Forth to Hunt"
     ],
-    "featuredId": 23031
+    "featuredId": 23031,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -2648,7 +2888,8 @@
     "featured": [
       "If Time Were a Flower"
     ],
-    "featuredId": 23038
+    "featuredId": 23038,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -2659,7 +2900,8 @@
     "featured": [
       "Until the Flowers Bloom Again"
     ],
-    "featuredId": 23058
+    "featuredId": 23058,
+    "phase": 2
   },
   {
     "type": "character",
@@ -2670,7 +2912,8 @@
     "featured": [
       "Mortenax Blade"
     ],
-    "featuredId": 1507
+    "featuredId": 1507,
+    "phase": 1
   },
   {
     "type": "character",
@@ -2681,7 +2924,8 @@
     "featured": [
       "Yao Guang"
     ],
-    "featuredId": 1502
+    "featuredId": 1502,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -2692,7 +2936,8 @@
     "featured": [
       "Reforged in Hellfire"
     ],
-    "featuredId": 23059
+    "featuredId": 23059,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -2703,7 +2948,8 @@
     "featured": [
       "When She Decided to See"
     ],
-    "featuredId": 23054
+    "featuredId": 23054,
+    "phase": 1
   },
   {
     "type": "character",
@@ -2714,7 +2960,8 @@
     "featured": [
       "Cyrene"
     ],
-    "featuredId": 1415
+    "featuredId": 1415,
+    "phase": 2
   },
   {
     "type": "character",
@@ -2725,7 +2972,8 @@
     "featured": [
       "Phainon"
     ],
-    "featuredId": 1408
+    "featuredId": 1408,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -2736,7 +2984,8 @@
     "featured": [
       "This Love, Forever"
     ],
-    "featuredId": 23052
+    "featuredId": 23052,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -2747,6 +2996,7 @@
     "featured": [
       "Thus Burns the Dawn"
     ],
-    "featuredId": 23044
+    "featuredId": 23044,
+    "phase": 2
   }
 ]
