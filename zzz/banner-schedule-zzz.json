@@ -8,7 +8,8 @@
     "featured": [
       "Ellen"
     ],
-    "featuredId": 1191
+    "featuredId": 1191,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -19,7 +20,8 @@
     "featured": [
       "Lord of Seas"
     ],
-    "featuredId": 14119
+    "featuredId": 14119,
+    "phase": 1
   },
   {
     "type": "character",
@@ -30,7 +32,8 @@
     "featured": [
       "Zhu Yuan"
     ],
-    "featuredId": 1241
+    "featuredId": 1241,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -41,7 +44,8 @@
     "featured": [
       "Security Patrol"
     ],
-    "featuredId": 14124
+    "featuredId": 14124,
+    "phase": 2
   },
   {
     "type": "character",
@@ -52,7 +56,8 @@
     "featured": [
       "Qingyi"
     ],
-    "featuredId": 1251
+    "featuredId": 1251,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -63,7 +68,8 @@
     "featured": [
       "Ringing Melody"
     ],
-    "featuredId": 14125
+    "featuredId": 14125,
+    "phase": 1
   },
   {
     "type": "character",
@@ -74,7 +80,8 @@
     "featured": [
       "Jane Doe"
     ],
-    "featuredId": 1261
+    "featuredId": 1261,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -85,7 +92,8 @@
     "featured": [
       "Indulge in the Hunt"
     ],
-    "featuredId": 14126
+    "featuredId": 14126,
+    "phase": 2
   },
   {
     "type": "character",
@@ -96,7 +104,8 @@
     "featured": [
       "Caesar"
     ],
-    "featuredId": 1071
+    "featuredId": 1071,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -107,7 +116,8 @@
     "featured": [
       "Invincible Rider"
     ],
-    "featuredId": 14107
+    "featuredId": 14107,
+    "phase": 1
   },
   {
     "type": "character",
@@ -118,7 +128,8 @@
     "featured": [
       "Burnice"
     ],
-    "featuredId": 1171
+    "featuredId": 1171,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -129,7 +140,8 @@
     "featured": [
       "Fuel on the Rocks"
     ],
-    "featuredId": 14117
+    "featuredId": 14117,
+    "phase": 2
   },
   {
     "type": "character",
@@ -140,7 +152,8 @@
     "featured": [
       "Yanagi"
     ],
-    "featuredId": 1221
+    "featuredId": 1221,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -151,7 +164,8 @@
     "featured": [
       "Flowing Flame"
     ],
-    "featuredId": 14116
+    "featuredId": 14116,
+    "phase": 1
   },
   {
     "type": "character",
@@ -162,7 +176,8 @@
     "featured": [
       "Lighter"
     ],
-    "featuredId": 1161
+    "featuredId": 1161,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -173,7 +188,8 @@
     "featured": [
       "Time-Devouring Stratagem"
     ],
-    "featuredId": 14122
+    "featuredId": 14122,
+    "phase": 2
   },
   {
     "type": "character",
@@ -184,7 +200,8 @@
     "featured": [
       "Miyabi"
     ],
-    "featuredId": 1091
+    "featuredId": 1091,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -195,7 +212,8 @@
     "featured": [
       "Frost-Stained Star"
     ],
-    "featuredId": 14109
+    "featuredId": 14109,
+    "phase": 1
   },
   {
     "type": "character",
@@ -206,7 +224,8 @@
     "featured": [
       "Harumasa"
     ],
-    "featuredId": 1201
+    "featuredId": 1201,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -217,7 +236,8 @@
     "featured": [
       "Growth Through Adversity"
     ],
-    "featuredId": 14120
+    "featuredId": 14120,
+    "phase": 1
   },
   {
     "type": "character",
@@ -228,7 +248,8 @@
     "featured": [
       "Astra Yao"
     ],
-    "featuredId": 1311
+    "featuredId": 1311,
+    "phase": 1
   },
   {
     "type": "character",
@@ -239,7 +260,8 @@
     "featured": [
       "Ellen"
     ],
-    "featuredId": 1191
+    "featuredId": 1191,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -250,7 +272,8 @@
     "featured": [
       "Untold Beauty"
     ],
-    "featuredId": 14131
+    "featuredId": 14131,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -261,7 +284,8 @@
     "featured": [
       "Lord of Seas"
     ],
-    "featuredId": 14119
+    "featuredId": 14119,
+    "phase": 1
   },
   {
     "type": "character",
@@ -272,7 +296,8 @@
     "featured": [
       "Evelyn"
     ],
-    "featuredId": 1321
+    "featuredId": 1321,
+    "phase": 2
   },
   {
     "type": "character",
@@ -283,7 +308,8 @@
     "featured": [
       "Qingyi"
     ],
-    "featuredId": 1251
+    "featuredId": 1251,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -294,7 +320,8 @@
     "featured": [
       "String & Melody"
     ],
-    "featuredId": 14132
+    "featuredId": 14132,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -305,7 +332,8 @@
     "featured": [
       "Ringing Melody"
     ],
-    "featuredId": 14125
+    "featuredId": 14125,
+    "phase": 2
   },
   {
     "type": "character",
@@ -316,7 +344,8 @@
     "featured": [
       "Soldier 0 Anby"
     ],
-    "featuredId": 1381
+    "featuredId": 1381,
+    "phase": 1
   },
   {
     "type": "character",
@@ -327,7 +356,8 @@
     "featured": [
       "Burnice"
     ],
-    "featuredId": 1171
+    "featuredId": 1171,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -338,7 +368,8 @@
     "featured": [
       "Tranquil Blossom"
     ],
-    "featuredId": 14138
+    "featuredId": 14138,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -349,7 +380,8 @@
     "featured": [
       "Fuel on the Rocks"
     ],
-    "featuredId": 14117
+    "featuredId": 14117,
+    "phase": 1
   },
   {
     "type": "character",
@@ -360,7 +392,8 @@
     "featured": [
       "Trigger"
     ],
-    "featuredId": 1361
+    "featuredId": 1361,
+    "phase": 2
   },
   {
     "type": "character",
@@ -371,7 +404,8 @@
     "featured": [
       "Zhu Yuan"
     ],
-    "featuredId": 1241
+    "featuredId": 1241,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -382,7 +416,8 @@
     "featured": [
       "Wind Seeker"
     ],
-    "featuredId": 14136
+    "featuredId": 14136,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -393,7 +428,8 @@
     "featured": [
       "Security Patrol"
     ],
-    "featuredId": 14124
+    "featuredId": 14124,
+    "phase": 2
   },
   {
     "type": "character",
@@ -404,7 +440,8 @@
     "featured": [
       "Vivian"
     ],
-    "featuredId": 1331
+    "featuredId": 1331,
+    "phase": 1
   },
   {
     "type": "character",
@@ -415,7 +452,8 @@
     "featured": [
       "Jane Doe"
     ],
-    "featuredId": 1261
+    "featuredId": 1261,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -426,7 +464,8 @@
     "featured": [
       "Silver Spiked Feathers"
     ],
-    "featuredId": 14133
+    "featuredId": 14133,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -437,7 +476,8 @@
     "featured": [
       "Indulge in the Hunt"
     ],
-    "featuredId": 14126
+    "featuredId": 14126,
+    "phase": 1
   },
   {
     "type": "character",
@@ -448,7 +488,8 @@
     "featured": [
       "Hugo"
     ],
-    "featuredId": 1291
+    "featuredId": 1291,
+    "phase": 2
   },
   {
     "type": "character",
@@ -459,7 +500,8 @@
     "featured": [
       "Lighter"
     ],
-    "featuredId": 1161
+    "featuredId": 1161,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -470,7 +512,8 @@
     "featured": [
       "False Personas"
     ],
-    "featuredId": 14129
+    "featuredId": 14129,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -481,7 +524,8 @@
     "featured": [
       "Flowing Flame"
     ],
-    "featuredId": 14116
+    "featuredId": 14116,
+    "phase": 2
   },
   {
     "type": "character",
@@ -492,7 +536,8 @@
     "featured": [
       "Yixuan"
     ],
-    "featuredId": 1371
+    "featuredId": 1371,
+    "phase": 1
   },
   {
     "type": "character",
@@ -503,7 +548,8 @@
     "featured": [
       "Astra Yao"
     ],
-    "featuredId": 1311
+    "featuredId": 1311,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -514,7 +560,8 @@
     "featured": [
       "Cloud Flow"
     ],
-    "featuredId": 14137
+    "featuredId": 14137,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -525,7 +572,8 @@
     "featured": [
       "Untold Beauty"
     ],
-    "featuredId": 14131
+    "featuredId": 14131,
+    "phase": 1
   },
   {
     "type": "character",
@@ -536,7 +584,8 @@
     "featured": [
       "Ju Fufu"
     ],
-    "featuredId": 1391
+    "featuredId": 1391,
+    "phase": 2
   },
   {
     "type": "character",
@@ -547,7 +596,8 @@
     "featured": [
       "Caesar"
     ],
-    "featuredId": 1071
+    "featuredId": 1071,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -558,7 +608,8 @@
     "featured": [
       "Tiger Spirit Rising"
     ],
-    "featuredId": 14139
+    "featuredId": 14139,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -569,7 +620,8 @@
     "featured": [
       "Invincible Rider"
     ],
-    "featuredId": 14107
+    "featuredId": 14107,
+    "phase": 2
   },
   {
     "type": "character",
@@ -580,7 +632,8 @@
     "featured": [
       "Yuzuha"
     ],
-    "featuredId": 1411
+    "featuredId": 1411,
+    "phase": 1
   },
   {
     "type": "character",
@@ -591,7 +644,8 @@
     "featured": [
       "Miyabi"
     ],
-    "featuredId": 1091
+    "featuredId": 1091,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -602,7 +656,8 @@
     "featured": [
       "Exquisitely Ingenious"
     ],
-    "featuredId": 14141
+    "featuredId": 14141,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -613,7 +668,8 @@
     "featured": [
       "Frost-Stained Star"
     ],
-    "featuredId": 14109
+    "featuredId": 14109,
+    "phase": 1
   },
   {
     "type": "character",
@@ -624,7 +680,8 @@
     "featured": [
       "Alice"
     ],
-    "featuredId": 1401
+    "featuredId": 1401,
+    "phase": 2
   },
   {
     "type": "character",
@@ -635,7 +692,8 @@
     "featured": [
       "Yanagi"
     ],
-    "featuredId": 1221
+    "featuredId": 1221,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -646,7 +704,8 @@
     "featured": [
       "Gift of Stardust"
     ],
-    "featuredId": 14140
+    "featuredId": 14140,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -657,7 +716,8 @@
     "featured": [
       "Time-Devouring Stratagem"
     ],
-    "featuredId": 14122
+    "featuredId": 14122,
+    "phase": 2
   },
   {
     "type": "character",
@@ -668,7 +728,8 @@
     "featured": [
       "Seed"
     ],
-    "featuredId": 1461
+    "featuredId": 1461,
+    "phase": 1
   },
   {
     "type": "character",
@@ -679,7 +740,8 @@
     "featured": [
       "Trigger"
     ],
-    "featuredId": 1361
+    "featuredId": 1361,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -690,7 +752,8 @@
     "featured": [
       "Sprouting Core"
     ],
-    "featuredId": 14146
+    "featuredId": 14146,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -701,7 +764,8 @@
     "featured": [
       "Wind Seeker"
     ],
-    "featuredId": 14136
+    "featuredId": 14136,
+    "phase": 1
   },
   {
     "type": "character",
@@ -712,7 +776,8 @@
     "featured": [
       "Orphie & Magus"
     ],
-    "featuredId": 1301
+    "featuredId": 1301,
+    "phase": 2
   },
   {
     "type": "character",
@@ -723,7 +788,8 @@
     "featured": [
       "Evelyn"
     ],
-    "featuredId": 1321
+    "featuredId": 1321,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -734,7 +800,8 @@
     "featured": [
       "Flame-Devouring Choir"
     ],
-    "featuredId": 14130
+    "featuredId": 14130,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -745,7 +812,8 @@
     "featured": [
       "String & Melody"
     ],
-    "featuredId": 14132
+    "featuredId": 14132,
+    "phase": 2
   },
   {
     "type": "character",
@@ -756,7 +824,8 @@
     "featured": [
       "Lucia"
     ],
-    "featuredId": 1451
+    "featuredId": 1451,
+    "phase": 1
   },
   {
     "type": "character",
@@ -767,7 +836,8 @@
     "featured": [
       "Vivian"
     ],
-    "featuredId": 1331
+    "featuredId": 1331,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -778,7 +848,8 @@
     "featured": [
       "Moontide Epic"
     ],
-    "featuredId": 14145
+    "featuredId": 14145,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -789,7 +860,8 @@
     "featured": [
       "Silver Spiked Feathers"
     ],
-    "featuredId": 14133
+    "featuredId": 14133,
+    "phase": 1
   },
   {
     "type": "character",
@@ -800,7 +872,8 @@
     "featured": [
       "Yidhari"
     ],
-    "featuredId": 1051
+    "featuredId": 1051,
+    "phase": 2
   },
   {
     "type": "character",
@@ -811,7 +884,8 @@
     "featured": [
       "Ju Fufu"
     ],
-    "featuredId": 1391
+    "featuredId": 1391,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -822,7 +896,8 @@
     "featured": [
       "Heartfelt Caress"
     ],
-    "featuredId": 14105
+    "featuredId": 14105,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -833,7 +908,8 @@
     "featured": [
       "Tiger Spirit Rising"
     ],
-    "featuredId": 14139
+    "featuredId": 14139,
+    "phase": 2
   },
   {
     "type": "character",
@@ -844,7 +920,8 @@
     "featured": [
       "Dialyn"
     ],
-    "featuredId": 1481
+    "featuredId": 1481,
+    "phase": 1
   },
   {
     "type": "character",
@@ -855,7 +932,8 @@
     "featured": [
       "Hugo"
     ],
-    "featuredId": 1291
+    "featuredId": 1291,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -866,7 +944,8 @@
     "featured": [
       "24/7"
     ],
-    "featuredId": 14148
+    "featuredId": 14148,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -877,7 +956,8 @@
     "featured": [
       "False Personas"
     ],
-    "featuredId": 14129
+    "featuredId": 14129,
+    "phase": 1
   },
   {
     "type": "character",
@@ -888,7 +968,8 @@
     "featured": [
       "Banyue"
     ],
-    "featuredId": 1471
+    "featuredId": 1471,
+    "phase": 2
   },
   {
     "type": "character",
@@ -899,7 +980,8 @@
     "featured": [
       "Ellen"
     ],
-    "featuredId": 1191
+    "featuredId": 1191,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -910,7 +992,8 @@
     "featured": [
       "Purging Karmic Fire"
     ],
-    "featuredId": 14147
+    "featuredId": 14147,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -921,7 +1004,8 @@
     "featured": [
       "Lord of Seas"
     ],
-    "featuredId": 14119
+    "featuredId": 14119,
+    "phase": 2
   },
   {
     "type": "character",
@@ -932,7 +1016,8 @@
     "featured": [
       "Ye Shunguang"
     ],
-    "featuredId": 1431
+    "featuredId": 1431,
+    "phase": 1
   },
   {
     "type": "character",
@@ -943,7 +1028,8 @@
     "featured": [
       "Zhao"
     ],
-    "featuredId": 1341
+    "featuredId": 1341,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -954,7 +1040,8 @@
     "featured": [
       "Fragile Sweetness"
     ],
-    "featuredId": 14134
+    "featuredId": 14134,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -965,7 +1052,8 @@
     "featured": [
       "Jade Soul, Frozen Heart"
     ],
-    "featuredId": 14143
+    "featuredId": 14143,
+    "phase": 1
   },
   {
     "type": "character",
@@ -976,7 +1064,8 @@
     "featured": [
       "Soldier 0 Anby"
     ],
-    "featuredId": 1381
+    "featuredId": 1381,
+    "phase": 2
   },
   {
     "type": "character",
@@ -987,7 +1076,8 @@
     "featured": [
       "Alice"
     ],
-    "featuredId": 1401
+    "featuredId": 1401,
+    "phase": 2
   },
   {
     "type": "character",
@@ -998,7 +1088,8 @@
     "featured": [
       "Astra Yao"
     ],
-    "featuredId": 1311
+    "featuredId": 1311,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1009,7 +1100,8 @@
     "featured": [
       "Tranquil Blossom"
     ],
-    "featuredId": 14138
+    "featuredId": 14138,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1020,7 +1112,8 @@
     "featured": [
       "Gift of Stardust"
     ],
-    "featuredId": 14140
+    "featuredId": 14140,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1031,7 +1124,8 @@
     "featured": [
       "Untold Beauty"
     ],
-    "featuredId": 14131
+    "featuredId": 14131,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1042,7 +1136,8 @@
     "featured": [
       "Sunna"
     ],
-    "featuredId": 1491
+    "featuredId": 1491,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1053,7 +1148,8 @@
     "featured": [
       "Yixuan"
     ],
-    "featuredId": 1371
+    "featuredId": 1371,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -1064,7 +1160,8 @@
     "featured": [
       "Decibel Monologue"
     ],
-    "featuredId": 14149
+    "featuredId": 14149,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -1075,7 +1172,8 @@
     "featured": [
       "Cloud Flow"
     ],
-    "featuredId": 14137
+    "featuredId": 14137,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1086,7 +1184,8 @@
     "featured": [
       "Aria"
     ],
-    "featuredId": 1501
+    "featuredId": 1501,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1097,7 +1196,8 @@
     "featured": [
       "Yuzuha"
     ],
-    "featuredId": 1411
+    "featuredId": 1411,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1108,7 +1208,8 @@
     "featured": [
       "Energetic Strike"
     ],
-    "featuredId": 14150
+    "featuredId": 14150,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1119,7 +1220,8 @@
     "featured": [
       "Exquisitely Ingenious"
     ],
-    "featuredId": 14141
+    "featuredId": 14141,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1130,7 +1232,8 @@
     "featured": [
       "Nangong Yu"
     ],
-    "featuredId": 1511
+    "featuredId": 1511,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1141,7 +1244,8 @@
     "featured": [
       "Yidhari"
     ],
-    "featuredId": 1051
+    "featuredId": 1051,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -1152,7 +1256,8 @@
     "featured": [
       "Disco Demon"
     ],
-    "featuredId": 14151
+    "featuredId": 14151,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -1163,7 +1268,8 @@
     "featured": [
       "Heartfelt Caress"
     ],
-    "featuredId": 14105
+    "featuredId": 14105,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1174,7 +1280,8 @@
     "featured": [
       "Cissia"
     ],
-    "featuredId": 1521
+    "featuredId": 1521,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1185,7 +1292,8 @@
     "featured": [
       "Seed"
     ],
-    "featuredId": 1461
+    "featuredId": 1461,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1196,7 +1304,8 @@
     "featured": [
       "Bioengineered Venom"
     ],
-    "featuredId": 14152
+    "featuredId": 14152,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1207,7 +1316,8 @@
     "featured": [
       "Sprouting Core"
     ],
-    "featuredId": 14146
+    "featuredId": 14146,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1218,7 +1328,8 @@
     "featured": [
       "Promeia"
     ],
-    "featuredId": 1541
+    "featuredId": 1541,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1229,7 +1340,8 @@
     "featured": [
       "Lucia"
     ],
-    "featuredId": 1451
+    "featuredId": 1451,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -1240,7 +1352,8 @@
     "featured": [
       "Terminating Verdict"
     ],
-    "featuredId": 14154
+    "featuredId": 14154,
+    "phase": 1
   },
   {
     "type": "weapon",
@@ -1251,7 +1364,8 @@
     "featured": [
       "Moontide Epic"
     ],
-    "featuredId": 14145
+    "featuredId": 14145,
+    "phase": 1
   },
   {
     "type": "character",
@@ -1262,7 +1376,8 @@
     "featured": [
       "Starlight - Billy"
     ],
-    "featuredId": 1531
+    "featuredId": 1531,
+    "phase": 2
   },
   {
     "type": "character",
@@ -1273,7 +1388,8 @@
     "featured": [
       "Orphie & Magus"
     ],
-    "featuredId": 1301
+    "featuredId": 1301,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1284,7 +1400,8 @@
     "featured": [
       "Knight's Morale"
     ],
-    "featuredId": 14153
+    "featuredId": 14153,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -1295,6 +1412,7 @@
     "featured": [
       "Flame-Devouring Choir"
     ],
-    "featuredId": 14130
+    "featuredId": 14130,
+    "phase": 2
   }
 ]
