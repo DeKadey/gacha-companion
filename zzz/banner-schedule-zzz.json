@@ -253,6 +253,17 @@
     "featuredId": 14131
   },
   {
+    "type": "weapon",
+    "version": "1.5",
+    "start": "2025-01-22 19:00:00",
+    "end": "2025-02-12 18:59:59",
+    "name": "Lord of Seas",
+    "featured": [
+      "Lord of Seas"
+    ],
+    "featuredId": 14119
+  },
+  {
     "type": "character",
     "version": "1.5",
     "start": "2025-02-12 19:00:00",
@@ -288,17 +299,6 @@
   {
     "type": "weapon",
     "version": "1.5",
-    "start": "2025-01-22 19:00:00",
-    "end": "2025-02-12 18:59:59",
-    "name": "Lord of Seas",
-    "featured": [
-      "Lord of Seas"
-    ],
-    "featuredId": 14119
-  },
-  {
-    "type": "weapon",
-    "version": "1.5",
     "start": "2025-02-12 19:00:00",
     "end": "2025-03-11 21:59:59",
     "name": "Ringing Melody",
@@ -330,28 +330,6 @@
     "featuredId": 1171
   },
   {
-    "type": "character",
-    "version": "1.6",
-    "start": "2025-04-02 19:00:00",
-    "end": "2025-04-22 21:59:59",
-    "name": "Trigger",
-    "featured": [
-      "Trigger"
-    ],
-    "featuredId": 1361
-  },
-  {
-    "type": "character",
-    "version": "1.6",
-    "start": "2025-04-02 19:00:00",
-    "end": "2025-04-22 21:59:59",
-    "name": "Zhu Yuan",
-    "featured": [
-      "Zhu Yuan"
-    ],
-    "featuredId": 1241
-  },
-  {
     "type": "weapon",
     "version": "1.6",
     "start": "2025-03-12 19:00:00",
@@ -372,6 +350,28 @@
       "Fuel on the Rocks"
     ],
     "featuredId": 14117
+  },
+  {
+    "type": "character",
+    "version": "1.6",
+    "start": "2025-04-02 19:00:00",
+    "end": "2025-04-22 21:59:59",
+    "name": "Trigger",
+    "featured": [
+      "Trigger"
+    ],
+    "featuredId": 1361
+  },
+  {
+    "type": "character",
+    "version": "1.6",
+    "start": "2025-04-02 19:00:00",
+    "end": "2025-04-22 21:59:59",
+    "name": "Zhu Yuan",
+    "featured": [
+      "Zhu Yuan"
+    ],
+    "featuredId": 1241
   },
   {
     "type": "weapon",
@@ -418,28 +418,6 @@
     "featuredId": 1261
   },
   {
-    "type": "character",
-    "version": "1.7",
-    "start": "2025-05-14 19:00:00",
-    "end": "2025-06-05 21:59:59",
-    "name": "Hugo",
-    "featured": [
-      "Hugo"
-    ],
-    "featuredId": 1291
-  },
-  {
-    "type": "character",
-    "version": "1.7",
-    "start": "2025-05-14 19:00:00",
-    "end": "2025-06-05 21:59:59",
-    "name": "Lighter",
-    "featured": [
-      "Lighter"
-    ],
-    "featuredId": 1161
-  },
-  {
     "type": "weapon",
     "version": "1.7",
     "start": "2025-04-23 19:00:00",
@@ -460,6 +438,28 @@
       "Indulge in the Hunt"
     ],
     "featuredId": 14126
+  },
+  {
+    "type": "character",
+    "version": "1.7",
+    "start": "2025-05-14 19:00:00",
+    "end": "2025-06-05 21:59:59",
+    "name": "Hugo",
+    "featured": [
+      "Hugo"
+    ],
+    "featuredId": 1291
+  },
+  {
+    "type": "character",
+    "version": "1.7",
+    "start": "2025-05-14 19:00:00",
+    "end": "2025-06-05 21:59:59",
+    "name": "Lighter",
+    "featured": [
+      "Lighter"
+    ],
+    "featuredId": 1161
   },
   {
     "type": "weapon",
@@ -517,6 +517,17 @@
     "featuredId": 14137
   },
   {
+    "type": "weapon",
+    "version": "2.0",
+    "start": "2025-06-06 19:00:00",
+    "end": "2025-06-25 18:59:59",
+    "name": "Untold Beauty",
+    "featured": [
+      "Untold Beauty"
+    ],
+    "featuredId": 14131
+  },
+  {
     "type": "character",
     "version": "2.0",
     "start": "2025-06-25 19:00:00",
@@ -552,17 +563,6 @@
   {
     "type": "weapon",
     "version": "2.0",
-    "start": "2025-06-06 19:00:00",
-    "end": "2025-06-25 18:59:59",
-    "name": "Untold Beauty",
-    "featured": [
-      "Untold Beauty"
-    ],
-    "featuredId": 14131
-  },
-  {
-    "type": "weapon",
-    "version": "2.0",
     "start": "2025-06-25 19:00:00",
     "end": "2025-07-15 21:59:59",
     "name": "Invincible Rider",
@@ -594,28 +594,6 @@
     "featuredId": 1091
   },
   {
-    "type": "character",
-    "version": "2.1",
-    "start": "2025-08-06 19:00:00",
-    "end": "2025-09-03 21:59:59",
-    "name": "Alice",
-    "featured": [
-      "Alice"
-    ],
-    "featuredId": 1401
-  },
-  {
-    "type": "character",
-    "version": "2.1",
-    "start": "2025-08-06 19:00:00",
-    "end": "2025-09-03 21:59:59",
-    "name": "Yanagi",
-    "featured": [
-      "Yanagi"
-    ],
-    "featuredId": 1221
-  },
-  {
     "type": "weapon",
     "version": "2.1",
     "start": "2025-07-16 19:00:00",
@@ -636,6 +614,28 @@
       "Frost-Stained Star"
     ],
     "featuredId": 14109
+  },
+  {
+    "type": "character",
+    "version": "2.1",
+    "start": "2025-08-06 19:00:00",
+    "end": "2025-09-03 21:59:59",
+    "name": "Alice",
+    "featured": [
+      "Alice"
+    ],
+    "featuredId": 1401
+  },
+  {
+    "type": "character",
+    "version": "2.1",
+    "start": "2025-08-06 19:00:00",
+    "end": "2025-09-03 21:59:59",
+    "name": "Yanagi",
+    "featured": [
+      "Yanagi"
+    ],
+    "featuredId": 1221
   },
   {
     "type": "weapon",
@@ -682,28 +682,6 @@
     "featuredId": 1361
   },
   {
-    "type": "character",
-    "version": "2.2",
-    "start": "2025-09-24 19:00:00",
-    "end": "2025-10-14 21:59:59",
-    "name": "Orphie & Magus",
-    "featured": [
-      "Orphie & Magus"
-    ],
-    "featuredId": 1301
-  },
-  {
-    "type": "character",
-    "version": "2.2",
-    "start": "2025-09-24 19:00:00",
-    "end": "2025-10-14 21:59:59",
-    "name": "Evelyn",
-    "featured": [
-      "Evelyn"
-    ],
-    "featuredId": 1321
-  },
-  {
     "type": "weapon",
     "version": "2.2",
     "start": "2025-09-04 19:00:00",
@@ -724,6 +702,28 @@
       "Wind Seeker"
     ],
     "featuredId": 14136
+  },
+  {
+    "type": "character",
+    "version": "2.2",
+    "start": "2025-09-24 19:00:00",
+    "end": "2025-10-14 21:59:59",
+    "name": "Orphie & Magus",
+    "featured": [
+      "Orphie & Magus"
+    ],
+    "featuredId": 1301
+  },
+  {
+    "type": "character",
+    "version": "2.2",
+    "start": "2025-09-24 19:00:00",
+    "end": "2025-10-14 21:59:59",
+    "name": "Evelyn",
+    "featured": [
+      "Evelyn"
+    ],
+    "featuredId": 1321
   },
   {
     "type": "weapon",
@@ -770,28 +770,6 @@
     "featuredId": 1331
   },
   {
-    "type": "character",
-    "version": "2.3",
-    "start": "2025-11-05 19:00:00",
-    "end": "2025-11-25 21:59:59",
-    "name": "Yidhari",
-    "featured": [
-      "Yidhari"
-    ],
-    "featuredId": 1051
-  },
-  {
-    "type": "character",
-    "version": "2.3",
-    "start": "2025-11-05 19:00:00",
-    "end": "2025-11-25 21:59:59",
-    "name": "Ju Fufu",
-    "featured": [
-      "Ju Fufu"
-    ],
-    "featuredId": 1391
-  },
-  {
     "type": "weapon",
     "version": "2.3",
     "start": "2025-10-15 19:00:00",
@@ -812,6 +790,28 @@
       "Silver Spiked Feathers"
     ],
     "featuredId": 14133
+  },
+  {
+    "type": "character",
+    "version": "2.3",
+    "start": "2025-11-05 19:00:00",
+    "end": "2025-11-25 21:59:59",
+    "name": "Yidhari",
+    "featured": [
+      "Yidhari"
+    ],
+    "featuredId": 1051
+  },
+  {
+    "type": "character",
+    "version": "2.3",
+    "start": "2025-11-05 19:00:00",
+    "end": "2025-11-25 21:59:59",
+    "name": "Ju Fufu",
+    "featured": [
+      "Ju Fufu"
+    ],
+    "featuredId": 1391
   },
   {
     "type": "weapon",
@@ -858,28 +858,6 @@
     "featuredId": 1291
   },
   {
-    "type": "character",
-    "version": "2.4",
-    "start": "2025-12-17 19:00:00",
-    "end": "2025-12-29 21:59:59",
-    "name": "Banyue",
-    "featured": [
-      "Banyue"
-    ],
-    "featuredId": 1471
-  },
-  {
-    "type": "character",
-    "version": "2.4",
-    "start": "2025-12-17 19:00:00",
-    "end": "2025-12-29 21:59:59",
-    "name": "Ellen",
-    "featured": [
-      "Ellen"
-    ],
-    "featuredId": 1191
-  },
-  {
     "type": "weapon",
     "version": "2.4",
     "start": "2025-11-26 19:00:00",
@@ -900,6 +878,28 @@
       "False Personas"
     ],
     "featuredId": 14129
+  },
+  {
+    "type": "character",
+    "version": "2.4",
+    "start": "2025-12-17 19:00:00",
+    "end": "2025-12-29 21:59:59",
+    "name": "Banyue",
+    "featured": [
+      "Banyue"
+    ],
+    "featuredId": 1471
+  },
+  {
+    "type": "character",
+    "version": "2.4",
+    "start": "2025-12-17 19:00:00",
+    "end": "2025-12-29 21:59:59",
+    "name": "Ellen",
+    "featured": [
+      "Ellen"
+    ],
+    "featuredId": 1191
   },
   {
     "type": "weapon",
@@ -1067,6 +1067,17 @@
     "featuredId": 14149
   },
   {
+    "type": "weapon",
+    "version": "2.6",
+    "start": "2026-02-06 19:00:00",
+    "end": "2026-03-04 18:59:59",
+    "name": "Cloud Flow",
+    "featured": [
+      "Cloud Flow"
+    ],
+    "featuredId": 14137
+  },
+  {
     "type": "character",
     "version": "2.6",
     "start": "2026-03-04 19:00:00",
@@ -1098,17 +1109,6 @@
       "Energetic Strike"
     ],
     "featuredId": 14150
-  },
-  {
-    "type": "weapon",
-    "version": "2.6",
-    "start": "2026-02-06 19:00:00",
-    "end": "2026-03-04 18:59:59",
-    "name": "Cloud Flow",
-    "featured": [
-      "Cloud Flow"
-    ],
-    "featuredId": 14137
   },
   {
     "type": "weapon",
@@ -1155,6 +1155,17 @@
     "featuredId": 14151
   },
   {
+    "type": "weapon",
+    "version": "2.7",
+    "start": "2026-03-24 19:00:00",
+    "end": "2026-04-15 18:59:59",
+    "name": "Heartfelt Caress",
+    "featured": [
+      "Heartfelt Caress"
+    ],
+    "featuredId": 14105
+  },
+  {
     "type": "character",
     "version": "2.7",
     "start": "2026-04-15 19:00:00",
@@ -1186,17 +1197,6 @@
       "Bioengineered Venom"
     ],
     "featuredId": 14152
-  },
-  {
-    "type": "weapon",
-    "version": "2.7",
-    "start": "2026-03-24 19:00:00",
-    "end": "2026-04-15 18:59:59",
-    "name": "Heartfelt Caress",
-    "featured": [
-      "Heartfelt Caress"
-    ],
-    "featuredId": 14105
   },
   {
     "type": "weapon",
