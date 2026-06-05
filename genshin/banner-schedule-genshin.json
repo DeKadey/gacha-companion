@@ -4486,5 +4486,53 @@
     ],
     "featuredId": null,
     "phase": 2
+  },
+  {
+    "type": "character",
+    "version": "6.6",
+    "start": "2026-05-20 07:00:00",
+    "end": "2026-06-09 00:59:00",
+    "name": "Durin",
+    "featured": [
+      "Durin"
+    ],
+    "featuredId": 10000123,
+    "phase": 1
+  },
+  {
+    "type": "character",
+    "version": "6.6",
+    "start": "2026-05-20 07:00:00",
+    "end": "2026-06-09 00:59:00",
+    "name": "Nicole",
+    "featured": [
+      "Nicole"
+    ],
+    "featuredId": 10000131,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "6.6",
+    "start": "2026-05-20 07:00:00",
+    "end": "2026-06-10 00:59:00",
+    "name": "Angelos' Heptades",
+    "featured": [
+      "Angelos' Heptades"
+    ],
+    "featuredId": 14523,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "6.6",
+    "start": "2026-05-20 07:00:00",
+    "end": "2026-06-10 00:59:00",
+    "name": "Athame Artis",
+    "featured": [
+      "Athame Artis"
+    ],
+    "featuredId": 11518,
+    "phase": 1
   }
 ]
