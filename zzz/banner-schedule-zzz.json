@@ -1414,5 +1414,49 @@
     ],
     "featuredId": 14130,
     "phase": 2
+  },
+  {
+    "type": "character",
+    "version": "3.0",
+    "start": "2026-06-17 10:00:00",
+    "end": "2026-07-08 18:59:59",
+    "name": "",
+    "featured": [
+      ""
+    ],
+    "featuredId": 1561
+  },
+  {
+    "type": "character",
+    "version": "3.0",
+    "start": "2026-06-17 10:00:00",
+    "end": "2026-07-08 18:59:59",
+    "name": "Ye Shunguang",
+    "featured": [
+      "Ye Shunguang"
+    ],
+    "featuredId": 1431
+  },
+  {
+    "type": "weapon",
+    "version": "3.0",
+    "start": "2026-06-17 10:00:00",
+    "end": "2026-07-08 18:59:59",
+    "name": "",
+    "featured": [
+      ""
+    ],
+    "featuredId": 14156
+  },
+  {
+    "type": "weapon",
+    "version": "3.0",
+    "start": "2026-06-17 10:00:00",
+    "end": "2026-07-08 18:59:59",
+    "name": "Jade Soul, Frozen Heart",
+    "featured": [
+      "Jade Soul, Frozen Heart"
+    ],
+    "featuredId": 14143
   }
 ]
