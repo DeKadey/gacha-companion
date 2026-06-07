@@ -1,7 +1,10 @@
 name: Validate Banner Timing
 on:
   schedule:
-    - cron: '15 4 * * *'
+    - cron: '30 4 * * 2'   # Tuesday 06:30 GMT+2
+    - cron: '30 18 * * 2'  # Tuesday 20:30 GMT+2
+    - cron: '30 4 * * 3'   # Wednesday 06:30 GMT+2
+    - cron: '30 18 * * 3'  # Wednesday 20:30 GMT+2
   workflow_dispatch:
 
 jobs:
