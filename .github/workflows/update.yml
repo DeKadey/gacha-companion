@@ -1,7 +1,10 @@
 name: Update Game Data
 on:
   schedule:
-    - cron: '0 4 * * *'
+    - cron: '0 4 * * 2'   # Tuesday 06:00 GMT+2
+    - cron: '0 18 * * 2'  # Tuesday 20:00 GMT+2
+    - cron: '0 4 * * 3'   # Wednesday 06:00 GMT+2
+    - cron: '0 18 * * 3'  # Wednesday 20:00 GMT+2
   workflow_dispatch:
 
 jobs:
