@@ -4534,5 +4534,49 @@
     ],
     "featuredId": 11518,
     "phase": 1
+  },
+  {
+    "type": "character",
+    "version": "6.6",
+    "start": "2026-06-10 01:00:00",
+    "end": "2026-06-30 21:59:59",
+    "name": "Lohen",
+    "featured": [
+      "Lohen"
+    ],
+    "featuredId": 10000129
+  },
+  {
+    "type": "character",
+    "version": "6.6",
+    "start": "2026-06-10 01:00:00",
+    "end": "2026-06-30 21:59:59",
+    "name": "Mavuika",
+    "featured": [
+      "Mavuika"
+    ],
+    "featuredId": 10000106
+  },
+  {
+    "type": "weapon",
+    "version": "6.6",
+    "start": "2026-06-10 01:00:00",
+    "end": "2026-06-30 21:59:59",
+    "name": "Disaster and Remorse",
+    "featured": [
+      "Disaster and Remorse"
+    ],
+    "featuredId": 13517
+  },
+  {
+    "type": "weapon",
+    "version": "6.6",
+    "start": "2026-06-10 01:00:00",
+    "end": "2026-06-30 21:59:59",
+    "name": "A Thousand Blazing Suns",
+    "featured": [
+      "A Thousand Blazing Suns"
+    ],
+    "featuredId": 12514
   }
 ]
