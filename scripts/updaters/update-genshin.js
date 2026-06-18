@@ -63,12 +63,28 @@ function downloadImage(url) {
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
+// Within a version, the character pool with the earliest start date is Phase 1, the later one is Phase 2.
+function determinePhase(version, startDate, existing) {
+  const versionChars = existing.filter(e => e.version === version && e.type === 'character');
+  if (versionChars.length === 0) return 1;
+  const earliest = versionChars.reduce((min, e) => e.start < min ? e.start : min, versionChars[0].start).slice(0, 10);
+  return startDate === earliest ? 1 : 2;
+}
+
 async function main() {
   if (!COOKIE || !UID || !SERVER) throw new Error('Missing HOYOLAB_COOKIE, GENSHIN_UID, or GENSHIN_SERVER');
 
   console.log('Fetching Genshin act_calendar...');
   const json = await httpsPost({ server: SERVER, role_id: UID });
   if (json.retcode !== 0) throw new Error(`API error ${json.retcode}: ${json.message}`);
+
+  console.log('API pools:');
+  for (const pool of [...(json.data.avatar_card_pool_list || []), ...(json.data.weapon_card_pool_list || [])]) {
+    console.log(`  v${pool.version_name} pool_id=${pool.pool_id} start_timestamp=${pool.start_timestamp} → ${unixToUtc8(pool.start_timestamp)}  end_timestamp=${pool.end_timestamp} → ${unixToUtc8(pool.end_timestamp)}`);
+  }
+
+  const existing = fs.existsSync(SCHEDULE_PATH) ? JSON.parse(fs.readFileSync(SCHEDULE_PATH, 'utf8')) : [];
+  const existingMap = new Map(existing.map(e => [`${e.featuredId}|${(e.start || '').slice(0, 10)}`, e]));
 
   const fetched = [];
   const iconMap = {};
@@ -77,31 +93,46 @@ async function main() {
     const start   = unixToUtc8(pool.start_timestamp);
     const end     = unixToUtc8(pool.end_timestamp);
     const version = pool.version_name || '';
+    const phase   = determinePhase(version, start.slice(0, 10), existing);
     for (const a of (pool.avatars || []).filter(a => a.rarity === 5)) {
       iconMap[a.id] = a.icon;
-      fetched.push({ type: 'character', version, start, end, name: a.name, featured: [a.name], featuredId: a.id });
+      fetched.push({ type: 'character', version, start, end, name: a.name, featured: [a.name], featuredId: a.id, phase });
     }
   }
   for (const pool of (json.data.weapon_card_pool_list || [])) {
     const start   = unixToUtc8(pool.start_timestamp);
     const end     = unixToUtc8(pool.end_timestamp);
     const version = pool.version_name || '';
+    const phase   = determinePhase(version, start.slice(0, 10), existing);
     for (const w of (pool.weapon || []).filter(w => w.rarity === 5)) {
       iconMap[w.id] = w.icon;
-      fetched.push({ type: 'weapon', version, start, end, name: w.name, featured: [w.name], featuredId: w.id });
+      fetched.push({ type: 'weapon', version, start, end, name: w.name, featured: [w.name], featuredId: w.id, phase });
     }
   }
   // Chronicled banners: skipped until we have a live example to base the schema on
 
-  const existing   = fs.existsSync(SCHEDULE_PATH) ? JSON.parse(fs.readFileSync(SCHEDULE_PATH, 'utf8')) : [];
-  const seen       = new Set(existing.map(e => `${e.featuredId}|${(e.start || '').slice(0, 10)}`));
-  const newEntries = fetched.filter(e => !seen.has(`${e.featuredId}|${(e.start || '').slice(0, 10)}`));
-  const merged     = [...existing, ...newEntries].sort((a, b) => a.start < b.start ? -1 : a.start > b.start ? 1 : 0);
+  let newCount = 0, updatedCount = 0;
+  for (const entry of fetched) {
+    const key = `${entry.featuredId}|${entry.start.slice(0, 10)}`;
+    const existing_entry = existingMap.get(key);
+    if (!existing_entry) {
+      existing.push(entry);
+      existingMap.set(key, entry);
+      newCount++;
+    } else if (!existing_entry.name && entry.name) {
+      existing_entry.name = entry.name;
+      existing_entry.featured = entry.featured;
+      updatedCount++;
+      console.log(`  Updated name: ${entry.featuredId} → "${entry.name}"`);
+    }
+  }
+
+  const merged = existing.sort((a, b) => a.start < b.start ? -1 : a.start > b.start ? 1 : 0);
 
   fs.mkdirSync(path.dirname(SCHEDULE_PATH), { recursive: true });
   fs.writeFileSync(SCHEDULE_PATH, JSON.stringify(merged, null, 2));
-  console.log(`Schedule: ${newEntries.length} new entries added (${merged.length} total).`);
-  if (newEntries.length) console.log('New:', newEntries.map(e => `${e.name} v${e.version}`).join(', '));
+  console.log(`Schedule: ${newCount} new entries added, ${updatedCount} names updated (${merged.length} total).`);
+  if (newCount) console.log('New:', fetched.filter(e => !existingMap.has(`${e.featuredId}|${e.start.slice(0,10)}`)).map(e => `${e.name} v${e.version}`).join(', '));
 
   // Images
   fs.mkdirSync(IMAGES_DIR, { recursive: true });

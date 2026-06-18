@@ -47,6 +47,15 @@ function downloadImage(url) {
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
+// Within a version, the pool with the earliest start date is Phase 1, the later one is Phase 2.
+// We look at existing character entries for the same version to determine which phase is active.
+function determinePhase(version, startDate, existing) {
+  const versionChars = existing.filter(e => e.version === version && e.type === 'character');
+  if (versionChars.length === 0) return 1;
+  const earliest = versionChars.reduce((min, e) => e.start < min ? e.start : min, versionChars[0].start).slice(0, 10);
+  return startDate === earliest ? 1 : 2;
+}
+
 async function main() {
   if (!COOKIE || !UID || !REGION) throw new Error('Missing HOYOLAB_COOKIE, ZZZ_UID, or ZZZ_SERVER');
 
@@ -60,6 +69,14 @@ async function main() {
   });
   if (json.retcode !== 0) throw new Error(`API error ${json.retcode}: ${json.message}`);
 
+  console.log('API pools:');
+  for (const pool of [...(json.data.avatar_gacha_schedule_list || []), ...(json.data.weapon_gacha_schedule_list || [])]) {
+    console.log(`  v${pool.version} start_ts=${pool.start_ts} → ${unixToUtc8(pool.start_ts)}  end_ts=${pool.end_ts} → ${unixToUtc8(pool.end_ts)}`);
+  }
+
+  const existing = fs.existsSync(SCHEDULE_PATH) ? JSON.parse(fs.readFileSync(SCHEDULE_PATH, 'utf8')) : [];
+  const existingMap = new Map(existing.map(e => [`${e.featuredId}|${(e.start || '').slice(0, 10)}`, e]));
+
   const fetched = [];
   const iconMap = {};
 
@@ -67,30 +84,45 @@ async function main() {
     const start   = unixToUtc8(pool.start_ts);
     const end     = unixToUtc8(pool.end_ts);
     const version = pool.version || '';
+    const phase   = determinePhase(version, start.slice(0, 10), existing);
     for (const c of (pool.avatar_list || []).filter(c => c.rarity === 'S')) {
       iconMap[c.avatar_id] = c.icon;
-      fetched.push({ type: 'character', version, start, end, name: c.avatar_name, featured: [c.avatar_name], featuredId: c.avatar_id });
+      fetched.push({ type: 'character', version, start, end, name: c.avatar_name, featured: [c.avatar_name], featuredId: c.avatar_id, phase });
     }
   }
   for (const pool of (json.data.weapon_gacha_schedule_list || [])) {
     const start   = unixToUtc8(pool.start_ts);
     const end     = unixToUtc8(pool.end_ts);
     const version = pool.version || '';
+    const phase   = determinePhase(version, start.slice(0, 10), existing);
     for (const w of (pool.weapon_list || []).filter(w => w.rarity === 'S')) {
       iconMap[w.weapon_id] = w.icon;
-      fetched.push({ type: 'weapon', version, start, end, name: w.talent_title, featured: [w.talent_title], featuredId: w.weapon_id });
+      fetched.push({ type: 'weapon', version, start, end, name: w.talent_title, featured: [w.talent_title], featuredId: w.weapon_id, phase });
     }
   }
 
-  const existing   = fs.existsSync(SCHEDULE_PATH) ? JSON.parse(fs.readFileSync(SCHEDULE_PATH, 'utf8')) : [];
-  const seen       = new Set(existing.map(e => `${e.featuredId}|${(e.start || '').slice(0, 10)}`));
-  const newEntries = fetched.filter(e => !seen.has(`${e.featuredId}|${(e.start || '').slice(0, 10)}`));
-  const merged     = [...existing, ...newEntries].sort((a, b) => a.start < b.start ? -1 : a.start > b.start ? 1 : 0);
+  let newCount = 0, updatedCount = 0;
+  for (const entry of fetched) {
+    const key = `${entry.featuredId}|${entry.start.slice(0, 10)}`;
+    const existing_entry = existingMap.get(key);
+    if (!existing_entry) {
+      existing.push(entry);
+      existingMap.set(key, entry);
+      newCount++;
+    } else if (!existing_entry.name && entry.name) {
+      existing_entry.name = entry.name;
+      existing_entry.featured = entry.featured;
+      updatedCount++;
+      console.log(`  Updated name: ${entry.featuredId} → "${entry.name}"`);
+    }
+  }
+
+  const merged = existing.sort((a, b) => a.start < b.start ? -1 : a.start > b.start ? 1 : 0);
 
   fs.mkdirSync(path.dirname(SCHEDULE_PATH), { recursive: true });
   fs.writeFileSync(SCHEDULE_PATH, JSON.stringify(merged, null, 2));
-  console.log(`Schedule: ${newEntries.length} new entries added (${merged.length} total).`);
-  if (newEntries.length) console.log('New:', newEntries.map(e => `${e.name} v${e.version}`).join(', '));
+  console.log(`Schedule: ${newCount} new entries added, ${updatedCount} names updated (${merged.length} total).`);
+  if (newCount) console.log('New:', fetched.filter(e => !existingMap.has(`${e.featuredId}|${e.start.slice(0,10)}`)).map(e => `${e.name} v${e.version}`).join(', '));
 
   // Images
   fs.mkdirSync(IMAGES_DIR, { recursive: true });
