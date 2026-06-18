@@ -4544,7 +4544,7 @@
     "featured": [
       "Lohen"
     ],
-    "featuredId": 10000129
+    "featuredId": 10000129,
     "phase": 2
   },
   {
@@ -4556,7 +4556,7 @@
     "featured": [
       "Mavuika"
     ],
-    "featuredId": 10000106
+    "featuredId": 10000106,
     "phase": 2
   },
   {
@@ -4568,7 +4568,7 @@
     "featured": [
       "Disaster and Remorse"
     ],
-    "featuredId": 13517
+    "featuredId": 13517,
     "phase": 2
   },
   {
@@ -4580,7 +4580,7 @@
     "featured": [
       "A Thousand Blazing Suns"
     ],
-    "featuredId": 12514
+    "featuredId": 12514,
     "phase": 2
   }
 ]
