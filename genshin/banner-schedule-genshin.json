@@ -4545,6 +4545,7 @@
       "Lohen"
     ],
     "featuredId": 10000129
+    "phase": 2
   },
   {
     "type": "character",
@@ -4556,6 +4557,7 @@
       "Mavuika"
     ],
     "featuredId": 10000106
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -4567,6 +4569,7 @@
       "Disaster and Remorse"
     ],
     "featuredId": 13517
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -4578,5 +4581,6 @@
       "A Thousand Blazing Suns"
     ],
     "featuredId": 12514
+    "phase": 2
   }
 ]
