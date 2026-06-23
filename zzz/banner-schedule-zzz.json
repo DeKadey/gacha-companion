@@ -195,7 +195,7 @@
     "type": "character",
     "version": "1.4",
     "start": "2024-12-18 10:00:00",
-    "end": "2025-01-21 21:59:59",
+    "end": "2025-01-21 18:59:59",
     "name": "Miyabi",
     "featured": [
       "Miyabi"
@@ -207,7 +207,7 @@
     "type": "weapon",
     "version": "1.4",
     "start": "2024-12-18 10:00:00",
-    "end": "2025-01-21 21:59:59",
+    "end": "2025-01-21 18:59:59",
     "name": "Frost-Stained Star",
     "featured": [
       "Frost-Stained Star"
@@ -219,7 +219,7 @@
     "type": "character",
     "version": "1.4",
     "start": "2024-12-18 10:00:00",
-    "end": "2025-01-21 21:59:59",
+    "end": "2025-01-21 18:59:59",
     "name": "Harumasa",
     "featured": [
       "Harumasa"
@@ -231,7 +231,7 @@
     "type": "weapon",
     "version": "1.4",
     "start": "2024-12-18 10:00:00",
-    "end": "2025-01-21 21:59:59",
+    "end": "2025-01-21 18:59:59",
     "name": "Growth Through Adversity",
     "featured": [
       "Growth Through Adversity"
@@ -1011,7 +1011,7 @@
     "type": "character",
     "version": "2.5",
     "start": "2025-12-30 10:00:00",
-    "end": "2026-02-05 21:59:59",
+    "end": "2026-02-05 18:59:59",
     "name": "Ye Shunguang",
     "featured": [
       "Ye Shunguang"
@@ -1023,7 +1023,7 @@
     "type": "character",
     "version": "2.5",
     "start": "2025-12-30 10:00:00",
-    "end": "2026-02-05 21:59:59",
+    "end": "2026-02-05 18:59:59",
     "name": "Zhao",
     "featured": [
       "Zhao"
@@ -1035,7 +1035,7 @@
     "type": "weapon",
     "version": "2.5",
     "start": "2025-12-30 10:00:00",
-    "end": "2026-02-05 21:59:59",
+    "end": "2026-02-05 18:59:59",
     "name": "Fragile Sweetness",
     "featured": [
       "Fragile Sweetness"
@@ -1047,7 +1047,7 @@
     "type": "weapon",
     "version": "2.5",
     "start": "2025-12-30 10:00:00",
-    "end": "2026-02-05 21:59:59",
+    "end": "2026-02-05 18:59:59",
     "name": "Jade Soul, Frozen Heart",
     "featured": [
       "Jade Soul, Frozen Heart"
