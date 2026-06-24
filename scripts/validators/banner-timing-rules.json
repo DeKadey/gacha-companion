@@ -1,5 +1,5 @@
 {
-  "_note": "Known phase start/end times (UTC+8) per game. Times are consistent across all versions â€” only the date changes. Null = not yet verified from a live API capture. Source: BANNER SCHEDULE TEST.json captured 2026-06-05.",
+  "_note": "Known phase start/end times (UTC+8) per game. Times are consistent across all versions - only the date changes. Null = not yet verified from a live API capture. Source: BANNER SCHEDULE TEST.json captured 2026-06-05.",
   "genshin": {
     "phase1": {
       "start": "07:00:00",
