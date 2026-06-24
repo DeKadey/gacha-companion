@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+﻿#!/usr/bin/env node
 const https  = require('https');
 const crypto = require('crypto');
 const fs     = require('fs');
@@ -11,6 +11,10 @@ const SERVER = process.env.GENSHIN_SERVER;
 const SALT          = 'xV8v4Qu54lUKrEYFZkJhB8cuOh9Asafs';
 const SCHEDULE_PATH = path.join(__dirname, '..', '..', 'genshin', 'banner-schedule-genshin.json');
 const IMAGES_DIR    = path.join(__dirname, '..', '..', 'genshin', 'images');
+
+// Phase start times (UTC+8) — used to backfill missing phase fields on existing entries.
+// Chronicled banners have irregular timing and are skipped (handled manually).
+const PHASE_BY_START = { '07:00:00': 1, '01:00:00': 2 };
 
 function generateDS() {
   const t = Math.floor(Date.now() / 1000);
@@ -72,11 +76,20 @@ async function main() {
 
   console.log('API pools:');
   for (const pool of [...(json.data.avatar_card_pool_list || []), ...(json.data.weapon_card_pool_list || [])]) {
-    console.log(`  v${pool.version_name} pool_id=${pool.pool_id} start_timestamp=${pool.start_timestamp} → ${unixToUtc8(pool.start_timestamp)}  end_timestamp=${pool.end_timestamp} → ${unixToUtc8(pool.end_timestamp)}`);
+    console.log(`  v${pool.version_name} pool_id=${pool.pool_id} start_timestamp=${pool.start_timestamp} => ${unixToUtc8(pool.start_timestamp)}  end_timestamp=${pool.end_timestamp} => ${unixToUtc8(pool.end_timestamp)}`);
   }
 
   const existing = fs.existsSync(SCHEDULE_PATH) ? JSON.parse(fs.readFileSync(SCHEDULE_PATH, 'utf8')) : [];
   const existingMap = new Map(existing.map(e => [`${e.featuredId}|${(e.start || '').slice(0, 10)}`, e]));
+
+  // Backfill phase on any existing non-chronicled entry that is missing it, using start time.
+  let phasedCount = 0;
+  for (const e of existing) {
+    if (e.phase != null || e.type === 'chronicled') continue;
+    const phase = PHASE_BY_START[(e.start || '').slice(11)];
+    if (phase != null) { e.phase = phase; phasedCount++; }
+  }
+  if (phasedCount > 0) console.log(`Phase backfilled on ${phasedCount} existing entries.`);
 
   const fetched = [];
   const iconMap = {};
@@ -101,9 +114,7 @@ async function main() {
   }
   // Chronicled banners: skipped until we have a live example to base the schema on
 
-  // Assign phases: within each (version, type) group, sort unique start dates and number
-  // sequentially. Using both existing and fetched as context ensures correct phase numbers
-  // even when both phases appear in the same API response.
+  // Assign phases to newly fetched entries using full context (existing + fetched).
   for (const entry of fetched) {
     const sameGroup = [...existing, ...fetched].filter(
       e => e.version === entry.version && e.type === entry.type
@@ -124,7 +135,7 @@ async function main() {
       existing_entry.name = entry.name;
       existing_entry.featured = entry.featured;
       updatedCount++;
-      console.log(`  Updated name: ${entry.featuredId} → "${entry.name}"`);
+      console.log(`  Updated name: ${entry.featuredId} => "${entry.name}"`);
     }
   }
 
@@ -133,7 +144,6 @@ async function main() {
   fs.mkdirSync(path.dirname(SCHEDULE_PATH), { recursive: true });
   fs.writeFileSync(SCHEDULE_PATH, JSON.stringify(merged, null, 2));
   console.log(`Schedule: ${newCount} new entries added, ${updatedCount} names updated (${merged.length} total).`);
-  if (newCount) console.log('New:', fetched.filter(e => !existingMap.has(`${e.featuredId}|${e.start.slice(0,10)}`)).map(e => `${e.name} v${e.version}`).join(', '));
 
   // Images
   fs.mkdirSync(IMAGES_DIR, { recursive: true });
