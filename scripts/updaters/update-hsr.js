@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+﻿#!/usr/bin/env node
 const https  = require('https');
 const crypto = require('crypto');
 const fs     = require('fs');
@@ -12,6 +12,9 @@ const SALT          = '6s25p5ox5y14umn1p61aqyyvbvvl3lrt';
 const API_URL       = 'https://sg-public-api.hoyolab.com/event/game_record/hkrpg/api/get_act_calender';
 const SCHEDULE_PATH = path.join(__dirname, '..', '..', 'hsr', 'banner-schedule-hsr.json');
 const IMAGES_DIR    = path.join(__dirname, '..', '..', 'hsr', 'images');
+
+// Phase start times (UTC+8) — used to backfill missing phase fields on existing entries.
+const PHASE_BY_START = { '10:00:00': 1, '19:00:00': 2 };
 
 function generateDS() {
   const t = Math.floor(Date.now() / 1000);
@@ -80,11 +83,18 @@ async function main() {
     }
   }
 
-  const existing   = fs.existsSync(SCHEDULE_PATH) ? JSON.parse(fs.readFileSync(SCHEDULE_PATH, 'utf8')) : [];
+  const existing = fs.existsSync(SCHEDULE_PATH) ? JSON.parse(fs.readFileSync(SCHEDULE_PATH, 'utf8')) : [];
 
-  // Assign phases: within each (version, type) group, sort unique start dates and number
-  // sequentially. Using both existing and fetched as context ensures correct phase numbers
-  // even when both phases appear in the same API response.
+  // Backfill phase on any existing entry that is missing it, using start time as the key.
+  let phasedCount = 0;
+  for (const e of existing) {
+    if (e.phase != null) continue;
+    const phase = PHASE_BY_START[(e.start || '').slice(11)];
+    if (phase != null) { e.phase = phase; phasedCount++; }
+  }
+  if (phasedCount > 0) console.log(`Phase backfilled on ${phasedCount} existing entries.`);
+
+  // Assign phases to newly fetched entries using full context (existing + fetched).
   for (const entry of fetched) {
     const sameGroup = [...existing, ...fetched].filter(
       e => e.version === entry.version && e.type === entry.type
