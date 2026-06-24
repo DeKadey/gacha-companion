@@ -4556,7 +4556,8 @@
     "featured": [
       "Mavuika"
     ],
-    "featuredId": 10000106
+    "featuredId": 10000106,
+    "phase": 2
   },
   {
     "type": "weapon",
@@ -4567,7 +4568,8 @@
     "featured": [
       "Disaster and Remorse"
     ],
-    "featuredId": 13517
+    "featuredId": 13517,
+    "phase": 2
   },
   {
     "type": "weapon",

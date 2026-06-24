@@ -20,7 +20,8 @@
     "featured": [
       "In the Night"
     ],
-    "featuredId": 23001
+    "featuredId": 23001,
+    "phase": 1
   },
   {
     "type": "character",
@@ -31,7 +32,8 @@
     "featured": [
       "Jing Yuan"
     ],
-    "featuredId": 1204
+    "featuredId": 1204,
+    "phase": 2
   },
   {
     "type": "weapon",

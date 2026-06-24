@@ -248,7 +248,8 @@
     "featured": [
       "Astra Yao"
     ],
-    "featuredId": 1311
+    "featuredId": 1311,
+    "phase": 1
   },
   {
     "type": "character",
@@ -259,7 +260,8 @@
     "featured": [
       "Ellen"
     ],
-    "featuredId": 1191
+    "featuredId": 1191,
+    "phase": 1
   },
   {
     "type": "weapon",
