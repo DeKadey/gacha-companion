@@ -61,7 +61,7 @@ async function main() {
   if (json.retcode !== 0) throw new Error(`API error ${json.retcode}: ${json.message}`);
 
   const fetched = [];
-  const iconMap = {};   // id -> icon url, for image downloads
+  const iconMap = {};
 
   for (const pool of (json.data.avatar_card_pool_list || [])) {
     const start = unixToUtc8(pool.time_info.start_ts);
@@ -81,6 +81,18 @@ async function main() {
   }
 
   const existing   = fs.existsSync(SCHEDULE_PATH) ? JSON.parse(fs.readFileSync(SCHEDULE_PATH, 'utf8')) : [];
+
+  // Assign phases: within each (version, type) group, sort unique start dates and number
+  // sequentially. Using both existing and fetched as context ensures correct phase numbers
+  // even when both phases appear in the same API response.
+  for (const entry of fetched) {
+    const sameGroup = [...existing, ...fetched].filter(
+      e => e.version === entry.version && e.type === entry.type
+    );
+    const sortedStarts = [...new Set(sameGroup.map(e => e.start.slice(0, 10)))].sort();
+    entry.phase = sortedStarts.indexOf(entry.start.slice(0, 10)) + 1;
+  }
+
   const seen       = new Set(existing.map(e => `${e.featuredId}|${(e.start || '').slice(0, 10)}`));
   const newEntries = fetched.filter(e => !seen.has(`${e.featuredId}|${(e.start || '').slice(0, 10)}`));
   const merged     = [...existing, ...newEntries].sort((a, b) => a.start < b.start ? -1 : a.start > b.start ? 1 : 0);
