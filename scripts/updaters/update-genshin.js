@@ -63,14 +63,6 @@ function downloadImage(url) {
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
-// Within a version, the character pool with the earliest start date is Phase 1, the later one is Phase 2.
-function determinePhase(version, startDate, existing) {
-  const versionChars = existing.filter(e => e.version === version && e.type === 'character');
-  if (versionChars.length === 0) return 1;
-  const earliest = versionChars.reduce((min, e) => e.start < min ? e.start : min, versionChars[0].start).slice(0, 10);
-  return startDate === earliest ? 1 : 2;
-}
-
 async function main() {
   if (!COOKIE || !UID || !SERVER) throw new Error('Missing HOYOLAB_COOKIE, GENSHIN_UID, or GENSHIN_SERVER');
 
@@ -93,23 +85,32 @@ async function main() {
     const start   = unixToUtc8(pool.start_timestamp);
     const end     = unixToUtc8(pool.end_timestamp);
     const version = pool.version_name || '';
-    const phase   = determinePhase(version, start.slice(0, 10), existing);
     for (const a of (pool.avatars || []).filter(a => a.rarity === 5)) {
       iconMap[a.id] = a.icon;
-      fetched.push({ type: 'character', version, start, end, name: a.name, featured: [a.name], featuredId: a.id, phase });
+      fetched.push({ type: 'character', version, start, end, name: a.name, featured: [a.name], featuredId: a.id });
     }
   }
   for (const pool of (json.data.weapon_card_pool_list || [])) {
     const start   = unixToUtc8(pool.start_timestamp);
     const end     = unixToUtc8(pool.end_timestamp);
     const version = pool.version_name || '';
-    const phase   = determinePhase(version, start.slice(0, 10), existing);
     for (const w of (pool.weapon || []).filter(w => w.rarity === 5)) {
       iconMap[w.id] = w.icon;
-      fetched.push({ type: 'weapon', version, start, end, name: w.name, featured: [w.name], featuredId: w.id, phase });
+      fetched.push({ type: 'weapon', version, start, end, name: w.name, featured: [w.name], featuredId: w.id });
     }
   }
   // Chronicled banners: skipped until we have a live example to base the schema on
+
+  // Assign phases: within each (version, type) group, sort unique start dates and number
+  // sequentially. Using both existing and fetched as context ensures correct phase numbers
+  // even when both phases appear in the same API response.
+  for (const entry of fetched) {
+    const sameGroup = [...existing, ...fetched].filter(
+      e => e.version === entry.version && e.type === entry.type
+    );
+    const sortedStarts = [...new Set(sameGroup.map(e => e.start.slice(0, 10)))].sort();
+    entry.phase = sortedStarts.indexOf(entry.start.slice(0, 10)) + 1;
+  }
 
   let newCount = 0, updatedCount = 0;
   for (const entry of fetched) {
