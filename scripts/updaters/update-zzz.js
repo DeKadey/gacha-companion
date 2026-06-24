@@ -47,15 +47,6 @@ function downloadImage(url) {
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
-// Within a version, the pool with the earliest start date is Phase 1, the later one is Phase 2.
-// We look at existing character entries for the same version to determine which phase is active.
-function determinePhase(version, startDate, existing) {
-  const versionChars = existing.filter(e => e.version === version && e.type === 'character');
-  if (versionChars.length === 0) return 1;
-  const earliest = versionChars.reduce((min, e) => e.start < min ? e.start : min, versionChars[0].start).slice(0, 10);
-  return startDate === earliest ? 1 : 2;
-}
-
 async function main() {
   if (!COOKIE || !UID || !REGION) throw new Error('Missing HOYOLAB_COOKIE, ZZZ_UID, or ZZZ_SERVER');
 
@@ -84,21 +75,30 @@ async function main() {
     const start   = unixToUtc8(pool.start_ts);
     const end     = unixToUtc8(pool.end_ts);
     const version = pool.version || '';
-    const phase   = determinePhase(version, start.slice(0, 10), existing);
     for (const c of (pool.avatar_list || []).filter(c => c.rarity === 'S')) {
       iconMap[c.avatar_id] = c.icon;
-      fetched.push({ type: 'character', version, start, end, name: c.avatar_name, featured: [c.avatar_name], featuredId: c.avatar_id, phase });
+      fetched.push({ type: 'character', version, start, end, name: c.avatar_name, featured: [c.avatar_name], featuredId: c.avatar_id });
     }
   }
   for (const pool of (json.data.weapon_gacha_schedule_list || [])) {
     const start   = unixToUtc8(pool.start_ts);
     const end     = unixToUtc8(pool.end_ts);
     const version = pool.version || '';
-    const phase   = determinePhase(version, start.slice(0, 10), existing);
     for (const w of (pool.weapon_list || []).filter(w => w.rarity === 'S')) {
       iconMap[w.weapon_id] = w.icon;
-      fetched.push({ type: 'weapon', version, start, end, name: w.talent_title, featured: [w.talent_title], featuredId: w.weapon_id, phase });
+      fetched.push({ type: 'weapon', version, start, end, name: w.talent_title, featured: [w.talent_title], featuredId: w.weapon_id });
     }
+  }
+
+  // Assign phases: within each (version, type) group, sort unique start dates and number
+  // sequentially. Using both existing and fetched as context ensures correct phase numbers
+  // even when both phases appear in the same API response.
+  for (const entry of fetched) {
+    const sameGroup = [...existing, ...fetched].filter(
+      e => e.version === entry.version && e.type === entry.type
+    );
+    const sortedStarts = [...new Set(sameGroup.map(e => e.start.slice(0, 10)))].sort();
+    entry.phase = sortedStarts.indexOf(entry.start.slice(0, 10)) + 1;
   }
 
   let newCount = 0, updatedCount = 0;
