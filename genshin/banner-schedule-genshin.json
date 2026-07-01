@@ -4582,5 +4582,53 @@
     ],
     "featuredId": 12514,
     "phase": 2
+  },
+  {
+    "type": "character",
+    "version": "6.7",
+    "start": "2026-07-01 07:00:00",
+    "end": "2026-07-22 00:59:00",
+    "name": "Sandrone",
+    "featured": [
+      "Sandrone"
+    ],
+    "featuredId": 10000133,
+    "phase": 1
+  },
+  {
+    "type": "character",
+    "version": "6.7",
+    "start": "2026-07-01 07:00:00",
+    "end": "2026-07-22 00:59:00",
+    "name": "Citlali",
+    "featured": [
+      "Citlali"
+    ],
+    "featuredId": 10000107,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "6.7",
+    "start": "2026-07-01 07:00:00",
+    "end": "2026-07-22 00:59:00",
+    "name": "A Teaspoon of Transcendence",
+    "featured": [
+      "A Teaspoon of Transcendence"
+    ],
+    "featuredId": 12516,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "6.7",
+    "start": "2026-07-01 07:00:00",
+    "end": "2026-07-22 00:59:00",
+    "name": "Starcaller's Watch",
+    "featured": [
+      "Starcaller's Watch"
+    ],
+    "featuredId": 14517,
+    "phase": 1
   }
 ]
