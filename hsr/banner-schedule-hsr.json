@@ -2998,5 +2998,221 @@
     ],
     "featuredId": 23044,
     "phase": 2
+  },
+  {
+    "type": "character",
+    "version": "4.4",
+    "start": "2026-07-15 10:00:00",
+    "end": "2026-08-05 18:59:00",
+    "name": "Sparxie",
+    "featured": [
+      "Sparxie"
+    ],
+    "featuredId": 1501,
+    "phase": 1
+  },
+  {
+    "type": "character",
+    "version": "4.4",
+    "start": "2026-07-15 10:00:00",
+    "end": "2026-08-05 18:59:00",
+    "name": "Dan Heng • Permansor Terrae",
+    "featured": [
+      "Dan Heng • Permansor Terrae"
+    ],
+    "featuredId": 1414,
+    "phase": 1
+  },
+  {
+    "type": "character",
+    "version": "4.4",
+    "start": "2026-07-15 10:00:00",
+    "end": "2026-08-05 18:59:00",
+    "name": "Evernight",
+    "featured": [
+      "Evernight"
+    ],
+    "featuredId": 1413,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "4.4",
+    "start": "2026-07-15 10:00:00",
+    "end": "2026-08-05 18:59:00",
+    "name": "Dazzled by a Flowery World",
+    "featured": [
+      "Dazzled by a Flowery World"
+    ],
+    "featuredId": 23053,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "4.4",
+    "start": "2026-07-15 10:00:00",
+    "end": "2026-08-05 18:59:00",
+    "name": "Though Worlds Apart",
+    "featured": [
+      "Though Worlds Apart"
+    ],
+    "featuredId": 23051,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "4.4",
+    "start": "2026-07-15 10:00:00",
+    "end": "2026-08-05 18:59:00",
+    "name": "To Evernight's Stars",
+    "featured": [
+      "To Evernight's Stars"
+    ],
+    "featuredId": 23049,
+    "phase": 1
+  },
+  {
+    "type": "character",
+    "version": "4.4",
+    "start": "2026-07-15 10:00:01",
+    "end": "2026-08-25 22:00:00",
+    "name": "Himeko • Nova",
+    "featured": [
+      "Himeko • Nova"
+    ],
+    "featuredId": 1510,
+    "phase": 1
+  },
+  {
+    "type": "weapon",
+    "version": "4.4",
+    "start": "2026-07-15 10:00:01",
+    "end": "2026-08-25 22:00:00",
+    "name": "A Star That Lights the Night",
+    "featured": [
+      "A Star That Lights the Night"
+    ],
+    "featuredId": 23060,
+    "phase": 1
+  },
+  {
+    "type": "character",
+    "version": "4.4",
+    "start": "2026-07-24 19:00:00",
+    "end": "1970-01-01 08:00:00",
+    "name": "Rin Tohsaka",
+    "featured": [
+      "Rin Tohsaka"
+    ],
+    "featuredId": 1508,
+    "phase": 2
+  },
+  {
+    "type": "character",
+    "version": "4.4",
+    "start": "2026-07-24 19:00:00",
+    "end": "1970-01-01 08:00:00",
+    "name": "Gilgamesh",
+    "featured": [
+      "Gilgamesh"
+    ],
+    "featuredId": 1509,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "4.4",
+    "start": "2026-07-24 19:00:00",
+    "end": "1970-01-01 08:00:00",
+    "name": "Flickering Stars",
+    "featured": [
+      "Flickering Stars"
+    ],
+    "featuredId": 23061,
+    "phase": 2
+  },
+  {
+    "type": "weapon",
+    "version": "4.4",
+    "start": "2026-07-24 19:00:00",
+    "end": "1970-01-01 08:00:00",
+    "name": "I Am As You Behold",
+    "featured": [
+      "I Am As You Behold"
+    ],
+    "featuredId": 23062,
+    "phase": 2
+  },
+  {
+    "type": "character",
+    "version": "4.4",
+    "start": "2026-08-05 19:00:00",
+    "end": "2026-08-25 22:00:00",
+    "name": "Cerydra",
+    "featured": [
+      "Cerydra"
+    ],
+    "featuredId": 1412,
+    "phase": 3
+  },
+  {
+    "type": "character",
+    "version": "4.4",
+    "start": "2026-08-05 19:00:00",
+    "end": "2026-08-25 22:00:00",
+    "name": "Anaxa",
+    "featured": [
+      "Anaxa"
+    ],
+    "featuredId": 1405,
+    "phase": 3
+  },
+  {
+    "type": "character",
+    "version": "4.4",
+    "start": "2026-08-05 19:00:00",
+    "end": "2026-08-25 22:00:00",
+    "name": "Aventurine",
+    "featured": [
+      "Aventurine"
+    ],
+    "featuredId": 1304,
+    "phase": 3
+  },
+  {
+    "type": "weapon",
+    "version": "4.4",
+    "start": "2026-08-05 19:00:00",
+    "end": "2026-08-25 22:00:00",
+    "name": "Epoch Etched in Golden Blood",
+    "featured": [
+      "Epoch Etched in Golden Blood"
+    ],
+    "featuredId": 23048,
+    "phase": 3
+  },
+  {
+    "type": "weapon",
+    "version": "4.4",
+    "start": "2026-08-05 19:00:00",
+    "end": "2026-08-25 22:00:00",
+    "name": "Life Should Be Cast to Flames",
+    "featured": [
+      "Life Should Be Cast to Flames"
+    ],
+    "featuredId": 23041,
+    "phase": 3
+  },
+  {
+    "type": "weapon",
+    "version": "4.4",
+    "start": "2026-08-05 19:00:00",
+    "end": "2026-08-25 22:00:00",
+    "name": "Inherently Unjust Destiny",
+    "featured": [
+      "Inherently Unjust Destiny"
+    ],
+    "featuredId": 23023,
+    "phase": 3
   }
 ]
