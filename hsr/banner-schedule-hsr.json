@@ -3074,8 +3074,8 @@
   {
     "type": "character",
     "version": "4.4",
-    "start": "2026-07-15 10:00:01",
-    "end": "2026-08-25 22:00:00",
+    "start": "2026-07-15 10:00:00",
+    "end": "2026-08-25 18:59:00",
     "name": "Himeko • Nova",
     "featured": [
       "Himeko • Nova"
@@ -3086,8 +3086,8 @@
   {
     "type": "weapon",
     "version": "4.4",
-    "start": "2026-07-15 10:00:01",
-    "end": "2026-08-25 22:00:00",
+    "start": "2026-07-15 10:00:00",
+    "end": "2026-08-25 18:59:00",
     "name": "A Star That Lights the Night",
     "featured": [
       "A Star That Lights the Night"
@@ -3099,7 +3099,7 @@
     "type": "character",
     "version": "4.4",
     "start": "2026-07-24 19:00:00",
-    "end": "1970-01-01 08:00:00",
+    "end": "1970-01-01 22:00:00",
     "name": "Rin Tohsaka",
     "featured": [
       "Rin Tohsaka"
@@ -3111,7 +3111,7 @@
     "type": "character",
     "version": "4.4",
     "start": "2026-07-24 19:00:00",
-    "end": "1970-01-01 08:00:00",
+    "end": "1970-01-01 22:00:00",
     "name": "Gilgamesh",
     "featured": [
       "Gilgamesh"
@@ -3123,7 +3123,7 @@
     "type": "weapon",
     "version": "4.4",
     "start": "2026-07-24 19:00:00",
-    "end": "1970-01-01 08:00:00",
+    "end": "1970-01-01 22:00:00",
     "name": "Flickering Stars",
     "featured": [
       "Flickering Stars"
@@ -3135,7 +3135,7 @@
     "type": "weapon",
     "version": "4.4",
     "start": "2026-07-24 19:00:00",
-    "end": "1970-01-01 08:00:00",
+    "end": "1970-01-01 22:00:00",
     "name": "I Am As You Behold",
     "featured": [
       "I Am As You Behold"
