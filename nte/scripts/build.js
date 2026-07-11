@@ -148,13 +148,26 @@ async function main() {
     }
   }
 
+  // Full roster backfill — GI/HSR/ZZZ needed enka.network as a second source
+  // because Hoyolab's own API only ever returns recent/current banner data.
+  // NTE doesn't have that problem: nanoka's bulk character.json/weapon.json
+  // (already loaded above) already contains every character and arc, not
+  // just ones tied to a real banner phase. So instead of only downloading
+  // images for schedule-linked entries, download the entire roster —
+  // downloadImageIfMissing already no-ops on anything already on disk, so
+  // this is cheap on every rerun after the first.
+  for (const c of charactersByName.values()) newImageDownloads.push({ id: c.id, iconPath: c.iconPath });
+  for (const a of arcsByName.values()) newImageDownloads.push({ id: a.key, iconPath: a.iconPath });
+
   // Images — the small icon (~30KB avatar/weapon art, already on the bulk
   // character.json/weapon.json roster entries) is what this app uses for
   // banner display. Deliberately NOT icon_gacha (the ~300KB splash art) —
   // that's reserved for a future showcase feature, not the banner panel.
+  const seenIds = new Set();
   let downloadedCount = 0;
   for (const job of newImageDownloads) {
-    if (!job.iconPath) continue;
+    if (!job.iconPath || seenIds.has(job.id)) continue;
+    seenIds.add(job.id);
     try {
       const filename = `${job.id}.webp`;
       const wrote = await downloadImageIfMissing(filename, nanokaImageUrl(job.iconPath));
