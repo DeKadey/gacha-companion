@@ -86,11 +86,12 @@ async function loadNanokaRoster() {
       id: Number(key),
       name: entry.en,
       rarity: entry.rarity,
+      // Small avatar icon (~30KB) — used for the banner panel. NOT
+      // icon_gacha (the ~300KB splash art on the per-character detail
+      // endpoint, static.nanoka.cc/nte/{version}/{locale}/character/{id}.json)
+      // — that's reserved for a future showcase feature, fetched separately
+      // if/when that's built.
       iconPath: entry.icon,
-      // Bulk character.json doesn't carry icon_gacha (the big splash art) —
-      // that only shows up on the per-character detail endpoint. Resolved
-      // lazily by resolveCharacterGachaIcon() below only for banners we
-      // actually need art for, to avoid N detail fetches for the whole roster.
     });
   }
 
@@ -108,15 +109,8 @@ async function loadNanokaRoster() {
   return { version, charactersByName, arcsByName };
 }
 
-// Per-character detail fetch, needed only for icon_gacha (splash art used as
-// the banner image) — the bulk character.json list doesn't include it.
-async function resolveCharacterGachaIcon(version, characterId, locale = 'en') {
-  const entry = await fetchJson(`${STATIC_BASE}/nte/${version}/${locale}/character/${characterId}.json`);
-  return entry.icon_gacha || entry.icon || null;
-}
-
 function nanokaImageUrl(iconPath) {
   return `${STATIC_BASE}/assets/nte${iconPath}.webp`;
 }
 
-module.exports = { loadNanokaRoster, resolveCharacterGachaIcon, nanokaImageUrl, fetchBuffer, fetchJson };
+module.exports = { loadNanokaRoster, nanokaImageUrl, fetchBuffer, fetchJson };

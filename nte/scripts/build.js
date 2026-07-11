@@ -22,7 +22,7 @@ const path = require('path');
 
 const { computePhaseWindows } = require('./lib/schedule');
 const { scrapeGamewithBanners } = require('./lib/gamewith');
-const { loadNanokaRoster, resolveCharacterGachaIcon, nanokaImageUrl, fetchBuffer } = require('./lib/nanoka');
+const { loadNanokaRoster, nanokaImageUrl, fetchBuffer } = require('./lib/nanoka');
 const { knownHistoryEntries } = require('./lib/knownHistory');
 
 const OUT_DIR = path.join(__dirname, '..');
@@ -90,8 +90,8 @@ async function main() {
   // table, not something a later run could have better data for.
   for (const entry of knownHistoryEntries()) {
     merged.set(entryKey(entry), entry);
-    if (entry.type === 'character') newImageDownloads.push({ kind: 'character', id: entry.featuredId });
-    else newImageDownloads.push({ kind: 'arc', id: entry.featuredId, iconPath: arcsByName.get(entry.name)?.iconPath });
+    const roster = entry.type === 'character' ? charactersByName : arcsByName;
+    newImageDownloads.push({ id: entry.featuredId, iconPath: roster.get(entry.name)?.iconPath });
   }
 
   for (const win of windows) {
@@ -109,7 +109,7 @@ async function main() {
           type: 'character', start: win.start, end: scrapedChar.end ?? win.end,
           name: c.name, featured: [c.name], featuredId: c.id, phase: win.phase,
         };
-        newImageDownloads.push({ kind: 'character', id: c.id, characterKey: c.key });
+        newImageDownloads.push({ id: c.id, iconPath: c.iconPath });
       } else if (scrapedChar) {
         // Name scraped but not yet in nanoka's roster (unreleased) — keep
         // the best-effort name, no id/image until nanoka catches up.
@@ -138,7 +138,7 @@ async function main() {
           type: 'arc', start: win.start, end: scrapedArc.end ?? win.end,
           name: a.name, featured: [a.name], featuredId: a.key, phase: win.phase,
         };
-        newImageDownloads.push({ kind: 'arc', id: a.key, iconPath: a.iconPath });
+        newImageDownloads.push({ id: a.key, iconPath: a.iconPath });
       } else if (prior && prior.name) {
         entry = prior;
       } else {
@@ -148,25 +148,19 @@ async function main() {
     }
   }
 
-  // Images — character splash art needs a per-id detail fetch for icon_gacha;
-  // arc art already has its icon path from the bulk weapon.json roster.
+  // Images — the small icon (~30KB avatar/weapon art, already on the bulk
+  // character.json/weapon.json roster entries) is what this app uses for
+  // banner display. Deliberately NOT icon_gacha (the ~300KB splash art) —
+  // that's reserved for a future showcase feature, not the banner panel.
   let downloadedCount = 0;
   for (const job of newImageDownloads) {
+    if (!job.iconPath) continue;
     try {
-      if (job.kind === 'character') {
-        const filename = `${job.id}.webp`;
-        if (fs.existsSync(path.join(IMAGES_DIR, filename))) continue;
-        const iconPath = await resolveCharacterGachaIcon(version, job.id);
-        if (!iconPath) continue;
-        const wrote = await downloadImageIfMissing(filename, nanokaImageUrl(iconPath));
-        if (wrote) downloadedCount++;
-      } else {
-        const filename = `${job.id}.webp`;
-        const wrote = await downloadImageIfMissing(filename, nanokaImageUrl(job.iconPath));
-        if (wrote) downloadedCount++;
-      }
+      const filename = `${job.id}.webp`;
+      const wrote = await downloadImageIfMissing(filename, nanokaImageUrl(job.iconPath));
+      if (wrote) downloadedCount++;
     } catch (e) {
-      console.warn(`  image download failed for ${job.kind} ${job.id}: ${e.message}`);
+      console.warn(`  image download failed for ${job.id}: ${e.message}`);
     }
   }
   console.log(`  downloaded ${downloadedCount} new image(s)`);
