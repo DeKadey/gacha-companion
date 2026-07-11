@@ -28,6 +28,7 @@ const { knownHistoryEntries } = require('./lib/knownHistory');
 const OUT_DIR = path.join(__dirname, '..');
 const SCHEDULE_PATH = path.join(OUT_DIR, 'banner-schedule-nte.json');
 const IMAGES_DIR = path.join(OUT_DIR, 'images');
+const ROSTER_IMAGES_PATH = path.join(OUT_DIR, 'roster-images.json');
 
 function entryKey(entry) { return `${entry.type}|${entry.start}`; }
 
@@ -185,6 +186,17 @@ async function main() {
   const finalSchedule = [...merged.values()].sort((a, b) => a.start.localeCompare(b.start) || TYPE_ORDER[a.type] - TYPE_ORDER[b.type]);
   fs.writeFileSync(SCHEDULE_PATH, JSON.stringify(finalSchedule, null, 2));
   console.log(`Wrote ${finalSchedule.length} entries to ${SCHEDULE_PATH}`);
+
+  // Full roster id manifest — lets the app preload every character/arc image
+  // (not just schedule-tied ones) during the loading screen, the same way
+  // GI/HSR/ZZZ bulk-preload their full character/Live2D libraries, without
+  // needing to re-fetch/re-derive nanoka's roster client-side itself.
+  const rosterImageIds = [
+    ...[...charactersByName.values()].map(c => c.id),
+    ...[...arcsByName.values()].map(a => a.key),
+  ];
+  fs.writeFileSync(ROSTER_IMAGES_PATH, JSON.stringify(rosterImageIds, null, 2));
+  console.log(`Wrote ${rosterImageIds.length} ids to ${ROSTER_IMAGES_PATH}`);
 }
 
 main().catch(e => {
