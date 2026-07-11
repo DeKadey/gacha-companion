@@ -1,6 +1,7 @@
 [
   {
     "type": "character",
+    "version": "1.0",
     "start": "2026-04-29 06:00:00",
     "end": "2026-05-13 05:59:00",
     "name": "Nanally",
@@ -12,6 +13,7 @@
   },
   {
     "type": "arc",
+    "version": "1.0",
     "start": "2026-04-29 06:00:00",
     "end": "2026-05-13 05:59:00",
     "name": "Ready-Ready",
@@ -23,6 +25,7 @@
   },
   {
     "type": "character",
+    "version": "1.0",
     "start": "2026-05-13 06:00:00",
     "end": "2026-06-03 05:59:00",
     "name": "Hotori",
@@ -34,6 +37,7 @@
   },
   {
     "type": "arc",
+    "version": "1.0",
     "start": "2026-05-13 06:00:00",
     "end": "2026-06-03 05:59:00",
     "name": "Marching Beyond Time",
@@ -45,6 +49,7 @@
   },
   {
     "type": "character",
+    "version": "1.1",
     "start": "2026-06-03 06:00:00",
     "end": "2026-06-24 05:59:00",
     "name": "Lacrimosa",
@@ -56,6 +61,7 @@
   },
   {
     "type": "arc",
+    "version": "1.1",
     "start": "2026-06-03 06:00:00",
     "end": "2026-06-24 05:59:00",
     "name": "The Last Rose",
@@ -67,6 +73,7 @@
   },
   {
     "type": "character",
+    "version": "1.1",
     "start": "2026-06-24 06:00:00",
     "end": "2026-07-08 05:59:00",
     "name": "Chaos",
@@ -78,6 +85,7 @@
   },
   {
     "type": "arc",
+    "version": "1.1",
     "start": "2026-06-24 06:00:00",
     "end": "2026-07-08 05:59:00",
     "name": "What's Desired",
@@ -89,6 +97,7 @@
   },
   {
     "type": "character",
+    "version": "1.2",
     "start": "2026-07-08 06:00:00",
     "end": "2026-07-29 05:59:00",
     "name": "Shinku",
@@ -100,6 +109,7 @@
   },
   {
     "type": "arc",
+    "version": "1.2",
     "start": "2026-07-08 06:00:00",
     "end": "2026-07-29 05:59:00",
     "name": "Blushing Mirage",
