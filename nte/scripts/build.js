@@ -106,7 +106,7 @@ async function main() {
       if (scrapedChar && !scrapedChar.unresolved && charactersByName.has(scrapedChar.name)) {
         const c = charactersByName.get(scrapedChar.name);
         entry = {
-          type: 'character', start: win.start, end: scrapedChar.end ?? win.end,
+          type: 'character', version: win.version, start: win.start, end: scrapedChar.end ?? win.end,
           name: c.name, featured: [c.name], featuredId: c.id, phase: win.phase,
         };
         newImageDownloads.push({ id: c.id, iconPath: c.iconPath });
@@ -114,14 +114,14 @@ async function main() {
         // Name scraped but not yet in nanoka's roster (unreleased) — keep
         // the best-effort name, no id/image until nanoka catches up.
         entry = {
-          type: 'character', start: win.start, end: scrapedChar.end ?? win.end,
+          type: 'character', version: win.version, start: win.start, end: scrapedChar.end ?? win.end,
           name: scrapedChar.name, featured: [scrapedChar.name], featuredId: null, phase: win.phase,
           unresolved: true,
         };
       } else if (prior && prior.name) {
         entry = prior; // keep previously-resolved data, don't regress to a placeholder
       } else {
-        entry = { type: 'character', start: win.start, end: win.end, name: null, featured: [], featuredId: null, phase: win.phase };
+        entry = { type: 'character', version: win.version, start: win.start, end: win.end, name: null, featured: [], featuredId: null, phase: win.phase };
       }
       merged.set(key, entry);
     }
@@ -135,14 +135,14 @@ async function main() {
       if (scrapedArc && arcsByName.has(scrapedArc.name)) {
         const a = arcsByName.get(scrapedArc.name);
         entry = {
-          type: 'arc', start: win.start, end: scrapedArc.end ?? win.end,
+          type: 'arc', version: win.version, start: win.start, end: scrapedArc.end ?? win.end,
           name: a.name, featured: [a.name], featuredId: a.key, phase: win.phase,
         };
         newImageDownloads.push({ id: a.key, iconPath: a.iconPath });
       } else if (prior && prior.name) {
         entry = prior;
       } else {
-        entry = { type: 'arc', start: win.start, end: win.end, name: null, featured: [], featuredId: null, phase: win.phase };
+        entry = { type: 'arc', version: win.version, start: win.start, end: win.end, name: null, featured: [], featuredId: null, phase: win.phase };
       }
       merged.set(key, entry);
     }

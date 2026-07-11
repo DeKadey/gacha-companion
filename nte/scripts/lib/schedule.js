@@ -40,20 +40,30 @@ function phaseBoundsForIndex(index) {
   return { start: utcMsToWallClockString(startMs), end: utcMsToWallClockString(endMs) };
 }
 
+// Anchor (index 0) is 1.2 Phase 1, and each version is exactly 2 phases —
+// confirmed against knownHistory.js's own real data (1.0/1.1 both had
+// exactly 2 phases each before 1.2), not assumed. Works for negative
+// indices too: e.g. index -4/-3 (1.0 P1/P2) both resolve to "1.0",
+// index -2/-1 (1.1 P1/P2) both resolve to "1.1", matching knownHistory.js
+// exactly — verified with a script before relying on it here.
+function versionForIndex(index) {
+  const minor = 2 + Math.floor(index / 2);
+  return `1.${minor}`;
+}
+
 /**
  * Computes phase placeholder windows covering [now - phasesBack, now + phasesForward].
- * `phase` alternates 1/2 from the anchor purely as informational metadata —
- * we don't have confirmed real patch-boundary parity, so this does not claim
- * to know which phase is "phase 1 of a patch" in the game's own numbering.
+ * `phase` alternates 1/2 from the anchor — confirmed matching knownHistory.js's
+ * real phase numbering (see versionForIndex above), not just informational.
  */
 function computePhaseWindows({ now = new Date(), phasesBack = 2, phasesForward = 12 } = {}) {
   const centerIndex = phaseIndexAt(now.getTime());
   const windows = [];
   for (let i = centerIndex - phasesBack; i <= centerIndex + phasesForward; i++) {
     const { start, end } = phaseBoundsForIndex(i);
-    windows.push({ index: i, start, end, phase: (((i % 2) + 2) % 2) + 1 });
+    windows.push({ index: i, start, end, phase: (((i % 2) + 2) % 2) + 1, version: versionForIndex(i) });
   }
   return windows;
 }
 
-module.exports = { computePhaseWindows, phaseBoundsForIndex, phaseIndexAt, PHASE_DAYS };
+module.exports = { computePhaseWindows, phaseBoundsForIndex, phaseIndexAt, versionForIndex, PHASE_DAYS };

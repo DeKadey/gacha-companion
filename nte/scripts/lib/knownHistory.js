@@ -47,11 +47,11 @@ function knownHistoryEntries() {
   const out = [];
   for (const p of KNOWN_HISTORY) {
     out.push({
-      type: 'character', start: p.start, end: p.end,
+      type: 'character', version: p.version, start: p.start, end: p.end,
       name: p.character.name, featured: [p.character.name], featuredId: p.character.id, phase: p.phase,
     });
     out.push({
-      type: 'arc', start: p.start, end: p.end,
+      type: 'arc', version: p.version, start: p.start, end: p.end,
       name: p.arc.name, featured: [p.arc.name], featuredId: p.arc.key, phase: p.phase,
     });
   }
