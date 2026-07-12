@@ -1,0 +1,68 @@
+[
+  {
+    "type": "character",
+    "version": "3.5",
+    "start": "2026-07-10 11:00:00",
+    "end": "2026-07-30 09:59:00",
+    "name": "Yangyang: Xuanling",
+    "featured": [
+      "Yangyang: Xuanling"
+    ],
+    "featuredId": 1610
+  },
+  {
+    "type": "character",
+    "version": "3.5",
+    "start": "2026-07-10 11:00:00",
+    "end": "2026-07-30 09:59:00",
+    "name": "Luuk Herssen",
+    "featured": [
+      "Luuk Herssen"
+    ],
+    "featuredId": 1510
+  },
+  {
+    "type": "character",
+    "version": "3.5",
+    "start": "2026-07-10 11:00:00",
+    "end": "2026-07-30 09:59:00",
+    "name": "Lynae",
+    "featured": [
+      "Lynae"
+    ],
+    "featuredId": 1509
+  },
+  {
+    "type": "weapon",
+    "version": "3.5",
+    "start": "2026-07-10 11:00:00",
+    "end": "2026-07-30 09:59:00",
+    "name": "Azure Oath",
+    "featured": [
+      "Azure Oath"
+    ],
+    "featuredId": 21020096
+  },
+  {
+    "type": "weapon",
+    "version": "3.5",
+    "start": "2026-07-10 11:00:00",
+    "end": "2026-07-30 09:59:00",
+    "name": "Daybreaker's Spine",
+    "featured": [
+      "Daybreaker's Spine"
+    ],
+    "featuredId": 21040056
+  },
+  {
+    "type": "weapon",
+    "version": "3.5",
+    "start": "2026-07-10 11:00:00",
+    "end": "2026-07-30 09:59:00",
+    "name": "Spectrum Blaster",
+    "featured": [
+      "Spectrum Blaster"
+    ],
+    "featuredId": 21030046
+  }
+]
