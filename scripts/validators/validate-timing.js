@@ -9,6 +9,7 @@ const scheduleFiles = {
   genshin: path.join(root, 'genshin', 'banner-schedule-genshin.json'),
   hsr:     path.join(root, 'hsr',     'banner-schedule-hsr.json'),
   zzz:     path.join(root, 'zzz',     'banner-schedule-zzz.json'),
+  wuwa:    path.join(root, 'wuwa',    'banner-schedule-wuwa.json'),
 };
 
 const rules = JSON.parse(fs.readFileSync(rulesPath, 'utf8'));
@@ -21,7 +22,7 @@ const logFilename = now.toISOString().substring(0, 10) + '_timing-fix.log';
 const logPath = path.join(logsDir, logFilename);
 
 const logLines = [];
-const summary = { genshin: 0, hsr: 0, zzz: 0 };
+const summary = { genshin: 0, hsr: 0, zzz: 0, wuwa: 0 };
 
 function log(line) {
   const entry = `[${timestamp}] ${line}`;
@@ -69,7 +70,7 @@ for (const [game, filePath] of Object.entries(scheduleFiles)) {
   }
 }
 
-const totalFixes = summary.genshin + summary.hsr + summary.zzz;
-log(`Run complete: ${totalFixes} fix(es) applied (Genshin: ${summary.genshin}, HSR: ${summary.hsr}, ZZZ: ${summary.zzz})`);
+const totalFixes = summary.genshin + summary.hsr + summary.zzz + summary.wuwa;
+log(`Run complete: ${totalFixes} fix(es) applied (Genshin: ${summary.genshin}, HSR: ${summary.hsr}, ZZZ: ${summary.zzz}, WuWa: ${summary.wuwa})`);
 
 fs.appendFileSync(logPath, logLines.join('\n') + '\n');
